@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Culinary Harmony (食の調和) - Discover homemade Asian cuisine recipes. Explore Japanese, Chinese, Filipino, Korean, and Thai dishes. Share your culinary creations with our community.">
+  <meta name="google-site-verification" content="tNmQbSgOitEFC1j0RXB7pdo5pArE8iV_bMMKbRJ0w8E" />
   <title>食の調和 | Culinary Harmony</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -126,13 +127,13 @@
     <div class="meal-type-filter" id="mealTypeFilter" style="display:none;">
       <div class="filter-wrapper">
         <button class="filter-btn meal-btn active" data-meal="all" onclick="filterByMealType('all', this)">️ All Meals</button>
-        <button class="filter-btn meal-btn" data-meal="Breakfast" onclick="filterByMealType('Breakfast', this)">🌅 Breakfast</button>
-        <button class="filter-btn meal-btn" data-meal="Brunch" onclick="filterByMealType('Brunch', this)">☕ Brunch</button>
+        <button class="filter-btn meal-btn" data-meal="Breakfast" onclick="filterByMealType('Breakfast', this)">🍳 Breakfast</button>
+        <button class="filter-btn meal-btn" data-meal="Brunch" onclick="filterByMealType('Brunch', this)">🥞 Brunch</button>
         <button class="filter-btn meal-btn" data-meal="Lunch" onclick="filterByMealType('Lunch', this)">🍱 Lunch</button>
-        <button class="filter-btn meal-btn" data-meal="Snack" onclick="filterByMealType('Snack', this)">🍵 Snack</button>
-        <button class="filter-btn meal-btn" data-meal="Dinner" onclick="filterByMealType('Dinner', this)">🌙 Dinner</button>
-        <button class="filter-btn meal-btn" data-meal="Dessert" onclick="filterByMealType('Dessert', this)"> 🍰Dessert</button>
-        <button class="filter-btn meal-btn" data-meal="Drinks" onclick="filterByMealType('Drinks', this)">🍶 Drinks</button>
+        <button class="filter-btn meal-btn" data-meal="Snack" onclick="filterByMealType('Snack', this)">🥟 Snack</button>
+        <button class="filter-btn meal-btn" data-meal="Dinner" onclick="filterByMealType('Dinner', this)">🍜 Dinner</button>
+        <button class="filter-btn meal-btn" data-meal="Dessert" onclick="filterByMealType('Dessert', this)">🍦 Dessert</button>
+        <button class="filter-btn meal-btn" data-meal="Drinks" onclick="filterByMealType('Drinks', this)">🧋 Drinks</button>
       </div>
     </div> <br>
     <div class="dishes-grid" id="dishesGrid"></div>
@@ -191,13 +192,13 @@
               <label>Category *</label>
               <select id="recipeCategory" required style="color: var(--charcoal);">
                 <option value="" disabled selected hidden>Select Category</option>
-                <option value="Breakfast">🌅 Breakfast</option>
-                <option value="Brunch">☕ Brunch</option>
-                <option value="Lunch">🍱 Lunch</option>
-                <option value="Dinner">🌙 Dinner</option>
-                <option value="Snack">🍵 Snack</option>
-                <option value="Dessert">🍰 Dessert</option>
-                <option value="Drinks">🍶 Drinks</option>
+                <option value="Breakfast">🍳 Breakfast</option>
+                <option value="Brunch">🥞 Brunch</option>
+                <option value="Lunch"> 🍱 Lunch</option>
+                <option value="Dinner">🍜 Dinner</option>
+                <option value="Snack">🥟 Snack</option>
+                <option value="Dessert">🍦 Dessert</option>
+                <option value="Drinks">🧋 Drinks</option>
               </select>
             </div>
           </div>
