@@ -2,7 +2,7 @@
 
 A beautifully designed, interactive recipe web application celebrating Asian cuisine. Culinary Harmony allows users to explore recipes, use an interactive cooking mode, and share their own culinary creations with the community.
 
- **Live Demo:** 
+ **Live Demo:** https://culinary-harmony-three.vercel.app/
 
 ## ✨ Features
 - **Interactive Splash Screen:** Elegant animations with floating lanterns and traditional scroll effects.
