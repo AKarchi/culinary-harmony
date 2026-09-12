@@ -1,5 +1,13 @@
 #  Culinary Harmony (食の調和)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</p>
+
 A beautifully designed, interactive recipe web application celebrating Asian cuisine. Culinary Harmony allows users to explore recipes, use an interactive cooking mode, and share their own culinary creations with the community.
 
  **Live Demo:** https://culinary-harmony-three.vercel.app/
