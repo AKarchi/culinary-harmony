@@ -1619,6 +1619,13 @@ font-size: 1.1rem;
     text-align: center;
 }
 
+.coffee-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain; 
+    display: block;
+}
+
 @media(max-width: 900px) {
     .featured-card {
         grid-template-columns: 1fr;
@@ -1851,6 +1858,19 @@ font-size: 1.1rem;
         margin-top: 1rem;
         font-size: 1rem;
     }
+  .floating-coffee-btn {
+        top: 100px;
+        left: 15px;
+        padding: 0.6rem;
+        border-radius: 50%;
+    }
+    .floating-coffee-btn .coffee-text {
+        display: none;
+    }
+    .coffee-icon {
+        width: 24px; 
+        height: 24px;
+    }
 }
 
 @media(max-width: 480px) {
@@ -1869,7 +1889,7 @@ font-size: 1.1rem;
         font-size: 0.75rem;
     }
     .nav-btn-en {
-        display: none; /* Hide English text on very small screens */
+        display: none; 
     }
     .plate {
         width: 75px;
