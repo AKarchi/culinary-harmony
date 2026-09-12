@@ -1,0 +1,777 @@
+[
+  {
+    "id": "jp-dn-001",
+    "name": "Sushi Rolls (Maki)",
+    "image": "/assets/images/dinner/jp-dn-001.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "hard",
+    "prepTime": 40,
+    "cookTime": 20,
+    "mood": "impressive",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Sushi rice", "measure": "2 cups" },
+      { "name": "Nori sheets", "measure": "4" },
+      { "name": "Fresh salmon", "measure": "200g" },
+      { "name": "Cucumber", "measure": "1" },
+      { "name": "Rice vinegar", "measure": "3 tbsp" }
+    ],
+    "instructions": [
+      "Cook rice, mix with rice vinegar while warm.",
+      "Place nori on bamboo mat, spread thin layer of rice.",
+      "Add salmon and cucumber strips in center.",
+      "Roll tightly using the mat.",
+      "Slice with wet knife into 6-8 pieces. Serve with soy sauce."
+    ],
+    "tips": "Wet your hands with vinegar water to prevent rice from sticking."
+  },
+  {
+    "id": "jp-dn-002",
+    "name": "Nabe (Japanese Hot Pot)",
+    "image": "/assets/images/dinner/jp-dn-002.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 20,
+    "cookTime": 25,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Dashi stock", "measure": "1.5 liters" },
+      { "name": "Napa cabbage + mushrooms + tofu", "measure": "assorted" },
+      { "name": "Thinly sliced pork or beef", "measure": "300g" },
+      { "name": "Udon or glass noodles", "measure": "optional" },
+      { "name": "Ponzu or sesame dipping sauce", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Bring dashi to a gentle simmer in a wide pot.",
+      "Add harder vegetables first, then tofu and mushrooms.",
+      "Add meat slices last so they stay tender.",
+      "Cook noodles at the end if using.",
+      "Diners pick ingredients from the pot and dip in sauce."
+    ],
+    "tips": "Perfect for sharing — keep the pot simmering at the table."
+  },
+  {
+    "id": "jp-dn-003",
+    "name": "Unagi Don (Grilled Eel Rice Bowl)",
+    "image": "/assets/images/dinner/jp-dn-003.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 20,
+    "mood": "impressive",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Unagi (grilled eel fillets)", "measure": "2" },
+      { "name": "Unagi sauce (or soy + mirin + sugar)", "measure": "4 tbsp" },
+      { "name": "Cooked short-grain rice", "measure": "2 bowls" },
+      { "name": "Sansho pepper", "measure": "to taste" },
+      { "name": "Pickled ginger", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Warm the unagi fillets under a broiler or in a pan, brushing with unagi sauce.",
+      "Place hot rice in bowls.",
+      "Lay the glazed eel on top and drizzle more sauce.",
+      "Sprinkle with sansho pepper.",
+      "Serve with pickled ginger."
+    ],
+    "tips": "Pre-grilled unagi from Asian markets makes this very easy at home."
+  },
+  {
+    "id": "jp-dn-004",
+    "name": "Yakitori (Grilled Chicken Skewers)",
+    "image": "/assets/images/dinner/jp-dn-004.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Chicken thigh", "measure": "500g, cut into pieces" },
+      { "name": "Green onion", "measure": "for alternating" },
+      { "name": "Soy sauce + mirin + sake + sugar", "measure": "for tare sauce" },
+      { "name": "Bamboo skewers", "measure": "8–10" },
+      { "name": "Shichimi togarashi", "measure": "optional" }
+    ],
+    "instructions": [
+      "Thread chicken and green onion onto skewers.",
+      "Grill or pan-sear, brushing with tare sauce near the end.",
+      "Cook until caramelized and cooked through.",
+      "Sprinkle with shichimi if desired.",
+      "Serve with rice or as a sharing plate."
+    ],
+    "tips": "The sweet-savory tare glaze is what makes yakitori special — don’t apply it too early or it burns."
+  },
+  {
+    "id": "jp-dn-005",
+    "name": "Tempura Udon",
+    "image": "/assets/images/dinner/jp-dn-005.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 25,
+    "cookTime": 20,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Udon noodles", "measure": "2 portions" },
+      { "name": "Shrimp or vegetable tempura", "measure": "6–8 pieces" },
+      { "name": "Dashi + soy sauce + mirin", "measure": "for broth" },
+      { "name": "Green onion + kamaboko", "measure": "for garnish" },
+      { "name": "Tempura batter ingredients", "measure": "flour + egg + ice water" }
+    ],
+    "instructions": [
+      "Make a light dashi-based broth seasoned with soy and mirin.",
+      "Cook udon and place in bowls.",
+      "Fry tempura until crisp and golden.",
+      "Pour hot broth over noodles and top with tempura.",
+      "Garnish with green onion and kamaboko."
+    ],
+    "tips": "Ice-cold batter and hot oil are key for light, crispy tempura."
+  },
+  {
+    "id": "jp-dn-006",
+    "name": "Gyoza (Pan-fried Dumplings)",
+    "image": "/assets/images/dinner/jp-dn-006.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Gyoza wrappers", "measure": "30–40" },
+      { "name": "Ground pork + cabbage + garlic + ginger", "measure": "for filling" },
+      { "name": "Soy sauce + sesame oil", "measure": "for seasoning" },
+      { "name": "Oil + water", "measure": "for pan-frying" },
+      { "name": "Ponzu or soy-vinegar dip", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Mix filling ingredients thoroughly.",
+      "Wrap dumplings, sealing edges well.",
+      "Pan-fry in a little oil until bottoms are golden.",
+      "Add water, cover, and steam until cooked through.",
+      "Serve crispy-side up with dipping sauce."
+    ],
+    "tips": "The classic ‘steam-fry’ method gives crispy bottoms and juicy fillings."
+  },
+  {
+    "id": "cn-dn-001",
+    "name": "Sweet and Sour Pork",
+    "image": "/assets/images/dinner/cn-dn-001.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 20,
+    "mood": "comfort",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Pork loin", "measure": "500g, cubed" },
+      { "name": "Bell peppers", "measure": "2, sliced" },
+      { "name": "Pineapple chunks", "measure": "1 cup" },
+      { "name": "Rice vinegar", "measure": "3 tbsp" },
+      { "name": "Sugar", "measure": "3 tbsp" }
+    ],
+    "instructions": [
+      "Coat pork cubes in cornstarch batter.",
+      "Deep fry until crispy and golden.",
+      "Make sauce: heat vinegar, sugar, ketchup until thick.",
+      "Toss pork and bell peppers in sauce.",
+      "Add pineapple at the end. Serve with rice."
+    ],
+    "tips": "Double-fry the pork for extra crispiness — fry once, rest, then fry again."
+  },
+  {
+    "id": "cn-dn-002",
+    "name": "Char Siu (Chinese BBQ Pork)",
+    "image": "/assets/images/dinner/cn-dn-002.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 40,
+    "mood": "impressive",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Pork shoulder or belly", "measure": "800g" },
+      { "name": "Hoison sauce + soy sauce + honey", "measure": "for marinade" },
+      { "name": "Five-spice powder", "measure": "1 tsp" },
+      { "name": "Garlic + red fermented tofu (optional)", "measure": "to taste" },
+      { "name": "Sesame seeds", "measure": "for garnish" }
+    ],
+    "instructions": [
+      "Marinate pork for at least 4 hours (overnight best).",
+      "Roast at 200°C, basting with leftover marinade every 15 minutes.",
+      "Finish with a honey glaze for sticky shine.",
+      "Rest 10 minutes, then slice.",
+      "Serve with rice and steamed greens."
+    ],
+    "tips": "The bright red color traditionally comes from red fermented tofu or food coloring."
+  },
+  {
+    "id": "cn-dn-003",
+    "name": "Wonton Noodle Soup",
+    "image": "/assets/images/dinner/cn-dn-003.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 40,
+    "cookTime": 20,
+    "mood": "comfort",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Wonton wrappers", "measure": "30" },
+      { "name": "Ground pork + shrimp", "measure": "300g total" },
+      { "name": "Egg noodles", "measure": "300g" },
+      { "name": "Chicken or pork stock", "measure": "1.5 liters" },
+      { "name": "Green onions + sesame oil", "measure": "for garnish" }
+    ],
+    "instructions": [
+      "Mix filling, wrap wontons, and seal tightly.",
+      "Boil stock and season lightly.",
+      "Cook noodles separately, then place in bowls.",
+      "Boil wontons until they float, add to bowls.",
+      "Ladle hot broth over and garnish."
+    ],
+    "tips": "Hong Kong-style wonton noodles are thin and springy — look for ‘dunking noodles’."
+  },
+  {
+    "id": "cn-dn-004",
+    "name": "Peking Duck Style Pancakes",
+    "image": "/assets/images/dinner/cn-dn-004.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "hard",
+    "prepTime": 30,
+    "cookTime": 60,
+    "mood": "impressive",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Duck breast or whole duck", "measure": "1" },
+      { "name": "Thin Chinese pancakes", "measure": "12–16" },
+      { "name": "Cucumber + green onion", "measure": "julienned" },
+      { "name": "Hoisin sauce", "measure": "for spreading" },
+      { "name": "Five-spice + salt + honey", "measure": "for seasoning" }
+    ],
+    "instructions": [
+      "Season and roast the duck until the skin is crisp.",
+      "Slice the meat and crispy skin.",
+      "Warm the pancakes.",
+      "Spread a little hoisin, add duck, cucumber, and green onion.",
+      "Roll and eat."
+    ],
+    "tips": "For home cooking, crispy duck breast works well if a whole duck is too much."
+  },
+  {
+    "id": "cn-dn-005",
+    "name": "Twice-Cooked Pork (Hui Guo Rou)",
+    "image": "/assets/images/dinner/cn-dn-005.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 40,
+    "mood": "savory",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Pork belly", "measure": "500g" },
+      { "name": "Doubanjiang", "measure": "2 tbsp" },
+      { "name": "Leeks or green onions", "measure": "2 cups" },
+      { "name": "Garlic + ginger", "measure": "to taste" },
+      { "name": "Soy sauce + sugar", "measure": "for seasoning" }
+    ],
+    "instructions": [
+      "Boil the pork belly until just cooked, then slice thinly.",
+      "Stir-fry the slices until lightly browned and some fat renders.",
+      "Add doubanjiang, garlic, and ginger, cook until fragrant.",
+      "Toss in leeks and season with a little soy and sugar.",
+      "Serve with rice."
+    ],
+    "tips": "The ‘twice-cooked’ method gives the pork a unique texture and deep flavor."
+  },
+  {
+    "id": "cn-dn-006",
+    "name": "Steamed Fish with Ginger and Scallion",
+    "image": "/assets/images/dinner/cn-dn-006.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 15,
+    "mood": "light",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Whole fish or fillets (sea bass, tilapia)", "measure": "1–1.5 kg" },
+      { "name": "Ginger + green onion", "measure": "generous amount" },
+      { "name": "Soy sauce", "measure": "3 tbsp" },
+      { "name": "Sesame oil + hot oil", "measure": "for finishing" },
+      { "name": "Cilantro", "measure": "optional" }
+    ],
+    "instructions": [
+      "Place fish on a plate with ginger slices.",
+      "Steam until just cooked (10–15 minutes depending on size).",
+      "Drain excess liquid, top with more ginger and green onion.",
+      "Pour soy sauce over, then sizzling hot oil.",
+      "Serve immediately with rice."
+    ],
+    "tips": "Don’t oversteam — the flesh should be just opaque and still moist."
+  },
+  {
+    "id": "kr-dn-001",
+    "name": "Kimchi Jjigae (Kimchi Stew)",
+    "image": "/assets/images/dinner/kr-dn-001.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 30,
+    "mood": "comfort",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Aged kimchi", "measure": "2 cups, chopped" },
+      { "name": "Pork belly", "measure": "200g, sliced" },
+      { "name": "Tofu", "measure": "1 block, cubed" },
+      { "name": "Gochugaru", "measure": "1 tbsp" },
+      { "name": "Garlic + green onions", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Sauté pork belly until lightly browned.",
+      "Add kimchi and cook 5 minutes until fragrant.",
+      "Pour in water or anchovy stock, bring to boil.",
+      "Add tofu, gochugaru, and garlic. Simmer 15–20 minutes.",
+      "Finish with green onions. Serve with rice."
+    ],
+    "tips": "The older and more fermented the kimchi, the better the stew tastes."
+  },
+  {
+    "id": "kr-dn-002",
+    "name": "Galbi (Korean BBQ Short Ribs)",
+    "image": "/assets/images/dinner/kr-dn-002.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "impressive",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Beef short ribs (LA galbi cut)", "measure": "800g" },
+      { "name": "Soy sauce + sugar + sesame oil", "measure": "for marinade" },
+      { "name": "Asian pear + onion + garlic", "measure": "for marinade" },
+      { "name": "Green onions + sesame seeds", "measure": "for garnish" },
+      { "name": "Lettuce + ssamjang", "measure": "for wrapping" }
+    ],
+    "instructions": [
+      "Blend pear, onion, garlic, soy, sugar, and sesame oil into a marinade.",
+      "Marinate ribs at least 4 hours (overnight preferred).",
+      "Grill over high heat until caramelized and slightly charred.",
+      "Cut into pieces and serve.",
+      "Eat wrapped in lettuce with ssamjang and rice."
+    ],
+    "tips": "The grated pear both sweetens and tenderizes the meat."
+  },
+  {
+    "id": "kr-dn-003",
+    "name": "Samgyetang (Ginseng Chicken Soup)",
+    "image": "/assets/images/dinner/kr-dn-003.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 90,
+    "mood": "nourishing",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Whole young chicken", "measure": "1 (about 800g)" },
+      { "name": "Sticky rice", "measure": "1/2 cup, soaked" },
+      { "name": "Ginseng root + jujube + garlic", "measure": "for stuffing" },
+      { "name": "Ginger + green onion", "measure": "for broth" },
+      { "name": "Salt + pepper", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Stuff the chicken with soaked sticky rice, ginseng, jujube, and garlic.",
+      "Place in a pot, cover with water, add ginger.",
+      "Simmer gently for 1–1.5 hours until the chicken is very tender.",
+      "Season the broth lightly.",
+      "Serve the whole chicken in the broth with green onion."
+    ],
+    "tips": "A traditional summer restorative soup, but excellent for dinner any time of year."
+  },
+  {
+    "id": "kr-dn-004",
+    "name": "Dakgalbi (Spicy Stir-fried Chicken)",
+    "image": "/assets/images/dinner/kr-dn-004.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 25,
+    "mood": "spicy",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Chicken thigh", "measure": "600g, cut" },
+      { "name": "Gochujang + gochugaru", "measure": "for sauce" },
+      { "name": "Cabbage + sweet potato + rice cake", "measure": "assorted" },
+      { "name": "Garlic + soy sauce + sugar", "measure": "for seasoning" },
+      { "name": "Perilla leaves or green onion", "measure": "for finishing" }
+    ],
+    "instructions": [
+      "Mix chicken with gochujang-based sauce and marinate briefly.",
+      "Stir-fry cabbage and sweet potato first, then add chicken.",
+      "Add rice cakes and continue cooking until everything is coated and cooked.",
+      "Finish with perilla or green onion.",
+      "Serve with rice or lettuce wraps."
+    ],
+    "tips": "Often cooked on a large tabletop pan and shared — fun and interactive dinner."
+  },
+  {
+    "id": "kr-dn-005",
+    "name": "Haemul Pajeon (Seafood Scallion Pancake)",
+    "image": "/assets/images/dinner/kr-dn-005.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 20,
+    "mood": "savory",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Scallions", "measure": "2 bunches" },
+      { "name": "Squid + shrimp", "measure": "200g total" },
+      { "name": "Flour + egg + water", "measure": "for batter" },
+      { "name": "Soy-vinegar dipping sauce", "measure": "for serving" },
+      { "name": "Oil", "measure": "for pan-frying" }
+    ],
+    "instructions": [
+      "Make a thin batter with flour, egg, and water.",
+      "Arrange scallions and seafood in a hot oiled pan.",
+      "Pour batter over and cook until golden and crispy on both sides.",
+      "Cut into pieces and serve with dipping sauce."
+    ],
+    "tips": "Use a generous amount of oil for maximum crispiness around the edges."
+  },
+  {
+    "id": "kr-dn-006",
+    "name": "Bossam (Boiled Pork Wraps)",
+    "image": "/assets/images/dinner/kr-dn-006.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 90,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Pork belly or shoulder", "measure": "1 kg" },
+      { "name": "Ginger + garlic + onion + soju or sake", "measure": "for boiling" },
+      { "name": "Salted napa cabbage or lettuce", "measure": "for wrapping" },
+      { "name": "Ssamjang + raw garlic + chili", "measure": "for serving" },
+      { "name": "Radish kimchi or oyster", "measure": "optional" }
+    ],
+    "instructions": [
+      "Boil pork with aromatics until very tender (1–1.5 hours).",
+      "Slice the pork thinly.",
+      "Serve with salted cabbage leaves, ssamjang, garlic, and chili.",
+      "Wrap a slice of pork with the accompaniments and eat."
+    ],
+    "tips": "The contrast of tender pork, sharp garlic, and salty-spicy ssamjang is addictive."
+  },
+  {
+    "id": "ph-dn-001",
+    "name": "Papaitan (Bitter Stew)",
+    "image": "/assets/images/dinner/ph-dn-001.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 45,
+    "mood": "savory",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Goat or beef innards (tripe, liver, heart, intestine)", "measure": "500g" },
+      { "name": "Bile or bitter gourd extract", "measure": "to taste" },
+      { "name": "Ginger + garlic + onion", "measure": "aromatics" },
+      { "name": "Green chili + lemongrass", "measure": "optional" },
+      { "name": "Fish sauce + calamansi", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Clean and boil the innards until tender, then slice.",
+      "Sauté ginger, garlic, and onion until fragrant.",
+      "Add the innards and a little stock, simmer.",
+      "Season with fish sauce and carefully add bile/bitter extract to taste.",
+      "Finish with green chili and calamansi. Serve with rice."
+    ],
+    "tips": "Papaitan is famously bitter — add the bile gradually and taste as you go. A classic Ilocano and Northern Filipino dinner dish."
+  },
+  {
+    "id": "ph-dn-002",
+    "name": "Kare-Kare (Oxtail Peanut Stew)",
+    "image": "/assets/images/dinner/ph-dn-002.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "hard",
+    "prepTime": 30,
+    "cookTime": 150,
+    "mood": "impressive",
+    "servings": 5,
+    "ingredients": [
+      { "name": "Oxtail or beef tripe", "measure": "1 kg" },
+      { "name": "Peanut butter or ground peanuts", "measure": "1 cup" },
+      { "name": "Annatto (achuete) water", "measure": "1/2 cup" },
+      { "name": "Eggplant + banana heart + string beans", "measure": "assorted" },
+      { "name": "Bagoong (shrimp paste)", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Boil oxtail until very tender (2–3 hours).",
+      "Sauté garlic and onion, add annatto water and peanut butter.",
+      "Add the meat and some broth, simmer until thick.",
+      "Add vegetables and cook until tender.",
+      "Serve with bagoong on the side and rice."
+    ],
+    "tips": "The thick peanut sauce and salty bagoong are the soul of this dish."
+  },
+  {
+    "id": "ph-dn-003",
+    "name": "Crispy Pata",
+    "image": "/assets/images/dinner/ph-dn-003.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "hard",
+    "prepTime": 20,
+    "cookTime": 120,
+    "mood": "impressive",
+    "servings": 5,
+    "ingredients": [
+      { "name": "Pork hock (pata)", "measure": "1 whole" },
+      { "name": "Bay leaves + peppercorns + garlic", "measure": "for boiling" },
+      { "name": "Salt + vinegar", "measure": "for seasoning" },
+      { "name": "Oil", "measure": "for deep frying" },
+      { "name": "Soy-vinegar dipping sauce", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Boil the pata with aromatics until very tender (1.5–2 hours).",
+      "Pat dry thoroughly and refrigerate uncovered to dry the skin.",
+      "Deep-fry in very hot oil until the skin is blistered and ultra crispy.",
+      "Rest a few minutes, then chop.",
+      "Serve with soy-vinegar-garlic dipping sauce."
+    ],
+    "tips": "Drying the skin well is the secret to maximum crispiness."
+  },
+  {
+    "id": "ph-dn-004",
+    "name": "Laing (Taro Leaves in Coconut Milk)",
+    "image": "/assets/images/dinner/ph-dn-004.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 40,
+    "mood": "spicy",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Dried taro leaves", "measure": "2 cups, packed" },
+      { "name": "Coconut milk", "measure": "2 cups" },
+      { "name": "Pork or shrimp", "measure": "200g" },
+      { "name": "Bird’s eye chili + ginger + garlic", "measure": "to taste" },
+      { "name": "Shrimp paste (bagoong)", "measure": "1–2 tbsp" }
+    ],
+    "instructions": [
+      "Sauté garlic, ginger, and chili, then add pork/shrimp.",
+      "Add shrimp paste and cook until fragrant.",
+      "Pour in coconut milk and bring to a gentle simmer.",
+      "Add the dried taro leaves (do not stir too much at first).",
+      "Simmer until the leaves are soft and the sauce thickens. Serve with rice."
+    ],
+    "tips": "A Bicolano classic — rich, spicy, and perfect with plain rice."
+  },
+  {
+    "id": "ph-dn-005",
+    "name": "Pinakbet",
+    "image": "/assets/images/dinner/ph-dn-005.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "mood": "savory",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Eggplant + bitter melon + okra + string beans + squash", "measure": "assorted" },
+      { "name": "Pork or shrimp", "measure": "150g" },
+      { "name": "Tomato + onion + garlic", "measure": "aromatics" },
+      { "name": "Bagoong (shrimp paste)", "measure": "2–3 tbsp" },
+      { "name": "Water", "measure": "as needed" }
+    ],
+    "instructions": [
+      "Sauté garlic, onion, and tomato, then add pork or shrimp.",
+      "Add bagoong and a little water.",
+      "Add the harder vegetables first, then the softer ones.",
+      "Simmer until vegetables are tender but not mushy.",
+      "Serve with rice."
+    ],
+    "tips": "An Ilocano vegetable stew — the bitterness of ampalaya is traditional and balancing."
+  },
+  {
+    "id": "ph-dn-006",
+    "name": "Lechon Kawali",
+    "image": "/assets/images/dinner/ph-dn-006.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 90,
+    "mood": "impressive",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Pork belly", "measure": "1 kg" },
+      { "name": "Bay leaves + peppercorns + garlic + salt", "measure": "for boiling" },
+      { "name": "Oil", "measure": "for deep frying" },
+      { "name": "Soy-vinegar or liver sauce", "measure": "for dipping" }
+    ],
+    "instructions": [
+      "Boil pork belly with aromatics until tender (about 45–60 minutes).",
+      "Pat dry very well and air-dry or refrigerate to dry the skin.",
+      "Deep-fry until the skin is blistered and extremely crispy.",
+      "Chop into pieces and serve with dipping sauce and rice."
+    ],
+    "tips": "The drier the skin before frying, the crispier the result."
+  },
+  {
+    "id": "th-dn-001",
+    "name": "Massaman Curry",
+    "image": "/assets/images/dinner/th-dn-001.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 90,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Beef or chicken", "measure": "600g" },
+      { "name": "Massaman curry paste", "measure": "3–4 tbsp" },
+      { "name": "Coconut milk", "measure": "400ml" },
+      { "name": "Potato + onion + peanuts", "measure": "assorted" },
+      { "name": "Tamarind + palm sugar + fish sauce", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Fry the curry paste in thick coconut cream until aromatic.",
+      "Add meat and coat well, then pour in remaining coconut milk.",
+      "Simmer gently until meat is tender (especially important for beef).",
+      "Add potato, onion, and peanuts.",
+      "Season with tamarind, palm sugar, and fish sauce. Serve with rice."
+    ],
+    "tips": "Massaman is milder and richer than other Thai curries — perfect for cooler evenings."
+  },
+  {
+    "id": "th-dn-002",
+    "name": "Panang Curry",
+    "image": "/assets/images/dinner/th-dn-002.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 25,
+    "mood": "aromatic",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Panang curry paste", "measure": "3 tbsp" },
+      { "name": "Coconut milk", "measure": "400ml" },
+      { "name": "Beef, chicken, or tofu", "measure": "400g" },
+      { "name": "Kaffir lime leaves + Thai basil", "measure": "for finishing" },
+      { "name": "Fish sauce + palm sugar + peanut", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Fry the panang paste in thick coconut cream until fragrant.",
+      "Add meat and cook until nearly done.",
+      "Pour in remaining coconut milk and simmer.",
+      "Season with fish sauce and palm sugar.",
+      "Finish with torn kaffir lime leaves and Thai basil. Serve with rice."
+    ],
+    "tips": "Panang is thicker and slightly sweeter than red curry, with a distinct peanut note."
+  },
+  {
+    "id": "th-dn-003",
+    "name": "Pad See Ew",
+    "image": "/assets/images/dinner/th-dn-003.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 12,
+    "mood": "savory",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Fresh wide rice noodles", "measure": "400g" },
+      { "name": "Chinese broccoli (gai lan)", "measure": "2 cups" },
+      { "name": "Chicken, pork, or beef", "measure": "200g" },
+      { "name": "Dark soy sauce + light soy + oyster sauce", "measure": "for seasoning" },
+      { "name": "Egg + garlic", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Stir-fry garlic and protein until cooked.",
+      "Push aside, scramble the egg.",
+      "Add noodles and dark soy for color, toss quickly.",
+      "Add Chinese broccoli and remaining sauces.",
+      "Serve immediately — slightly charred edges are a plus."
+    ],
+    "tips": "High heat and minimal stirring keep the noodles from breaking."
+  },
+  {
+    "id": "th-dn-004",
+    "name": "Tom Kha Gai (Coconut Chicken Soup)",
+    "image": "/assets/images/dinner/th-dn-004.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 20,
+    "mood": "comfort",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Chicken thigh", "measure": "300g, sliced" },
+      { "name": "Coconut milk", "measure": "400ml" },
+      { "name": "Galangal + lemongrass + kaffir lime leaves", "measure": "aromatics" },
+      { "name": "Mushrooms + tomato", "measure": "1 cup" },
+      { "name": "Fish sauce + lime juice + chili", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Simmer galangal, lemongrass, and lime leaves in coconut milk and a little stock.",
+      "Add chicken and mushrooms, cook until done.",
+      "Season with fish sauce, lime juice, and chili.",
+      "Add tomato near the end.",
+      "Serve hot, garnished with cilantro."
+    ],
+    "tips": "Don’t boil hard after adding lime — keep it gentle to preserve the fresh aroma."
+  },
+  {
+    "id": "th-dn-005",
+    "name": "Larb Gai (Spicy Minced Chicken Salad)",
+    "image": "/assets/images/dinner/th-dn-005.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 10,
+    "mood": "spicy",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Minced chicken", "measure": "300g" },
+      { "name": "Toasted rice powder", "measure": "1–2 tbsp" },
+      { "name": "Shallot + mint + cilantro + green onion", "measure": "herbs" },
+      { "name": "Lime juice + fish sauce + chili flakes", "measure": "for dressing" },
+      { "name": "Sticky rice or lettuce", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Cook minced chicken in a dry pan or with a little water until done.",
+      "Mix with toasted rice powder, herbs, lime, fish sauce, and chili.",
+      "Taste and adjust the sour-salty-spicy balance.",
+      "Serve with sticky rice or lettuce cups."
+    ],
+    "tips": "Toasted rice powder gives the signature nutty crunch of Isaan-style larb."
+  },
+  {
+    "id": "th-dn-006",
+    "name": "Gaeng Daeng (Red Curry)",
+    "image": "/assets/images/dinner/th-dn-006.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 25,
+    "mood": "aromatic",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Red curry paste", "measure": "3 tbsp" },
+      { "name": "Coconut milk", "measure": "400ml" },
+      { "name": "Chicken or beef", "measure": "400g" },
+      { "name": "Thai eggplant + bamboo shoots + basil", "measure": "assorted" },
+      { "name": "Fish sauce + palm sugar", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Fry the red curry paste in thick coconut cream until fragrant and the oil separates.",
+      "Add meat and cook until nearly done.",
+      "Pour in remaining coconut milk and bring to a simmer.",
+      "Add vegetables and cook until tender.",
+      "Season with fish sauce and palm sugar, finish with Thai basil. Serve with rice."
+    ],
+    "tips": "Frying the paste properly is the most important step for depth of flavor."
+  }
+]

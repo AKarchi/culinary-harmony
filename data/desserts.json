@@ -1,0 +1,778 @@
+[
+  {
+    "id": "jp-ds-001",
+    "name": "Mochi Ice Cream",
+    "image": "/assets/images/desserts/jp-ds-001.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "hard",
+    "prepTime": 30,
+    "cookTime": 10,
+    "mood": "impressive",
+    "servings": 8,
+    "ingredients": [
+      { "name": "Glutinous rice flour (mochiko)", "measure": "1 cup" },
+      { "name": "Sugar", "measure": "1/4 cup" },
+      { "name": "Water", "measure": "1 cup" },
+      { "name": "Ice cream (any flavor)", "measure": "1 pint" },
+      { "name": "Cornstarch", "measure": "for dusting" }
+    ],
+    "instructions": [
+      "Mix mochiko, sugar, and water until smooth.",
+      "Microwave 1 minute, stir, repeat 2 more times.",
+      "Knead dough on cornstarch-dusted surface.",
+      "Scoop ice cream into balls, freeze solid.",
+      "Wrap each ball with mochi dough, seal edges."
+    ],
+    "tips": "Work quickly — mochi gets sticky as it cools."
+  },
+  {
+    "id": "jp-ds-002",
+    "name": "Matcha Soft Serve",
+    "image": "/assets/images/desserts/jp-ds-002.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 0,
+    "mood": "refreshing",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Heavy cream", "measure": "2 cups" },
+      { "name": "Whole milk", "measure": "1 cup" },
+      { "name": "Sugar", "measure": "1/2 cup" },
+      { "name": "Matcha powder", "measure": "2 tbsp" },
+      { "name": "Vanilla extract", "measure": "1 tsp" }
+    ],
+    "instructions": [
+      "Whisk matcha with a little hot water to make a smooth paste.",
+      "Heat milk and sugar until dissolved, cool completely.",
+      "Mix cream, milk mixture, matcha paste, and vanilla.",
+      "Churn in ice cream maker until soft-serve consistency.",
+      "Serve immediately or freeze for firmer texture."
+    ],
+    "tips": "Sift the matcha well to avoid bitterness and lumps."
+  },
+  {
+    "id": "jp-ds-003",
+    "name": "Dorayaki (Red Bean Pancakes)",
+    "image": "/assets/images/desserts/jp-ds-003.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 20,
+    "mood": "comfort",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Eggs", "measure": "2" },
+      { "name": "Sugar", "measure": "80g" },
+      { "name": "Honey", "measure": "1 tbsp" },
+      { "name": "All-purpose flour", "measure": "1 cup" },
+      { "name": "Sweet red bean paste (anko)", "measure": "1 cup" }
+    ],
+    "instructions": [
+      "Whisk eggs, sugar, and honey until pale.",
+      "Sift in flour and mix into a smooth batter. Rest 15 minutes.",
+      "Cook small pancakes on a low-heat non-stick pan until golden.",
+      "Sandwich a generous amount of anko between two pancakes.",
+      "Serve at room temperature."
+    ],
+    "tips": "These are Doraemon’s favorite snack — classic Japanese comfort dessert."
+  },
+  {
+    "id": "jp-ds-004",
+    "name": "Mitarashi Dango",
+    "image": "/assets/images/desserts/jp-ds-004.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 25,
+    "cookTime": 15,
+    "mood": "sweet",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Glutinous rice flour (shiratamako or mochiko)", "measure": "1 cup" },
+      { "name": "Water", "measure": "as needed" },
+      { "name": "Soy sauce + sugar + mirin", "measure": "for glaze" },
+      { "name": "Potato starch", "measure": "1 tsp (for thickening)" },
+      { "name": "Bamboo skewers", "measure": "4–6" }
+    ],
+    "instructions": [
+      "Mix flour and water into a soft dough, roll into small balls.",
+      "Boil until they float, then transfer to cold water.",
+      "Skewer 3–4 dumplings per stick.",
+      "Make a sweet-savory glaze with soy, sugar, mirin, and starch.",
+      "Brush or pour the glaze over the dango and serve."
+    ],
+    "tips": "The glaze should be sticky and glossy — the signature of mitarashi."
+  },
+  {
+    "id": "jp-ds-005",
+    "name": "Warabi Mochi",
+    "image": "/assets/images/desserts/jp-ds-005.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 10,
+    "mood": "refreshing",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Warabi mochiko (bracken starch) or substitute", "measure": "50g" },
+      { "name": "Sugar", "measure": "30g" },
+      { "name": "Water", "measure": "250ml" },
+      { "name": "Kinako (roasted soybean flour)", "measure": "for coating" },
+      { "name": "Kuromitsu (brown sugar syrup)", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Mix warabi mochiko, sugar, and water in a saucepan.",
+      "Cook over medium heat, stirring constantly until thick and translucent.",
+      "Pour into a wet mold or tray and cool completely (or chill).",
+      "Cut into bite-sized pieces and coat with kinako.",
+      "Serve with kuromitsu syrup."
+    ],
+    "tips": "A jiggly, cooling summer dessert. Kinako prevents sticking and adds nutty flavor."
+  },
+  {
+    "id": "jp-ds-006",
+    "name": "Anmitsu",
+    "image": "/assets/images/desserts/jp-ds-006.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 20,
+    "cookTime": 10,
+    "mood": "refreshing",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Agar-agar or kanten", "measure": "for jelly cubes" },
+      { "name": "Anko (sweet red bean paste)", "measure": "4 tbsp" },
+      { "name": "Fresh fruit (orange, peach, cherries)", "measure": "assorted" },
+      { "name": "Mochi or shiratama dumplings", "measure": "optional" },
+      { "name": "Kuromitsu or matcha syrup", "measure": "for pouring" }
+    ],
+    "instructions": [
+      "Make agar jelly according to package, cool, and cut into cubes.",
+      "Arrange jelly cubes, fruit, and anko in a bowl.",
+      "Add soft mochi or shiratama if using.",
+      "Pour kuromitsu (or matcha syrup) over the top.",
+      "Serve chilled."
+    ],
+    "tips": "A classic Japanese parfait-style dessert — colorful, light, and not too sweet."
+  },
+  {
+    "id": "cn-ds-001",
+    "name": "Tangyuan (Sweet Glutinous Rice Balls)",
+    "image": "/assets/images/desserts/cn-ds-001.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 40,
+    "cookTime": 10,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Glutinous rice flour", "measure": "2 cups" },
+      { "name": "Warm water", "measure": "3/4 cup" },
+      { "name": "Black sesame paste", "measure": "1/2 cup" },
+      { "name": "Sugar", "measure": "3 tbsp" },
+      { "name": "Ginger", "measure": "4 slices (for syrup)" }
+    ],
+    "instructions": [
+      "Mix flour and water into a smooth dough, rest 20 minutes.",
+      "Divide dough, flatten, fill with black sesame paste, seal into balls.",
+      "Boil water with ginger and sugar for syrup.",
+      "Cook tangyuan until they float (about 5–7 minutes).",
+      "Serve in the sweet ginger syrup."
+    ],
+    "tips": "Keep unused dough covered so it doesn’t dry out."
+  },
+  {
+    "id": "cn-ds-002",
+    "name": "Mango Pudding",
+    "image": "/assets/images/desserts/cn-ds-002.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 5,
+    "mood": "refreshing",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Ripe mangoes", "measure": "3" },
+      { "name": "Gelatin or agar-agar", "measure": "2 tsp" },
+      { "name": "Evaporated milk or cream", "measure": "1 cup" },
+      { "name": "Sugar", "measure": "1/3 cup" },
+      { "name": "Water", "measure": "1/2 cup" }
+    ],
+    "instructions": [
+      "Blend mango flesh until smooth.",
+      "Bloom gelatin in water, then dissolve over low heat with sugar.",
+      "Mix gelatin mixture into mango puree and evaporated milk.",
+      "Pour into molds and refrigerate until set (at least 3 hours).",
+      "Serve chilled, optionally with extra mango cubes."
+    ],
+    "tips": "Hong Kong-style mango pudding is silky and not overly sweet."
+  },
+  {
+    "id": "cn-ds-003",
+    "name": "Red Bean Soup (Hong Dou Tang)",
+    "image": "/assets/images/desserts/cn-ds-003.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 90,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Dried red beans (adzuki)", "measure": "1 cup" },
+      { "name": "Rock sugar or sugar", "measure": "to taste" },
+      { "name": "Dried tangerine peel (optional)", "measure": "1 piece" },
+      { "name": "Water", "measure": "6–7 cups" },
+      { "name": "Optional: glutinous rice balls or lotus seeds", "measure": "for adding" }
+    ],
+    "instructions": [
+      "Soak red beans for a few hours or overnight.",
+      "Boil with plenty of water and optional tangerine peel until very soft.",
+      "Mash some of the beans for a thicker texture if desired.",
+      "Add sugar and simmer until dissolved.",
+      "Serve hot in winter or chilled in summer."
+    ],
+    "tips": "A classic Chinese dessert soup — simple, wholesome, and comforting."
+  },
+  {
+    "id": "cn-ds-004",
+    "name": "Almond Tofu (Xingren Doufu)",
+    "image": "/assets/images/desserts/cn-ds-004.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 5,
+    "mood": "light",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Agar-agar or gelatin", "measure": "2 tsp" },
+      { "name": "Almond extract or almond milk", "measure": "1 tsp / 1 cup" },
+      { "name": "Sugar", "measure": "1/4 cup" },
+      { "name": "Water or milk", "measure": "2 cups" },
+      { "name": "Fruit cocktail or fresh fruit", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Bloom agar-agar or gelatin in a little water.",
+      "Heat remaining liquid with sugar until dissolved, then add the setting agent.",
+      "Stir in almond extract (or use almond milk as base).",
+      "Pour into a dish and chill until firm.",
+      "Cut into cubes and serve with fruit syrup or fresh fruit."
+    ],
+    "tips": "Light, fragrant, and cooling — a classic dim-sum and home dessert."
+  },
+  {
+    "id": "cn-ds-005",
+    "name": "Tanghulu (Candied Fruit Skewers)",
+    "image": "/assets/images/desserts/cn-ds-005.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 15,
+    "mood": "fun",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Strawberries, grapes, or hawthorn berries", "measure": "20–25 pieces" },
+      { "name": "Sugar", "measure": "1 cup" },
+      { "name": "Water", "measure": "1/3 cup" },
+      { "name": "Bamboo skewers", "measure": "6–8" }
+    ],
+    "instructions": [
+      "Wash and thoroughly dry the fruit, then skewer them.",
+      "Cook sugar and water over medium heat until it reaches hard-crack stage (about 150°C).",
+      "Quickly dip or pour the hot syrup over the fruit to coat.",
+      "Place on a greased surface or parchment to harden.",
+      "Serve once the candy shell is completely set and crunchy."
+    ],
+    "tips": "Work fast — the sugar hardens quickly. Classic winter street snack in northern China."
+  },
+  {
+    "id": "cn-ds-006",
+    "name": "Black Sesame Soup",
+    "image": "/assets/images/desserts/cn-ds-006.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 20,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Black sesame seeds", "measure": "1/2 cup, toasted" },
+      { "name": "Glutinous rice or rice flour", "measure": "2–3 tbsp" },
+      { "name": "Rock sugar or sugar", "measure": "to taste" },
+      { "name": "Water", "measure": "4 cups" },
+      { "name": "Optional: milk or coconut milk", "measure": "for richness" }
+    ],
+    "instructions": [
+      "Toast black sesame seeds until fragrant, then grind finely.",
+      "Mix ground sesame with a little rice flour and water to form a paste.",
+      "Bring remaining water to a boil, whisk in the sesame paste.",
+      "Simmer until slightly thickened, sweeten to taste.",
+      "Serve hot, optionally with a splash of milk."
+    ],
+    "tips": "Nutty, toasty, and warming — a classic Chinese dessert soup especially popular in cooler weather."
+  },
+  {
+    "id": "kr-ds-001",
+    "name": "Bingsu (Shaved Ice)",
+    "image": "/assets/images/desserts/kr-ds-001.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 0,
+    "mood": "refreshing",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Frozen milk or milk ice", "measure": "2–3 cups" },
+      { "name": "Sweet red beans", "measure": "1/2 cup" },
+      { "name": "Fresh fruit (strawberry, mango, etc.)", "measure": "1 cup" },
+      { "name": "Condensed milk", "measure": "3–4 tbsp" },
+      { "name": "Mochi or rice cakes", "measure": "a few pieces" }
+    ],
+    "instructions": [
+      "Shave frozen milk into fine, fluffy ice.",
+      "Top with red beans, fruits, and mochi.",
+      "Drizzle generously with condensed milk.",
+      "Serve immediately and mix as you eat."
+    ],
+    "tips": "Use a good shaved-ice machine for the fluffiest texture. Classic summer dessert."
+  },
+  {
+    "id": "kr-ds-002",
+    "name": "Yakgwa (Honey Cookies)",
+    "image": "/assets/images/desserts/kr-ds-002.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 40,
+    "cookTime": 30,
+    "mood": "impressive",
+    "servings": 20,
+    "ingredients": [
+      { "name": "All-purpose flour", "measure": "2 cups" },
+      { "name": "Sesame oil", "measure": "3 tbsp" },
+      { "name": "Soju or rice wine", "measure": "2 tbsp" },
+      { "name": "Honey + sugar syrup + ginger", "measure": "for soaking" },
+      { "name": "Pine nuts", "measure": "for garnish" }
+    ],
+    "instructions": [
+      "Mix flour with sesame oil and soju into a dough.",
+      "Roll out and cut into flower or diamond shapes.",
+      "Deep-fry slowly on low heat until golden and cooked through.",
+      "Soak the fried cookies in warm honey-ginger syrup.",
+      "Drain and top with pine nuts."
+    ],
+    "tips": "These traditional Korean sweets keep well and are often served during holidays."
+  },
+  {
+    "id": "kr-ds-003",
+    "name": "Injeolmi (Soybean Powder Rice Cakes)",
+    "image": "/assets/images/desserts/kr-ds-003.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "mood": "comfort",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Glutinous rice flour", "measure": "2 cups" },
+      { "name": "Salt", "measure": "1/2 tsp" },
+      { "name": "Water", "measure": "as needed" },
+      { "name": "Roasted soybean powder (injeolmi powder)", "measure": "1 cup" },
+      { "name": "Sugar", "measure": "2–3 tbsp" }
+    ],
+    "instructions": [
+      "Mix glutinous rice flour with salt and water into a soft dough.",
+      "Steam the dough until cooked and sticky (about 25–30 minutes).",
+      "Pound or knead the hot rice cake until elastic.",
+      "Cut into bite-sized pieces and coat thoroughly with soybean powder mixed with sugar.",
+      "Serve at room temperature."
+    ],
+    "tips": "Chewy, nutty, and mildly sweet — a classic Korean rice cake dessert."
+  },
+  {
+    "id": "kr-ds-004",
+    "name": "Sujeonggwa (Cinnamon Punch)",
+    "image": "/assets/images/desserts/kr-ds-004.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 40,
+    "mood": "comfort",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Cinnamon sticks", "measure": "4–5" },
+      { "name": "Fresh ginger", "measure": "1 large piece, sliced" },
+      { "name": "Sugar or honey", "measure": "to taste" },
+      { "name": "Dried persimmon", "measure": "4–6" },
+      { "name": "Pine nuts", "measure": "for garnish" }
+    ],
+    "instructions": [
+      "Simmer cinnamon sticks and ginger in plenty of water for 30–40 minutes.",
+      "Strain, then sweeten the liquid with sugar or honey.",
+      "Cool completely and chill.",
+      "Serve in bowls with a dried persimmon and a few pine nuts floating on top."
+    ],
+    "tips": "A traditional Korean dessert drink — fragrant, spicy-sweet, and usually served cold after a meal."
+  },
+  {
+    "id": "kr-ds-005",
+    "name": "Gyeongdan (Sweet Rice Balls)",
+    "image": "/assets/images/desserts/kr-ds-005.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 15,
+    "mood": "sweet",
+    "servings": 8,
+    "ingredients": [
+      { "name": "Glutinous rice flour", "measure": "2 cups" },
+      { "name": "Hot water", "measure": "as needed" },
+      { "name": "Sweet red bean or sesame filling", "measure": "1 cup" },
+      { "name": "Various coatings (soybean powder, black sesame, mugwort)", "measure": "for rolling" },
+      { "name": "Salt", "measure": "pinch" }
+    ],
+    "instructions": [
+      "Mix glutinous rice flour with hot water into a soft dough.",
+      "Divide, flatten, fill with red bean or sesame paste, and seal into balls.",
+      "Boil until they float, then cool briefly.",
+      "Roll each ball in different coatings for color and flavor variety.",
+      "Serve at room temperature."
+    ],
+    "tips": "Often made for celebrations — the colorful coatings make them look festive."
+  },
+  {
+    "id": "kr-ds-006",
+    "name": "Dasik (Traditional Pressed Sweets)",
+    "image": "/assets/images/desserts/kr-ds-006.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 20,
+    "cookTime": 0,
+    "mood": "elegant",
+    "servings": 12,
+    "ingredients": [
+      { "name": "Roasted soybean powder or green tea powder or black sesame", "measure": "1 cup" },
+      { "name": "Honey or rice syrup", "measure": "3–4 tbsp" },
+      { "name": "Optional: pine nuts or flower petals", "measure": "for decoration" },
+      { "name": "Dasik mold (or small cookie press)", "measure": "for shaping" }
+    ],
+    "instructions": [
+      "Mix the powder with honey or rice syrup until it holds together when pressed.",
+      "Press firmly into a dasik mold (or shape into small discs by hand).",
+      "Gently release and arrange on a plate.",
+      "Optional: decorate with a pine nut or petal.",
+      "Serve with tea."
+    ],
+    "tips": "These delicate traditional Korean sweets are often served during ceremonies or with tea. Very little effort, elegant result."
+  },
+  {
+    "id": "ph-ds-001",
+    "name": "Halo-Halo",
+    "image": "/assets/images/desserts/ph-ds-001.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 20,
+    "cookTime": 0,
+    "mood": "refreshing",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Shaved ice", "measure": "2 cups" },
+      { "name": "Sweetened red beans + nata de coco + macapuno", "measure": "assorted" },
+      { "name": "Leche flan", "measure": "2 slices" },
+      { "name": "Ube ice cream", "measure": "2 scoops" },
+      { "name": "Evaporated milk", "measure": "1/2 cup" }
+    ],
+    "instructions": [
+      "Layer sweetened beans, fruits, and jellies in a tall glass.",
+      "Add shaved ice to fill the glass.",
+      "Top with leche flan and a scoop of ube ice cream.",
+      "Pour evaporated milk over everything.",
+      "Mix thoroughly before eating."
+    ],
+    "tips": "Mix everything together for the full halo-halo experience."
+  },
+  {
+    "id": "ph-ds-002",
+    "name": "Leche Flan",
+    "image": "/assets/images/desserts/ph-ds-002.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 45,
+    "mood": "impressive",
+    "servings": 8,
+    "ingredients": [
+      { "name": "Egg yolks", "measure": "10" },
+      { "name": "Condensed milk", "measure": "1 can (14 oz)" },
+      { "name": "Evaporated milk", "measure": "1 can (12 oz)" },
+      { "name": "Sugar", "measure": "1 cup (for caramel)" },
+      { "name": "Vanilla extract", "measure": "1 tsp" }
+    ],
+    "instructions": [
+      "Melt sugar in a pan until golden caramel, pour into mold.",
+      "Gently mix yolks, both milks, and vanilla (do not overbeat).",
+      "Strain mixture into caramel-lined mold.",
+      "Steam 40–45 minutes or bake in water bath until set.",
+      "Cool completely, then invert onto plate."
+    ],
+    "tips": "Strain the custard twice for the silkiest texture."
+  },
+  {
+    "id": "ph-ds-003",
+    "name": "Ube Halaya (Purple Yam Jam)",
+    "image": "/assets/images/desserts/ph-ds-003.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 45,
+    "mood": "comfort",
+    "servings": 8,
+    "ingredients": [
+      { "name": "Grated ube (purple yam)", "measure": "500g" },
+      { "name": "Condensed milk", "measure": "1 can" },
+      { "name": "Coconut milk or evaporated milk", "measure": "1 cup" },
+      { "name": "Butter", "measure": "1/4 cup" },
+      { "name": "Sugar", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Cook grated ube with coconut milk over medium heat, stirring constantly.",
+      "Add condensed milk, butter, and sugar.",
+      "Keep stirring until the mixture becomes very thick and glossy.",
+      "Transfer to a greased dish and smooth the top.",
+      "Cool completely before serving."
+    ],
+    "tips": "Continuous stirring is necessary so it doesn’t stick or burn."
+  },
+  {
+    "id": "ph-ds-004",
+    "name": "Buko Pandan",
+    "image": "/assets/images/desserts/ph-ds-004.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 20,
+    "cookTime": 10,
+    "mood": "refreshing",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Young coconut (buko) strips", "measure": "2 cups" },
+      { "name": "Pandan-flavored gelatin or agar", "measure": "1 pack" },
+      { "name": "Condensed milk + cream", "measure": "1 cup total" },
+      { "name": "Kaong (sugar palm fruit) optional", "measure": "1/2 cup" },
+      { "name": "Pandan extract", "measure": "a few drops" }
+    ],
+    "instructions": [
+      "Prepare pandan gelatin according to package, cool, and cube.",
+      "Mix buko strips, gelatin cubes, and kaong if using.",
+      "Fold in condensed milk and cream (or all-purpose cream).",
+      "Chill for at least 1 hour.",
+      "Serve cold."
+    ],
+    "tips": "A light, fragrant Filipino dessert that’s perfect after a heavy meal."
+  },
+  {
+    "id": "ph-ds-005",
+    "name": "Bibingka",
+    "image": "/assets/images/desserts/ph-ds-005.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 25,
+    "mood": "comfort",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Rice flour", "measure": "2 cups" },
+      { "name": "Coconut milk", "measure": "1 1/2 cups" },
+      { "name": "Eggs + sugar", "measure": "for batter" },
+      { "name": "Baking powder", "measure": "1 tbsp" },
+      { "name": "Salted egg + grated cheese", "measure": "for topping" },
+      { "name": "Banana leaves", "measure": "for lining" }
+    ],
+    "instructions": [
+      "Mix rice flour, coconut milk, eggs, sugar, and baking powder into a batter.",
+      "Line molds with banana leaves and pour in the batter.",
+      "Top with slices of salted egg and grated cheese.",
+      "Bake or cook in a special bibingka oven until set and lightly browned.",
+      "Brush with butter and sprinkle with more coconut or sugar if desired."
+    ],
+    "tips": "Traditionally cooked with heat from both top and bottom. The banana leaf adds aroma."
+  },
+  {
+    "id": "ph-ds-006",
+    "name": "Mais con Yelo",
+    "image": "/assets/images/desserts/ph-ds-006.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 0,
+    "mood": "refreshing",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Sweet corn kernels (canned or cooked)", "measure": "1 cup" },
+      { "name": "Shaved ice", "measure": "2 cups" },
+      { "name": "Condensed milk", "measure": "4–5 tbsp" },
+      { "name": "Evaporated milk", "measure": "1/4 cup" },
+      { "name": "Sugar", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Place sweet corn in the bottom of serving glasses or bowls.",
+      "Pile shaved ice on top.",
+      "Drizzle generously with condensed milk and evaporated milk.",
+      "Add a little sugar if desired.",
+      "Mix and eat immediately."
+    ],
+    "tips": "A simple, nostalgic Filipino merienda dessert — sweet corn and cold milk over ice."
+  },
+  {
+    "id": "th-ds-001",
+    "name": "Thai Coconut Ice Cream (I-Tim Kati)",
+    "image": "/assets/images/desserts/th-ds-001.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 0,
+    "mood": "refreshing",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Coconut milk", "measure": "2 cans" },
+      { "name": "Condensed milk", "measure": "1/2 cup" },
+      { "name": "Sugar", "measure": "1/4 cup" },
+      { "name": "Salt", "measure": "1/4 tsp" },
+      { "name": "Cornstarch", "measure": "2 tbsp (optional)" }
+    ],
+    "instructions": [
+      "Mix coconut milk, condensed milk, sugar, and salt.",
+      "Optional: heat with cornstarch to thicken, then cool.",
+      "Churn in ice cream maker or freeze, stirring every 30 minutes.",
+      "Serve in small cups or on a stick with toppings (peanuts, sticky rice)."
+    ],
+    "tips": "Street-style version is often served with roasted peanuts and sticky rice."
+  },
+  {
+    "id": "th-ds-002",
+    "name": "Khanom Buang (Thai Crispy Pancakes)",
+    "image": "/assets/images/desserts/th-ds-002.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 20,
+    "mood": "fun",
+    "servings": 10,
+    "ingredients": [
+      { "name": "Rice flour + egg + sugar", "measure": "for batter" },
+      { "name": "Coconut cream + sugar", "measure": "for filling" },
+      { "name": "Egg yolks (foi thong style) or meringue", "measure": "for topping" },
+      { "name": "Food coloring (optional)", "measure": "for yellow/green" },
+      { "name": "Oil", "measure": "for the pan" }
+    ],
+    "instructions": [
+      "Make a thin batter and cook small crispy crepes on a hot pan.",
+      "Spread a layer of sweet coconut cream on each.",
+      "Top with golden egg yolk threads or fluffy meringue.",
+      "Fold or leave open and serve.",
+      "Best eaten fresh while still crispy."
+    ],
+    "tips": "These are a popular Thai street dessert — crispy outside, creamy inside."
+  },
+  {
+    "id": "th-ds-003",
+    "name": "Tub Tim Grob (Red Rubies in Coconut Milk)",
+    "image": "/assets/images/desserts/th-ds-003.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 15,
+    "mood": "refreshing",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Water chestnuts", "measure": "1 cup, diced" },
+      { "name": "Red food coloring + tapioca flour", "measure": "for coating" },
+      { "name": "Coconut milk", "measure": "1 1/2 cups" },
+      { "name": "Sugar + salt", "measure": "to taste" },
+      { "name": "Crushed ice + jackfruit (optional)", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Color the water chestnut pieces red and coat them in tapioca flour.",
+      "Boil until they float and look like little jewels, then cool in ice water.",
+      "Make sweetened coconut milk with a pinch of salt.",
+      "Place the red rubies in bowls, add coconut milk and crushed ice.",
+      "Serve immediately."
+    ],
+    "tips": "The chewy ‘rubies’ in icy coconut milk are a classic Thai dessert."
+  },
+  {
+    "id": "th-ds-004",
+    "name": "Kluay Buat Chee (Banana in Coconut Milk)",
+    "image": "/assets/images/desserts/th-ds-004.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Ripe but firm bananas (or plantains)", "measure": "4–5" },
+      { "name": "Coconut milk", "measure": "2 cups" },
+      { "name": "Sugar", "measure": "1/4–1/3 cup" },
+      { "name": "Salt", "measure": "pinch" },
+      { "name": "Pandan leaf (optional)", "measure": "1" }
+    ],
+    "instructions": [
+      "Peel and cut bananas into chunks.",
+      "Gently simmer coconut milk with sugar, salt, and pandan until the sugar dissolves.",
+      "Add banana pieces and cook until just tender (don’t overcook or they fall apart).",
+      "Serve warm or at room temperature."
+    ],
+    "tips": "A simple, comforting Thai dessert — the bananas should stay intact and slightly firm."
+  },
+  {
+    "id": "th-ds-005",
+    "name": "Lod Chong (Pandan Noodles in Coconut Milk)",
+    "image": "/assets/images/desserts/th-ds-005.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 25,
+    "cookTime": 15,
+    "mood": "refreshing",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Rice flour + tapioca flour", "measure": "for dough" },
+      { "name": "Pandan juice or extract", "measure": "for color and flavor" },
+      { "name": "Coconut milk + sugar + salt", "measure": "for sauce" },
+      { "name": "Crushed ice", "measure": "for serving" },
+      { "name": "Palm sugar syrup (optional)", "measure": "extra" }
+    ],
+    "instructions": [
+      "Make a green dough with flours and pandan juice, cook until thick.",
+      "Press the dough through a sieve or mold into boiling water to form short noodles.",
+      "Cool the noodles in ice water.",
+      "Make sweetened, slightly salty coconut milk.",
+      "Serve noodles in bowls with coconut milk and crushed ice."
+    ],
+    "tips": "The bright green pandan noodles in cold coconut milk are a classic Thai refresher."
+  },
+  {
+    "id": "th-ds-006",
+    "name": "Sankaya Fak Thong (Pumpkin Custard)",
+    "image": "/assets/images/desserts/th-ds-006.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 45,
+    "mood": "impressive",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Small pumpkin or kabocha", "measure": "1" },
+      { "name": "Eggs", "measure": "3–4" },
+      { "name": "Coconut milk", "measure": "1 cup" },
+      { "name": "Palm sugar or sugar", "measure": "1/2 cup" },
+      { "name": "Pandan leaf or extract", "measure": "optional" },
+      { "name": "Salt", "measure": "pinch" }
+    ],
+    "instructions": [
+      "Cut the top off the pumpkin and clean out the seeds.",
+      "Whisk eggs, coconut milk, sugar, salt, and pandan until smooth.",
+      "Pour the custard into the pumpkin shell.",
+      "Steam gently for 40–50 minutes until the custard is set.",
+      "Cool slightly, then slice into wedges and serve."
+    ],
+    "tips": "The pumpkin becomes the edible bowl — beautiful presentation and delicious contrast of textures."
+  }
+]

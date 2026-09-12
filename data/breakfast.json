@@ -1,0 +1,2009 @@
+[
+  {
+    "id": "jp-bf-001",
+    "name": "Fluffy Soufflé Pancakes",
+    "image": "/assets/images/breakfast/jp-bf-001.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 20,
+    "mood": "indulgent",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "measure": "3, separated"
+      },
+      {
+        "name": "Cake flour",
+        "measure": "30g"
+      },
+      {
+        "name": "Milk",
+        "measure": "25ml"
+      },
+      {
+        "name": "Sugar",
+        "measure": "30g"
+      },
+      {
+        "name": "Lemon juice",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Vanilla extract",
+        "measure": "1/2 tsp"
+      },
+      {
+        "name": "Butter",
+        "measure": "1 tbsp, for pan"
+      }
+    ],
+    "instructions": [
+      "Separate egg whites and yolks into two clean bowls.",
+      "Whisk yolks with milk and vanilla until smooth, then sift in cake flour.",
+      "Beat egg whites with lemon juice until foamy, then gradually add sugar.",
+      "Whip to stiff peaks—this is the secret to the fluffy height.",
+      "Gently fold one-third of meringue into yolk batter, then fold in the rest.",
+      "Cook covered in a non-stick pan on very low heat for 5–6 minutes per side.",
+      "Serve immediately with powdered sugar, syrup, or fresh cream."
+    ],
+    "tips": "Cook on the lowest heat possible and never press the pancakes—let them rise tall naturally."
+  },
+  {
+    "id": "jp-bf-002",
+    "name": "Gohan Teishoku",
+    "image": "/assets/images/breakfast/jp-bf-002.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "healthy",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Short-grain rice",
+        "measure": "2 cups"
+      },
+      {
+        "name": "Salmon fillet",
+        "measure": "200g"
+      },
+      {
+        "name": "Miso paste",
+        "measure": "2 tbsp"
+      },
+      {
+        "name": "Dashi stock",
+        "measure": "500ml"
+      },
+      {
+        "name": "Tofu",
+        "measure": "100g, cubed"
+      },
+      {
+        "name": "Wakame seaweed",
+        "measure": "1 tbsp, dried"
+      },
+      {
+        "name": "Nori sheets",
+        "measure": "2"
+      },
+      {
+        "name": "Pickled vegetables (tsukemono)",
+        "measure": "100g"
+      },
+      {
+        "name": "Salt",
+        "measure": "1/2 tsp"
+      }
+    ],
+    "instructions": [
+      "Cook rice in a rice cooker until fluffy and slightly sticky.",
+      "Season salmon with salt and grill skin-side down until crisp and cooked through.",
+      "Heat dashi stock and dissolve miso paste off the boil to preserve flavor.",
+      "Add tofu and rehydrated wakame to the miso soup.",
+      "Arrange rice, grilled salmon, pickles, and nori on individual plates.",
+      "Serve miso soup hot in a separate bowl alongside the set."
+    ],
+    "tips": "A traditional Japanese breakfast balances salty, sweet, and umami flavors in small portions."
+  },
+  {
+    "id": "jp-bf-003",
+    "name": "Natto Gohan",
+    "image": "/assets/images/breakfast/jp-bf-003.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 5,
+    "mood": "quick",
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "Cooked short-grain rice",
+        "measure": "1 bowl"
+      },
+      {
+        "name": "Natto (fermented soybeans)",
+        "measure": "1 pack (45g)"
+      },
+      {
+        "name": "Soy sauce",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Karashi mustard",
+        "measure": "1/2 tsp"
+      },
+      {
+        "name": "Green onion",
+        "measure": "1 tbsp, sliced"
+      },
+      {
+        "name": "Raw egg (optional)",
+        "measure": "1"
+      },
+      {
+        "name": "Nori",
+        "measure": "1 sheet, shredded"
+      }
+    ],
+    "instructions": [
+      "Open the natto pack and stir vigorously with the included sauce and mustard until stringy.",
+      "Place hot steamed rice in a deep bowl.",
+      "Spoon the stirred natto over the center of the rice.",
+      "Drizzle with soy sauce and top with sliced green onion.",
+      "Add a raw egg yolk and shredded nori if desired.",
+      "Mix everything together before eating."
+    ],
+    "tips": "The more you stir natto, the stringier and more flavorful it becomes—embrace the texture!"
+  },
+  {
+    "id": "jp-bf-004",
+    "name": "Tamagoyaki",
+    "image": "/assets/images/breakfast/jp-bf-004.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 10,
+    "cookTime": 15,
+    "mood": "cozy",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "measure": "4"
+      },
+      {
+        "name": "Dashi stock",
+        "measure": "2 tbsp"
+      },
+      {
+        "name": "Mirin",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Sugar",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Vegetable oil",
+        "measure": "1 tsp"
+      }
+    ],
+    "instructions": [
+      "Whisk eggs gently with dashi, mirin, soy sauce, and sugar until just combined.",
+      "Heat a rectangular tamagoyaki pan over medium-low heat and lightly oil.",
+      "Pour a thin layer of egg mixture into the pan and tilt to spread.",
+      "When half-set, roll the egg from one end to the other using chopsticks.",
+      "Push the rolled egg to one end, oil the pan again, and pour another thin layer.",
+      "Lift the rolled egg to let the new layer flow underneath, then roll again.",
+      "Repeat until all egg is used, then shape and let rest before slicing."
+    ],
+    "tips": "Use low heat and work quickly—overcooking makes the layers tough instead of tender."
+  },
+  {
+    "id": "jp-bf-005",
+    "name": "Ogura Toast",
+    "image": "/assets/images/breakfast/jp-bf-005.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 5,
+    "mood": "sweet",
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "Shokupan (Japanese milk bread)",
+        "measure": "2 thick slices"
+      },
+      {
+        "name": "Tsubu-an (chunky red bean paste)",
+        "measure": "3 tbsp"
+      },
+      {
+        "name": "Unsalted butter",
+        "measure": "1 tbsp, softened"
+      },
+      {
+        "name": "Whipped cream (optional)",
+        "measure": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      "Toast the shokupan slices until golden and crisp on the edges.",
+      "Spread a generous layer of softened butter on each slice.",
+      "Spread or dollop tsubu-an over the buttered toast.",
+      "Top with whipped cream if desired for a café-style presentation.",
+      "Serve immediately with coffee or tea."
+    ],
+    "tips": "This Nagoya specialty is best with thick-cut, fluffy shokupan—regular sandwich bread won't give the same texture."
+  },
+  {
+    "id": "jp-bf-006",
+    "name": "Onigiri",
+    "image": "/assets/images/breakfast/jp-bf-006.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 0,
+    "mood": "quick",
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Sushi rice",
+        "measure": "2 cups, cooked"
+      },
+      {
+        "name": "Nori sheets",
+        "measure": "3"
+      },
+      {
+        "name": "Umeboshi (pickled plum)",
+        "measure": "3, pitted"
+      },
+      {
+        "name": "Salt",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Water",
+        "measure": "1 bowl (for wetting hands)"
+      },
+      {
+        "name": "Sesame seeds",
+        "measure": "1 tsp (optional)"
+      }
+    ],
+    "instructions": [
+      "Wet your hands with water and rub a pinch of salt between your palms.",
+      "Take a palmful of warm rice and make a small well in the center.",
+      "Place one umeboshi in the well and fold rice around it.",
+      "Shape into a firm triangle by pressing gently with both hands.",
+      "Wrap the base with a strip of nori.",
+      "Repeat for remaining rice and fillings.",
+      "Serve immediately or wrap in plastic for a portable breakfast."
+    ],
+    "tips": "Keep your hands wet with salted water to prevent rice from sticking and to season the exterior."
+  },
+  {
+    "id": "jp-bf-007",
+    "name": "Chawanmushi",
+    "image": "/assets/images/breakfast/jp-bf-007.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 20,
+    "mood": "elegant",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "measure": "2"
+      },
+      {
+        "name": "Dashi stock",
+        "measure": "300ml"
+      },
+      {
+        "name": "Mirin",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Soy sauce",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Salt",
+        "measure": "1/4 tsp"
+      },
+      {
+        "name": "Chicken thigh",
+        "measure": "50g, cubed"
+      },
+      {
+        "name": "Shrimp",
+        "measure": "3, peeled"
+      },
+      {
+        "name": "Shiitake mushroom",
+        "measure": "1, sliced"
+      },
+      {
+        "name": "Ginkgo nuts",
+        "measure": "4"
+      },
+      {
+        "name": "Mitsuba or parsley",
+        "measure": "1 sprig"
+      }
+    ],
+    "instructions": [
+      "Whisk eggs gently with dashi, mirin, soy sauce, and salt—avoid creating foam.",
+      "Strain the egg mixture through a fine sieve for a silky texture.",
+      "Place chicken, shrimp, shiitake, and ginkgo nuts in the bottom of heatproof cups.",
+      "Pour the strained egg mixture over the fillings.",
+      "Cover each cup tightly with foil.",
+      "Steam over gently boiling water for 15–20 minutes until just set.",
+      "Garnish with mitsuba and serve warm."
+    ],
+    "tips": "The custard should be silky and trembling—overcooking makes it rubbery. Straining is essential for smoothness."
+  },
+  {
+    "id": "cn-bf-001",
+    "name": "Jianbing",
+    "image": "/assets/images/breakfast/cn-bf-001.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 10,
+    "mood": "savory",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Mung bean flour",
+        "measure": "1/2 cup"
+      },
+      {
+        "name": "All-purpose flour",
+        "measure": "1/4 cup"
+      },
+      {
+        "name": "Water",
+        "measure": "3/4 cup"
+      },
+      {
+        "name": "Eggs",
+        "measure": "2"
+      },
+      {
+        "name": "Green onions",
+        "measure": "2 tbsp, chopped"
+      },
+      {
+        "name": "Cilantro",
+        "measure": "2 tbsp, chopped"
+      },
+      {
+        "name": "Baocui (crispy cracker)",
+        "measure": "2"
+      },
+      {
+        "name": "Tianmianjiang (sweet bean sauce)",
+        "measure": "2 tbsp"
+      },
+      {
+        "name": "Chili oil",
+        "measure": "1 tsp"
+      }
+    ],
+    "instructions": [
+      "Whisk mung bean flour, all-purpose flour, and water into a thin, smooth batter.",
+      "Heat a lightly oiled non-stick pan or griddle over medium heat.",
+      "Pour a ladle of batter and spread into a thin circle like a crepe.",
+      "Crack an egg on top and spread it across the surface with the back of a spoon.",
+      "Sprinkle with green onions and cilantro while the egg is still wet.",
+      "Flip the crepe, spread with sweet bean sauce and chili oil.",
+      "Place a crispy cracker in the center and fold the crepe around it.",
+      "Serve hot, folded into a handheld wrap."
+    ],
+    "tips": "The batter should be very thin—thicker than water but thinner than pancake batter. A flat griddle works best."
+  },
+  {
+    "id": "cn-bf-002",
+    "name": "Youtiao with Doujiang",
+    "image": "/assets/images/breakfast/cn-bf-002.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 15,
+    "mood": "crispy",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "measure": "2 cups"
+      },
+      {
+        "name": "Baking powder",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Baking soda",
+        "measure": "1/4 tsp"
+      },
+      {
+        "name": "Salt",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Water",
+        "measure": "3/4 cup, warm"
+      },
+      {
+        "name": "Vegetable oil",
+        "measure": "2 cups, for frying"
+      },
+      {
+        "name": "Soy milk",
+        "measure": "4 cups"
+      },
+      {
+        "name": "Sugar",
+        "measure": "2 tbsp (optional)"
+      }
+    ],
+    "instructions": [
+      "Mix flour, baking powder, baking soda, salt, and warm water into a soft dough.",
+      "Knead briefly, then cover and rest for 30 minutes.",
+      "Roll the dough into a long rectangle about 1/4 inch thick.",
+      "Cut into strips about 1 inch wide, then stack two strips and press together with a chopstick down the center.",
+      "Stretch each pair gently and deep-fry in hot oil (375°F/190°C) until puffed and golden.",
+      "Heat soy milk with sugar if desired.",
+      "Serve youtiao alongside hot or cold soy milk for dipping."
+    ],
+    "tips": "Resting the dough is crucial for the light, airy interior. Fry at high heat so they puff up immediately."
+  },
+  {
+    "id": "cn-bf-003",
+    "name": "Baozi",
+    "image": "/assets/images/breakfast/cn-bf-003.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "hard",
+    "prepTime": 60,
+    "cookTime": 20,
+    "mood": "hearty",
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "measure": "3 cups"
+      },
+      {
+        "name": "Active dry yeast",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Sugar",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Warm water",
+        "measure": "3/4 cup"
+      },
+      {
+        "name": "Ground pork",
+        "measure": "300g"
+      },
+      {
+        "name": "Napa cabbage",
+        "measure": "1 cup, finely chopped"
+      },
+      {
+        "name": "Ginger",
+        "measure": "1 tbsp, minced"
+      },
+      {
+        "name": "Scallions",
+        "measure": "2 tbsp, chopped"
+      },
+      {
+        "name": "Soy sauce",
+        "measure": "2 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Shaoxing wine",
+        "measure": "1 tbsp"
+      }
+    ],
+    "instructions": [
+      "Dissolve yeast and sugar in warm water and let bloom for 5 minutes.",
+      "Mix with flour and knead into a smooth dough, then cover and let rise for 1 hour.",
+      "Combine pork, cabbage, ginger, scallions, soy sauce, sesame oil, and wine.",
+      "Stir the filling in one direction until sticky and cohesive.",
+      "Divide risen dough into 12 pieces and roll each into a circle.",
+      "Place a spoonful of filling in the center and pleat the edges to seal.",
+      "Place buns on parchment in a steamer with space between them.",
+      "Steam for 15–20 minutes until fluffy and cooked through."
+    ],
+    "tips": "Leave generous space between buns—they expand significantly. Rest the dough twice for the fluffiest result."
+  },
+  {
+    "id": "cn-bf-004",
+    "name": "Tea Eggs",
+    "image": "/assets/images/breakfast/cn-bf-004.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 120,
+    "mood": "cozy",
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "measure": "6"
+      },
+      {
+        "name": "Black tea leaves",
+        "measure": "2 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "measure": "3 tbsp"
+      },
+      {
+        "name": "Star anise",
+        "measure": "2"
+      },
+      {
+        "name": "Cinnamon stick",
+        "measure": "1"
+      },
+      {
+        "name": "Sichuan peppercorns",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Bay leaves",
+        "measure": "2"
+      },
+      {
+        "name": "Salt",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Sugar",
+        "measure": "1 tbsp"
+      }
+    ],
+    "instructions": [
+      "Place eggs in a pot and cover with cold water.",
+      "Bring to a boil, then simmer for 10 minutes.",
+      "Remove eggs and gently crack the shells all over with the back of a spoon.",
+      "Return cracked eggs to the pot with fresh water.",
+      "Add tea leaves, soy sauce, star anise, cinnamon, peppercorns, bay leaves, salt, and sugar.",
+      "Simmer gently for 1–2 hours—the longer, the deeper the flavor and pattern.",
+      "Let eggs cool in the liquid overnight for the best marble effect.",
+      "Peel and serve cold or at room temperature."
+    ],
+    "tips": "The cracks create the beautiful marble pattern. Steeping overnight gives the richest flavor and darkest veins."
+  },
+  {
+    "id": "cn-bf-005",
+    "name": "Shaobing",
+    "image": "/assets/images/breakfast/cn-bf-005.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 20,
+    "mood": "flaky",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "measure": "2 cups"
+      },
+      {
+        "name": "Warm water",
+        "measure": "1/2 cup"
+      },
+      {
+        "name": "Sesame oil",
+        "measure": "3 tbsp"
+      },
+      {
+        "name": "Scallions",
+        "measure": "1/2 cup, chopped"
+      },
+      {
+        "name": "Sesame seeds",
+        "measure": "2 tbsp"
+      },
+      {
+        "name": "Lard or shortening",
+        "measure": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "measure": "1 tsp"
+      }
+    ],
+    "instructions": [
+      "Mix flour with warm water and knead into a smooth dough, then rest for 20 minutes.",
+      "Divide dough into 4 pieces and roll each into a thin rectangle.",
+      "Brush with sesame oil and lard, then sprinkle with salt and scallions.",
+      "Roll up tightly like a jelly roll, then coil into a spiral.",
+      "Flatten gently and roll again to create flaky layers.",
+      "Press sesame seeds onto the surface.",
+      "Bake at 400°F (200°C) for 15–20 minutes until golden and flaky.",
+      "Serve warm, split open for meat or eaten plain."
+    ],
+    "tips": "The coiling and re-rolling creates the signature flaky layers. Lard gives the most authentic texture."
+  },
+  {
+    "id": "cn-bf-006",
+    "name": "Douhua",
+    "image": "/assets/images/breakfast/cn-bf-006.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Dried soybeans",
+        "measure": "1 cup"
+      },
+      {
+        "name": "Water",
+        "measure": "8 cups"
+      },
+      {
+        "name": "Glucono delta-lactone (GDL)",
+        "measure": "1/2 tsp"
+      },
+      {
+        "name": "Ginger",
+        "measure": "2 inches, sliced"
+      },
+      {
+        "name": "Brown sugar",
+        "measure": "1/2 cup"
+      },
+      {
+        "name": "Water (for syrup)",
+        "measure": "1/2 cup"
+      },
+      {
+        "name": "Soy sauce",
+        "measure": "1 tbsp (for savory version)"
+      },
+      {
+        "name": "Chili oil",
+        "measure": "1 tsp (for savory version)"
+      },
+      {
+        "name": "Scallions",
+        "measure": "1 tbsp (for savory version)"
+      }
+    ],
+    "instructions": [
+      "Soak soybeans overnight, then drain and blend with 4 cups water until smooth.",
+      "Strain through cheesecloth to extract soy milk.",
+      "Heat soy milk to 185°F (85°C), stirring constantly to prevent scorching.",
+      "Dissolve GDL in 2 tbsp water and pour into a heatproof container.",
+      "Pour the hot soy milk over the GDL solution—do not stir.",
+      "Cover and let rest undisturbed for 20 minutes to set into silken tofu.",
+      "For sweet: make ginger syrup by boiling ginger, brown sugar, and water.",
+      "For savory: top with soy sauce, chili oil, and scallions.",
+      "Ladle douhua into bowls and pour syrup or savory toppings over."
+    ],
+    "tips": "Do not stir after pouring hot soy milk over GDL—disturbing it prevents proper setting. The texture should be like silken pudding."
+  },
+  {
+    "id": "cn-bf-007",
+    "name": "Xiao Long Bao",
+    "image": "/assets/images/breakfast/cn-bf-007.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "hard",
+    "prepTime": 45,
+    "cookTime": 15,
+    "mood": "indulgent",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Ground pork",
+        "measure": "300g"
+      },
+      {
+        "name": "Ginger",
+        "measure": "1 tbsp, minced"
+      },
+      {
+        "name": "Scallions",
+        "measure": "2 tbsp, chopped"
+      },
+      {
+        "name": "Soy sauce",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Shaoxing wine",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Sugar",
+        "measure": "1/2 tsp"
+      },
+      {
+        "name": "Pork skin or gelatin",
+        "measure": "100g (for aspic)"
+      },
+      {
+        "name": "All-purpose flour",
+        "measure": "2 cups"
+      },
+      {
+        "name": "Hot water",
+        "measure": "1/2 cup"
+      },
+      {
+        "name": "Black vinegar",
+        "measure": "for dipping"
+      }
+    ],
+    "instructions": [
+      "Simmer pork skin in water for 2 hours until soft, then blend into a gelatinous broth and chill until solid (aspic).",
+      "Dice the aspic into small cubes.",
+      "Mix pork, ginger, scallions, soy sauce, wine, sesame oil, and sugar.",
+      "Fold aspic cubes into the pork filling.",
+      "Make dough by mixing flour with hot water, kneading until smooth.",
+      "Roll dough into thin circles, thinner at the edges.",
+      "Place a spoonful of filling in the center and pleat 18–20 folds to seal.",
+      "Steam in bamboo baskets lined with cabbage leaves for 8–10 minutes.",
+      "Serve immediately with black vinegar and ginger strips."
+    ],
+    "tips": "The aspic melts during steaming, creating the soup inside. Eat carefully—the broth is scalding hot!"
+  },
+  {
+    "id": "kr-bf-001",
+    "name": "Kimchi Bokkeumbap",
+    "image": "/assets/images/breakfast/kr-bf-001.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "mood": "spicy",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Day-old rice",
+        "measure": "3 cups"
+      },
+      {
+        "name": "Aged kimchi",
+        "measure": "1 cup, chopped"
+      },
+      {
+        "name": "Gochujang",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Vegetable oil",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Eggs",
+        "measure": "2"
+      },
+      {
+        "name": "Nori",
+        "measure": "1 sheet, crumbled"
+      },
+      {
+        "name": "Sesame seeds",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Scallions",
+        "measure": "1 tbsp, sliced"
+      }
+    ],
+    "instructions": [
+      "Heat vegetable oil in a pan over medium-high heat.",
+      "Sauté chopped kimchi until fragrant and slightly caramelized, about 3 minutes.",
+      "Add gochujang and stir to coat the kimchi.",
+      "Add day-old rice and break up clumps, stir-frying until evenly mixed.",
+      "Drizzle with sesame oil and toss to combine.",
+      "Fry eggs sunny-side up in a separate pan.",
+      "Divide rice into bowls, top each with a fried egg.",
+      "Garnish with crumbled nori, sesame seeds, and scallions."
+    ],
+    "tips": "Use well-aged, sour kimchi for the deepest umami flavor. Day-old rice fries up perfectly without clumping."
+  },
+  {
+    "id": "kr-bf-002",
+    "name": "Doenjang Jjigae",
+    "image": "/assets/images/breakfast/kr-bf-002.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 20,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Doenjang (Korean soybean paste)",
+        "measure": "2 tbsp"
+      },
+      {
+        "name": "Firm tofu",
+        "measure": "1 block, cubed"
+      },
+      {
+        "name": "Zucchini",
+        "measure": "1/2, sliced"
+      },
+      {
+        "name": "Onion",
+        "measure": "1/2, sliced"
+      },
+      {
+        "name": "Potato",
+        "measure": "1, cubed"
+      },
+      {
+        "name": "Garlic",
+        "measure": "2 cloves, minced"
+      },
+      {
+        "name": "Gochugaru (Korean chili flakes)",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Anchovy broth",
+        "measure": "3 cups"
+      },
+      {
+        "name": "Green chili",
+        "measure": "1, sliced"
+      },
+      {
+        "name": "Scallions",
+        "measure": "1 tbsp, sliced"
+      }
+    ],
+    "instructions": [
+      "Bring anchovy broth to a boil in a small pot.",
+      "Add doenjang and stir until fully dissolved.",
+      "Add potato, onion, and garlic; simmer for 5 minutes.",
+      "Add zucchini and tofu; simmer for another 5 minutes.",
+      "Stir in gochugaru and green chili for heat.",
+      "Simmer until all vegetables are tender.",
+      "Garnish with scallions and serve bubbling hot with rice."
+    ],
+    "tips": "Doenjang is funkier and more complex than miso—don't substitute. The stew should be hearty and deeply savory."
+  },
+  {
+    "id": "kr-bf-003",
+    "name": "Miyeok Guk",
+    "image": "/assets/images/breakfast/kr-bf-003.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 25,
+    "mood": "nourishing",
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Dried miyeok (wakame seaweed)",
+        "measure": "20g"
+      },
+      {
+        "name": "Beef brisket",
+        "measure": "150g, thinly sliced"
+      },
+      {
+        "name": "Garlic",
+        "measure": "3 cloves, minced"
+      },
+      {
+        "name": "Sesame oil",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Water",
+        "measure": "6 cups"
+      },
+      {
+        "name": "Salt",
+        "measure": "1/2 tsp"
+      },
+      {
+        "name": "Scallions",
+        "measure": "1 tbsp, sliced"
+      }
+    ],
+    "instructions": [
+      "Soak dried miyeok in cold water for 15 minutes until rehydrated, then drain and cut into bite-sized pieces.",
+      "Heat sesame oil in a pot over medium heat.",
+      "Sauté beef and garlic for 2–3 minutes until beef is lightly browned.",
+      "Add the soaked miyeok and stir-fry for 3–4 minutes.",
+      "Pour in water and bring to a boil.",
+      "Reduce heat and simmer for 20 minutes until the broth is rich.",
+      "Season with soy sauce and salt to taste.",
+      "Garnish with scallions and serve hot with steamed rice."
+    ],
+    "tips": "Koreans eat this on birthdays for good health. The seaweed releases a natural umami that deepens as it simmers."
+  },
+  {
+    "id": "kr-bf-004",
+    "name": "Hobakjuk",
+    "image": "/assets/images/breakfast/kr-bf-004.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "mood": "sweet",
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Kabocha pumpkin",
+        "measure": "500g, peeled and cubed"
+      },
+      {
+        "name": "Glutinous rice flour",
+        "measure": "1/4 cup"
+      },
+      {
+        "name": "Water",
+        "measure": "4 cups"
+      },
+      {
+        "name": "Sugar",
+        "measure": "3 tbsp"
+      },
+      {
+        "name": "Salt",
+        "measure": "1/4 tsp"
+      },
+      {
+        "name": "Small rice cakes (optional)",
+        "measure": "1/2 cup"
+      },
+      {
+        "name": "Pumpkin seeds",
+        "measure": "1 tsp, for garnish"
+      }
+    ],
+    "instructions": [
+      "Steam or boil kabocha pumpkin until very soft, about 15 minutes.",
+      "Blend the cooked pumpkin with 2 cups water until completely smooth.",
+      "Pour the pumpkin puree into a pot with the remaining water.",
+      "Mix glutinous rice flour with 1/4 cup water to make a slurry.",
+      "Bring the pumpkin mixture to a gentle boil.",
+      "Slowly stir in the rice flour slurry while whisking to prevent lumps.",
+      "Add sugar, salt, and small rice cakes if using.",
+      "Simmer for 10 minutes until thickened and silky.",
+      "Garnish with pumpkin seeds and serve warm."
+    ],
+    "tips": "Kabocha is naturally sweet—adjust sugar to taste. The rice flour gives the porridge its signature silky, velvety texture."
+  },
+  {
+    "id": "kr-bf-005",
+    "name": "Bindaetteok",
+    "image": "/assets/images/breakfast/kr-bf-005.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Mung beans",
+        "measure": "1 cup, soaked overnight"
+      },
+      {
+        "name": "Kimchi",
+        "measure": "1/2 cup, chopped"
+      },
+      {
+        "name": "Pork belly",
+        "measure": "100g, diced"
+      },
+      {
+        "name": "Bean sprouts",
+        "measure": "1/2 cup"
+      },
+      {
+        "name": "Scallions",
+        "measure": "2 tbsp, sliced"
+      },
+      {
+        "name": "Garlic",
+        "measure": "1 clove"
+      },
+      {
+        "name": "Gochugaru",
+        "measure": "1/2 tsp"
+      },
+      {
+        "name": "Vegetable oil",
+        "measure": "3 tbsp"
+      },
+      {
+        "name": "Salt",
+        "measure": "1/2 tsp"
+      }
+    ],
+    "instructions": [
+      "Drain soaked mung beans and blend with a little water into a thick batter.",
+      "Mix in chopped kimchi, pork belly, bean sprouts, scallions, garlic, gochugaru, and salt.",
+      "Heat oil in a non-stick pan over medium heat.",
+      "Ladle a scoop of batter into the pan and spread into a thin round pancake.",
+      "Cook for 3–4 minutes until the bottom is golden and crisp.",
+      "Flip and cook the other side for another 3 minutes.",
+      "Repeat with remaining batter, adding oil as needed.",
+      "Serve hot with a soy-vinegar dipping sauce."
+    ],
+    "tips": "The mung bean batter should be coarse, not perfectly smooth—that texture is what makes bindaetteok crispy and hearty."
+  },
+  {
+    "id": "kr-bf-006",
+    "name": "Bulgogi with Banchan",
+    "image": "/assets/images/breakfast/kr-bf-006.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 10,
+    "mood": "hearty",
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Beef sirloin",
+        "measure": "300g, thinly sliced"
+      },
+      {
+        "name": "Asian pear",
+        "measure": "1/2, grated"
+      },
+      {
+        "name": "Soy sauce",
+        "measure": "3 tbsp"
+      },
+      {
+        "name": "Brown sugar",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "measure": "3 cloves, minced"
+      },
+      {
+        "name": "Ginger",
+        "measure": "1 tsp, minced"
+      },
+      {
+        "name": "Scallions",
+        "measure": "2 tbsp, sliced"
+      },
+      {
+        "name": "Sesame seeds",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Assorted banchan",
+        "measure": "as desired"
+      },
+      {
+        "name": "Lettuce leaves",
+        "measure": "for wrapping"
+      }
+    ],
+    "instructions": [
+      "Combine grated pear, soy sauce, sugar, sesame oil, garlic, ginger, and scallions to make the marinade.",
+      "Add thinly sliced beef and massage the marinade into the meat.",
+      "Let marinate for at least 20 minutes (or overnight for deeper flavor).",
+      "Heat a grill pan or skillet over high heat.",
+      "Cook beef in batches for 1–2 minutes per side until caramelized.",
+      "Sprinkle with sesame seeds.",
+      "Serve with steamed rice, assorted banchan, and lettuce for wrapping."
+    ],
+    "tips": "Freezing the beef for 30 minutes makes it much easier to slice paper-thin. The pear tenderizes the meat naturally."
+  },
+  {
+    "id": "kr-bf-007",
+    "name": "Gyeran-guk",
+    "image": "/assets/images/breakfast/kr-bf-007.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 10,
+    "mood": "light",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "measure": "2"
+      },
+      {
+        "name": "Anchovy broth",
+        "measure": "3 cups"
+      },
+      {
+        "name": "Scallions",
+        "measure": "2 tbsp, sliced"
+      },
+      {
+        "name": "Sesame oil",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Salt",
+        "measure": "1/2 tsp"
+      },
+      {
+        "name": "Nori",
+        "measure": "1 sheet, shredded"
+      }
+    ],
+    "instructions": [
+      "Bring anchovy broth to a gentle boil in a small pot.",
+      "Beat eggs lightly with a pinch of salt.",
+      "Slowly drizzle the beaten eggs into the boiling broth in a thin stream.",
+      "Let the eggs set for 10 seconds without stirring.",
+      "Gently stir once to create soft egg ribbons.",
+      "Turn off heat immediately to keep the eggs silky.",
+      "Drizzle with sesame oil and garnish with scallions and nori.",
+      "Serve hot with rice or on its own."
+    ],
+    "tips": "Pour the eggs slowly and don't over-stir—this creates the delicate, silky ribbons that make this soup special."
+  },
+  {
+    "id": "ph-bf-001",
+    "name": "Tapsilog",
+    "image": "/assets/images/breakfast/ph-bf-001.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 20,
+    "mood": "hearty",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Beef tapa (cured beef)",
+        "measure": "250g"
+      },
+      {
+        "name": "Day-old rice",
+        "measure": "3 cups"
+      },
+      {
+        "name": "Garlic",
+        "measure": "8 cloves, minced"
+      },
+      {
+        "name": "Eggs",
+        "measure": "2"
+      },
+      {
+        "name": "Cooking oil",
+        "measure": "3 tbsp"
+      },
+      {
+        "name": "Salt",
+        "measure": "1/2 tsp"
+      },
+      {
+        "name": "Calamansi",
+        "measure": "2, for serving"
+      },
+      {
+        "name": "Banana ketchup",
+        "measure": "for dipping"
+      }
+    ],
+    "instructions": [
+      "Marinate beef in calamansi, soy sauce, and garlic overnight if making from scratch.",
+      "Pan-fry tapa in a little oil until caramelized and cooked through.",
+      "In the same pan, sauté minced garlic in oil until golden and crispy.",
+      "Add day-old rice and stir-fry until heated through and fragrant.",
+      "Season garlic rice with salt to taste.",
+      "Fry eggs sunny-side up in a separate pan.",
+      "Plate garlic rice, top with fried egg, and arrange tapa alongside.",
+      "Serve with calamansi and banana ketchup."
+    ],
+    "tips": "Day-old rice is essential for sinangag—it's drier and fries up perfectly without clumping."
+  },
+  {
+    "id": "ph-bf-002",
+    "name": "Arroz Caldo",
+    "image": "/assets/images/breakfast/ph-bf-002.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 45,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Glutinous rice",
+        "measure": "1 cup"
+      },
+      {
+        "name": "Chicken thighs",
+        "measure": "500g, cut into pieces"
+      },
+      {
+        "name": "Ginger",
+        "measure": "3 inches, sliced into strips"
+      },
+      {
+        "name": "Garlic",
+        "measure": "6 cloves, minced"
+      },
+      {
+        "name": "Fish sauce (patis)",
+        "measure": "3 tbsp"
+      },
+      {
+        "name": "Chicken stock",
+        "measure": "8 cups"
+      },
+      {
+        "name": "Calamansi",
+        "measure": "4, for serving"
+      },
+      {
+        "name": "Hard-boiled eggs",
+        "measure": "4, halved"
+      },
+      {
+        "name": "Fried garlic",
+        "measure": "2 tbsp"
+      },
+      {
+        "name": "Green onions",
+        "measure": "2 tbsp, sliced"
+      },
+      {
+        "name": "Safflower (kasubha)",
+        "measure": "1 pinch"
+      }
+    ],
+    "instructions": [
+      "Sauté garlic and ginger in oil until fragrant and golden.",
+      "Add chicken pieces and cook until lightly browned on all sides.",
+      "Add glutinous rice and stir to coat with the aromatics.",
+      "Pour in chicken stock and bring to a boil.",
+      "Add safflower for color (optional).",
+      "Reduce heat and simmer for 40 minutes, stirring occasionally, until thick and creamy.",
+      "Season with fish sauce to taste.",
+      "Ladle into bowls and top with hard-boiled egg, fried garlic, and green onions.",
+      "Serve with calamansi on the side."
+    ],
+    "tips": "The ginger is the soul of this dish—use plenty. Glutinous rice gives it a thicker, more comforting texture than regular rice."
+  },
+  {
+    "id": "ph-bf-003",
+    "name": "Pandesal with Tsokolate",
+    "image": "/assets/images/breakfast/ph-bf-003.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 90,
+    "cookTime": 15,
+    "mood": "cozy",
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "measure": "3 cups"
+      },
+      {
+        "name": "Bread crumbs",
+        "measure": "1/2 cup"
+      },
+      {
+        "name": "Yeast",
+        "measure": "1 packet (7g)"
+      },
+      {
+        "name": "Sugar",
+        "measure": "1/3 cup"
+      },
+      {
+        "name": "Milk",
+        "measure": "3/4 cup, warm"
+      },
+      {
+        "name": "Butter",
+        "measure": "2 tbsp, melted"
+      },
+      {
+        "name": "Salt",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Tablea (pure cacao tablets)",
+        "measure": "4 pieces"
+      },
+      {
+        "name": "Water",
+        "measure": "2 cups"
+      },
+      {
+        "name": "Condensed milk",
+        "measure": "1/4 cup"
+      }
+    ],
+    "instructions": [
+      "Dissolve yeast and 1 tbsp sugar in warm milk; let bloom for 5 minutes.",
+      "Mix flour, remaining sugar, and salt. Add yeast mixture and melted butter.",
+      "Knead into a smooth dough and let rise for 1 hour until doubled.",
+      "Punch down and shape into small oval rolls.",
+      "Coat each roll generously in bread crumbs.",
+      "Arrange on a baking sheet and let rise for 30 minutes.",
+      "Bake at 350°F (175°C) for 12–15 minutes until golden.",
+      "For tsokolate: dissolve tablea in water over low heat, whisking with a molinillo until frothy.",
+      "Sweeten with condensed milk and serve hot with warm pandesal."
+    ],
+    "tips": "Dip the pandesal into the thick, frothy tsokolate—this Spanish-Filipino pairing is pure morning comfort."
+  },
+  {
+    "id": "ph-bf-004",
+    "name": "Champorado with Tuyo",
+    "image": "/assets/images/breakfast/ph-bf-004.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 25,
+    "mood": "sweet",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Glutinous rice",
+        "measure": "1 cup"
+      },
+      {
+        "name": "Tablea (pure cacao tablets)",
+        "measure": "3 pieces"
+      },
+      {
+        "name": "Sugar",
+        "measure": "1/2 cup"
+      },
+      {
+        "name": "Water",
+        "measure": "4 cups"
+      },
+      {
+        "name": "Evaporated milk",
+        "measure": "1/2 cup"
+      },
+      {
+        "name": "Tuyo (dried salted herring)",
+        "measure": "4 pieces, fried"
+      }
+    ],
+    "instructions": [
+      "Rinse glutinous rice and combine with water in a pot.",
+      "Bring to a boil, then reduce heat and simmer for 15 minutes, stirring occasionally.",
+      "Dissolve tablea in a little hot water, then stir into the rice.",
+      "Add sugar and continue simmering until the rice is fully cooked and creamy.",
+      "Stir in evaporated milk for richness.",
+      "Fry tuyo in a little oil until crispy.",
+      "Ladle champorado into bowls and pour extra milk on top.",
+      "Serve with crispy tuyo on the side for the sweet-salty contrast."
+    ],
+    "tips": "The sweet-salty pairing of chocolate rice porridge and dried fish is uniquely Filipino—don't skip the tuyo!"
+  },
+  {
+    "id": "ph-bf-005",
+    "name": "Taho",
+    "image": "/assets/images/breakfast/ph-bf-005.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "sweet",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Silken tofu",
+        "measure": "500g"
+      },
+      {
+        "name": "Brown sugar",
+        "measure": "1 cup"
+      },
+      {
+        "name": "Water",
+        "measure": "1/2 cup"
+      },
+      {
+        "name": "Vanilla extract",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Sago pearls",
+        "measure": "1/2 cup, cooked"
+      },
+      {
+        "name": "Lemon juice",
+        "measure": "1 tsp"
+      }
+    ],
+    "instructions": [
+      "Cook sago pearls in boiling water until translucent, then drain and rinse.",
+      "Make arnibal by boiling brown sugar and water until syrupy.",
+      "Add vanilla and a squeeze of lemon to the syrup.",
+      "Steam silken tofu gently for 10 minutes until warm and silky.",
+      "Scoop warm tofu into glasses or bowls in layers.",
+      "Pour arnibal syrup over the tofu.",
+      "Top with sago pearls.",
+      "Serve immediately while warm."
+    ],
+    "tips": "Authentic taho is sold warm by street vendors shouting 'Tahoooo!' early in the morning. The tofu must be silky and warm."
+  },
+  {
+    "id": "ph-bf-006",
+    "name": "Puto Maya with Sikwate",
+    "image": "/assets/images/breakfast/ph-bf-006.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "mood": "cozy",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Glutinous rice",
+        "measure": "2 cups"
+      },
+      {
+        "name": "Coconut milk",
+        "measure": "1 1/2 cups"
+      },
+      {
+        "name": "Ginger",
+        "measure": "2 inches, sliced"
+      },
+      {
+        "name": "Sugar",
+        "measure": "1/2 cup"
+      },
+      {
+        "name": "Salt",
+        "measure": "1/4 tsp"
+      },
+      {
+        "name": "Banana leaves",
+        "measure": "for lining"
+      },
+      {
+        "name": "Tablea (pure cacao tablets)",
+        "measure": "4 pieces"
+      },
+      {
+        "name": "Water",
+        "measure": "2 cups"
+      },
+      {
+        "name": "Condensed milk",
+        "measure": "for serving"
+      }
+    ],
+    "instructions": [
+      "Soak glutinous rice for 2 hours, then drain.",
+      "Line a steamer with wilted banana leaves.",
+      "Combine rice, coconut milk, ginger, sugar, and salt.",
+      "Place mixture in the steamer and steam for 25–30 minutes until tender.",
+      "For sikwate: dissolve tablea in water over low heat, whisking until frothy.",
+      "Sweeten with condensed milk to taste.",
+      "Serve puto maya warm with sikwate on the side for dipping or drinking."
+    ],
+    "tips": "This Cebuano breakfast tradition pairs ginger-scented sticky rice with thick native hot chocolate. The banana leaf adds aroma."
+  },
+  {
+    "id": "ph-bf-007",
+    "name": "Pan de Sal with Kesong Puti",
+    "image": "/assets/images/breakfast/ph-bf-007.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 5,
+    "mood": "simple",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Fresh pandesal",
+        "measure": "4 pieces"
+      },
+      {
+        "name": "Kesong puti (carabao's milk cheese)",
+        "measure": "100g"
+      },
+      {
+        "name": "Butter",
+        "measure": "2 tbsp, softened"
+      }
+    ],
+    "instructions": [
+      "Warm pandesal in the oven or toaster until slightly crisp outside.",
+      "Slice each roll horizontally, but not all the way through.",
+      "Spread a thin layer of butter on both cut sides.",
+      "Slice kesong puti into thick slabs.",
+      "Stuff the cheese inside the warm pandesal.",
+      "Serve immediately while the cheese is slightly melting."
+    ],
+    "tips": "Kesong puti is soft, salty, and slightly tangy—its creaminess against the warm, slightly sweet pandesal is a perfect match."
+  },
+  {
+    "id": "th-bf-001",
+    "name": "Khao Kai Jeow",
+    "image": "/assets/images/breakfast/th-bf-001.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 10,
+    "mood": "savory",
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "measure": "2"
+      },
+      {
+        "name": "Fish sauce",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "White pepper",
+        "measure": "1/4 tsp"
+      },
+      {
+        "name": "Vegetable oil",
+        "measure": "3 tbsp"
+      },
+      {
+        "name": "Jasmine rice",
+        "measure": "1 bowl, cooked"
+      },
+      {
+        "name": "Sriracha",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Tomato ketchup",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Cucumber slices",
+        "measure": "for serving"
+      }
+    ],
+    "instructions": [
+      "Beat eggs with fish sauce and white pepper until frothy.",
+      "Heat oil in a wok or pan over high heat until almost smoking.",
+      "Pour in the egg mixture—it should sizzle and puff immediately.",
+      "Let it cook undisturbed for 30 seconds to form crispy, lacy edges.",
+      "Flip and cook the other side for 20 seconds.",
+      "Mix Sriracha and ketchup for the dipping sauce.",
+      "Slide the omelet over a bowl of hot jasmine rice.",
+      "Serve with cucumber slices and the spicy ketchup sauce."
+    ],
+    "tips": "The secret is lots of hot oil—this creates the crispy, bubbly edges that make Thai omelets unique. Don't stir the eggs!"
+  },
+  {
+    "id": "th-bf-002",
+    "name": "Moo Ping with Khao Niao",
+    "image": "/assets/images/breakfast/th-bf-002.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 15,
+    "mood": "smoky",
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Pork shoulder",
+        "measure": "400g, sliced into strips"
+      },
+      {
+        "name": "Coconut milk",
+        "measure": "1/4 cup"
+      },
+      {
+        "name": "Cilantro root",
+        "measure": "2 tbsp, minced"
+      },
+      {
+        "name": "Garlic",
+        "measure": "4 cloves, minced"
+      },
+      {
+        "name": "White pepper",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Fish sauce",
+        "measure": "2 tbsp"
+      },
+      {
+        "name": "Palm sugar",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Sticky rice (khao niao)",
+        "measure": "2 cups, cooked"
+      },
+      {
+        "name": "Bamboo skewers",
+        "measure": "6"
+      }
+    ],
+    "instructions": [
+      "Pound cilantro root, garlic, and white pepper into a coarse paste using a mortar and pestle.",
+      "Mix the paste with coconut milk, fish sauce, and palm sugar.",
+      "Marinate pork strips in the mixture for at least 20 minutes.",
+      "Thread pork onto soaked bamboo skewers.",
+      "Grill over charcoal or a hot grill pan for 3–4 minutes per side until caramelized.",
+      "Baste with any remaining marinade while grilling.",
+      "Serve hot with sticky rice and fresh vegetables.",
+      "Eat with your hands for the authentic market experience."
+    ],
+    "tips": "Cilantro root is the key ingredient—its earthy, citrusy flavor defines authentic moo ping. Charcoal grilling is best."
+  },
+  {
+    "id": "th-bf-003",
+    "name": "Khanom Krok",
+    "image": "/assets/images/breakfast/th-bf-003.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 15,
+    "mood": "sweet",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Rice flour",
+        "measure": "1 cup"
+      },
+      {
+        "name": "Coconut milk",
+        "measure": "1 1/2 cups"
+      },
+      {
+        "name": "Sugar",
+        "measure": "1/3 cup"
+      },
+      {
+        "name": "Salt",
+        "measure": "1/4 tsp"
+      },
+      {
+        "name": "Corn kernels",
+        "measure": "1/2 cup"
+      },
+      {
+        "name": "Scallions",
+        "measure": "2 tbsp, sliced"
+      },
+      {
+        "name": "Vegetable oil",
+        "measure": "for greasing"
+      }
+    ],
+    "instructions": [
+      "Mix rice flour with 1 cup coconut milk and 1/4 cup water to make a thin batter.",
+      "Mix the remaining coconut milk with sugar and salt for the creamy topping.",
+      "Heat a special khanom krok pan (or small muffin tin) over medium heat.",
+      "Grease each cavity lightly with oil.",
+      "Pour a thin layer of batter into each cavity to form the crispy shell.",
+      "Top with a dollop of the creamy coconut mixture.",
+      "Sprinkle with corn and scallions.",
+      "Cover and cook for 3–4 minutes until the edges are crispy and the center is custardy.",
+      "Remove with a small spoon and serve warm."
+    ],
+    "tips": "The two-layer technique is essential: the thin batter creates the crispy shell, while the rich coconut cream makes the soft center."
+  },
+  {
+    "id": "th-bf-004",
+    "name": "Pa Thong Go with Pandan Custard",
+    "image": "/assets/images/breakfast/th-bf-004.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 60,
+    "cookTime": 15,
+    "mood": "crispy",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "measure": "2 cups"
+      },
+      {
+        "name": "Active dry yeast",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Sugar",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Baking powder",
+        "measure": "1/2 tsp"
+      },
+      {
+        "name": "Warm water",
+        "measure": "3/4 cup"
+      },
+      {
+        "name": "Vegetable oil",
+        "measure": "for frying"
+      },
+      {
+        "name": "Coconut milk",
+        "measure": "1 cup (for custard)"
+      },
+      {
+        "name": "Egg yolks",
+        "measure": "2 (for custard)"
+      },
+      {
+        "name": "Pandan extract",
+        "measure": "1 tsp (for custard)"
+      },
+      {
+        "name": "Sugar",
+        "measure": "3 tbsp (for custard)"
+      },
+      {
+        "name": "Cornstarch",
+        "measure": "1 tbsp (for custard)"
+      }
+    ],
+    "instructions": [
+      "Mix flour, yeast, sugar, baking powder, and warm water into a soft dough.",
+      "Knead briefly and let rise for 45 minutes until doubled.",
+      "Roll dough into a rectangle and cut into strips.",
+      "Pair two strips, press together in the center with a chopstick, and stretch slightly.",
+      "Deep-fry in hot oil (350°F/175°C) until puffed and golden.",
+      "For pandan custard: whisk coconut milk, egg yolks, sugar, cornstarch, and pandan in a pot.",
+      "Cook over low heat, stirring constantly, until thick and smooth.",
+      "Serve pa thong go warm with the custard for dipping."
+    ],
+    "tips": "The X-shape or paired strips are classic. The pandan custard adds a fragrant, creamy contrast to the crispy fried dough."
+  },
+  {
+    "id": "th-bf-005",
+    "name": "Khao Tom",
+    "image": "/assets/images/breakfast/th-bf-005.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 20,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Jasmine rice",
+        "measure": "1 cup"
+      },
+      {
+        "name": "Ground pork",
+        "measure": "200g"
+      },
+      {
+        "name": "Shrimp",
+        "measure": "100g, peeled"
+      },
+      {
+        "name": "Garlic",
+        "measure": "4 cloves, minced"
+      },
+      {
+        "name": "Cilantro",
+        "measure": "2 tbsp, chopped"
+      },
+      {
+        "name": "Fish sauce",
+        "measure": "2 tbsp"
+      },
+      {
+        "name": "White pepper",
+        "measure": "1/2 tsp"
+      },
+      {
+        "name": "Chicken stock",
+        "measure": "6 cups"
+      },
+      {
+        "name": "Fried garlic",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Green onion",
+        "measure": "1 tbsp, sliced"
+      }
+    ],
+    "instructions": [
+      "Rinse jasmine rice and combine with chicken stock in a pot.",
+      "Bring to a boil, then reduce to a simmer.",
+      "Add minced garlic and cook for 10 minutes until rice is soft but grains are still visible.",
+      "Add ground pork, breaking it up with a spoon.",
+      "Add shrimp and cook for 3 minutes until pink.",
+      "Season with fish sauce and white pepper.",
+      "Ladle into bowls and top with fried garlic, cilantro, and green onion.",
+      "Serve hot with condiments on the side."
+    ],
+    "tips": "Unlike thick congee, khao tom is light and brothy with whole rice grains visible. It's comforting without being heavy."
+  },
+  {
+    "id": "th-bf-006",
+    "name": "Nam Prik with Khao and Pak",
+    "image": "/assets/images/breakfast/th-bf-006.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 10,
+    "mood": "spicy",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Shrimp paste (kapi)",
+        "measure": "2 tbsp"
+      },
+      {
+        "name": "Thai chilies",
+        "measure": "4–6"
+      },
+      {
+        "name": "Garlic",
+        "measure": "4 cloves"
+      },
+      {
+        "name": "Lime",
+        "measure": "1, juiced"
+      },
+      {
+        "name": "Fish sauce",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Palm sugar",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Steamed jasmine rice",
+        "measure": "2 bowls"
+      },
+      {
+        "name": "Long beans",
+        "measure": "4, cut into pieces"
+      },
+      {
+        "name": "Cucumber",
+        "measure": "1, sliced"
+      },
+      {
+        "name": "Cabbage",
+        "measure": "2 leaves, torn"
+      },
+      {
+        "name": "Thai eggplant",
+        "measure": "1, quartered"
+      }
+    ],
+    "instructions": [
+      "Grill or roast shrimp paste, chilies, and garlic over an open flame until charred and fragrant.",
+      "Pound the roasted ingredients in a mortar and pestle into a coarse paste.",
+      "Season with lime juice, fish sauce, and palm sugar.",
+      "Adjust to taste—it should be fiery, salty, and tangy.",
+      "Arrange raw and blanched vegetables on a platter.",
+      "Serve the nam prik in a small bowl with steamed rice.",
+      "Dip vegetables into the chili paste and eat with rice.",
+      "This is a rustic, traditional Thai breakfast eaten with the hands."
+    ],
+    "tips": "The smoky char from grilling the shrimp paste and chilies is essential. This is a humble, fiery breakfast that wakes you up."
+  },
+  {
+    "id": "th-bf-007",
+    "name": "Khao Soi",
+    "image": "/assets/images/breakfast/th-bf-007.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 25,
+    "mood": "aromatic",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Egg noodles",
+        "measure": "200g"
+      },
+      {
+        "name": "Coconut milk",
+        "measure": "1 1/2 cups"
+      },
+      {
+        "name": "Red curry paste",
+        "measure": "2 tbsp"
+      },
+      {
+        "name": "Chicken thighs",
+        "measure": "300g, chopped"
+      },
+      {
+        "name": "Chicken stock",
+        "measure": "2 cups"
+      },
+      {
+        "name": "Soy sauce",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Palm sugar",
+        "measure": "1 tbsp"
+      },
+      {
+        "name": "Pickled mustard greens",
+        "measure": "2 tbsp, chopped"
+      },
+      {
+        "name": "Shallots",
+        "measure": "2 tbsp, fried crispy"
+      },
+      {
+        "name": "Lime",
+        "measure": "1, wedged"
+      },
+      {
+        "name": "Chili oil",
+        "measure": "1 tsp"
+      },
+      {
+        "name": "Cilantro",
+        "measure": "for garnish"
+      }
+    ],
+    "instructions": [
+      "Fry half the egg noodles until crispy and golden; set aside as topping.",
+      "In a pot, fry red curry paste in a little coconut cream until fragrant.",
+      "Add chicken and cook until lightly browned.",
+      "Pour in remaining coconut milk and chicken stock.",
+      "Season with soy sauce and palm sugar.",
+      "Simmer for 20 minutes until chicken is tender.",
+      "Boil the remaining fresh egg noodles and place in bowls.",
+      "Ladle the curry over the noodles.",
+      "Top with crispy noodles, pickled mustard greens, fried shallots, and cilantro.",
+      "Serve with lime wedges and chili oil on the side."
+    ],
+    "tips": "This Northern Thai specialty is all about the contrast of soft noodles in rich curry against the crunchy fried noodle topping."
+  }
+]

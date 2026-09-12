@@ -1,0 +1,733 @@
+[
+  {
+    "id": "jp-dr-001",
+    "name": "Matcha Latte",
+    "image": "/assets/images/drinks/jp-dr-001.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 5,
+    "mood": "quick",
+    "servings": 1,
+    "ingredients": [
+      { "name": "Matcha powder (ceremonial or culinary grade)", "measure": "2 tsp" },
+      { "name": "Hot water (not boiling, ~80°C)", "measure": "1/4 cup" },
+      { "name": "Milk (dairy or oat)", "measure": "1 cup" },
+      { "name": "Honey or sugar", "measure": "1 tbsp" }
+    ],
+    "instructions": [
+      "Sift matcha powder into a bowl to remove clumps.",
+      "Add hot water and whisk vigorously in a W-motion until frothy.",
+      "Heat and froth the milk.",
+      "Pour milk over the matcha.",
+      "Sweeten to taste and serve immediately."
+    ],
+    "tips": "Water should be around 80°C — boiling water makes matcha bitter."
+  },
+  {
+    "id": "jp-dr-002",
+    "name": "Yuzu Honey Drink",
+    "image": "/assets/images/drinks/jp-dr-002.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 0,
+    "mood": "refreshing",
+    "servings": 1,
+    "ingredients": [
+      { "name": "Yuzu juice or concentrate", "measure": "2 tbsp" },
+      { "name": "Honey", "measure": "1–2 tbsp" },
+      { "name": "Hot water or sparkling water", "measure": "1 cup" },
+      { "name": "Ice (optional)", "measure": "as needed" }
+    ],
+    "instructions": [
+      "Mix yuzu juice and honey until the honey dissolves.",
+      "Add hot water for a warm drink, or sparkling water + ice for a cold version.",
+      "Stir well and serve."
+    ],
+    "tips": "Fresh yuzu is ideal, but good bottled pure yuzu juice works year-round."
+  },
+  {
+    "id": "jp-dr-003",
+    "name": "Hojicha Latte",
+    "image": "/assets/images/drinks/jp-dr-003.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 5,
+    "mood": "comfort",
+    "servings": 1,
+    "ingredients": [
+      { "name": "Hojicha powder or leaves", "measure": "1–2 tsp" },
+      { "name": "Hot water", "measure": "1/4 cup" },
+      { "name": "Milk (dairy or oat)", "measure": "1 cup" },
+      { "name": "Honey or sugar", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Steep or whisk hojicha with hot water.",
+      "Heat and froth the milk.",
+      "Pour milk over the hojicha.",
+      "Sweeten if desired and serve."
+    ],
+    "tips": "Hojicha has a roasted, nutty flavor and is naturally lower in caffeine than matcha."
+  },
+  {
+    "id": "jp-dr-004",
+    "name": "Genmaicha Tea",
+    "image": "/assets/images/drinks/jp-dr-004.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 2,
+    "cookTime": 5,
+    "mood": "light",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Genmaicha (green tea with roasted brown rice)", "measure": "2 tsp" },
+      { "name": "Hot water (80–85°C)", "measure": "2 cups" }
+    ],
+    "instructions": [
+      "Place genmaicha in a teapot or infuser.",
+      "Pour hot (not boiling) water over the leaves.",
+      "Steep 1–2 minutes.",
+      "Serve hot, or cool and pour over ice for a cold version."
+    ],
+    "tips": "The roasted rice gives a nutty, comforting aroma. Very easy everyday Japanese tea."
+  },
+  {
+    "id": "jp-dr-005",
+    "name": "Amazake (Sweet Fermented Rice Drink)",
+    "image": "/assets/images/drinks/jp-dr-005.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 10,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Store-bought amazake or homemade rice koji amazake", "measure": "1 cup" },
+      { "name": "Water or milk", "measure": "1 cup" },
+      { "name": "Optional: grated ginger", "measure": "small amount" }
+    ],
+    "instructions": [
+      "Gently warm the amazake with water or milk (do not boil).",
+      "Add a little grated ginger if desired.",
+      "Serve warm in small cups."
+    ],
+    "tips": "A traditional sweet, non-alcoholic fermented rice drink — naturally creamy and comforting."
+  },
+  {
+    "id": "jp-dr-006",
+    "name": "Sakura Latte (Cherry Blossom Latte)",
+    "image": "/assets/images/drinks/jp-dr-006.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 5,
+    "mood": "elegant",
+    "servings": 1,
+    "ingredients": [
+      { "name": "Sakura (cherry blossom) syrup or salted sakura", "measure": "1–2 tbsp" },
+      { "name": "Milk (dairy or oat)", "measure": "1 cup" },
+      { "name": "Optional: a little matcha or just plain", "measure": "to taste" },
+      { "name": "Hot water or espresso (optional)", "measure": "small amount" }
+    ],
+    "instructions": [
+      "Warm the milk and froth it.",
+      "Add sakura syrup to a cup.",
+      "Pour the frothed milk over the syrup.",
+      "Stir gently and serve. Can be served hot or iced."
+    ],
+    "tips": "A seasonal Japanese café favorite. Salted pickled sakura gives a unique floral-salty note."
+  },
+  {
+    "id": "cn-dr-001",
+    "name": "Bubble Tea (Boba)",
+    "image": "/assets/images/drinks/cn-dr-001.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 20,
+    "mood": "fun",
+    "servings": 1,
+    "ingredients": [
+      { "name": "Tapioca pearls", "measure": "1/2 cup" },
+      { "name": "Strong black tea", "measure": "1 cup, brewed" },
+      { "name": "Milk", "measure": "1/2 cup" },
+      { "name": "Brown sugar or simple syrup", "measure": "2–3 tbsp" },
+      { "name": "Ice", "measure": "1 cup" }
+    ],
+    "instructions": [
+      "Cook tapioca pearls according to package, then soak in syrup.",
+      "Brew strong black tea and let it cool.",
+      "Add pearls to the bottom of a glass, add ice.",
+      "Pour tea and milk over the ice.",
+      "Serve with a wide straw."
+    ],
+    "tips": "Use brown sugar syrup for the classic caramel flavor that coats the pearls."
+  },
+  {
+    "id": "cn-dr-002",
+    "name": "Chrysanthemum Tea",
+    "image": "/assets/images/drinks/cn-dr-002.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 2,
+    "cookTime": 5,
+    "mood": "healthy",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Dried chrysanthemum flowers", "measure": "1–2 tbsp" },
+      { "name": "Rock sugar or honey", "measure": "to taste" },
+      { "name": "Hot water", "measure": "2 cups" },
+      { "name": "Goji berries (optional)", "measure": "1 tsp" }
+    ],
+    "instructions": [
+      "Place chrysanthemum flowers (and goji berries if using) in a teapot or glass.",
+      "Pour hot water over them and steep 3–5 minutes.",
+      "Add rock sugar or honey to taste.",
+      "Serve hot or chilled over ice."
+    ],
+    "tips": "Traditionally believed to help cool the body and clear the eyes."
+  },
+  {
+    "id": "cn-dr-003",
+    "name": "Eight Treasure Tea (Ba Bao Cha)",
+    "image": "/assets/images/drinks/cn-dr-003.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 10,
+    "mood": "healthy",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Dried red dates", "measure": "4–5" },
+      { "name": "Goji berries", "measure": "1 tbsp" },
+      { "name": "Dried longan", "measure": "1 tbsp" },
+      { "name": "Rock sugar", "measure": "to taste" },
+      { "name": "Dried chrysanthemum + dried orange peel (optional)", "measure": "small amount" }
+    ],
+    "instructions": [
+      "Place all dried ingredients in a teapot or heatproof glass.",
+      "Pour boiling water over them.",
+      "Steep 5–10 minutes until the water turns golden and fragrant.",
+      "Add rock sugar to taste.",
+      "Refill with hot water several times — the flavor develops with each steep."
+    ],
+    "tips": "A traditional Chinese herbal tea believed to nourish the body."
+  },
+  {
+    "id": "cn-dr-004",
+    "name": "Homemade Soy Milk",
+    "image": "/assets/images/drinks/cn-dr-004.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 20,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Dried soybeans", "measure": "1 cup" },
+      { "name": "Water", "measure": "6–7 cups" },
+      { "name": "Sugar or a pinch of salt", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Soak soybeans overnight, then blend with water until smooth.",
+      "Strain through a cheesecloth or nut milk bag.",
+      "Cook the milk over medium heat, stirring constantly, until it boils.",
+      "Simmer a few more minutes, then sweeten or salt to taste.",
+      "Serve hot in winter or chilled in summer."
+    ],
+    "tips": "Fresh homemade soy milk tastes much better than boxed versions."
+  },
+  {
+    "id": "cn-dr-005",
+    "name": "Osmanthus Tea",
+    "image": "/assets/images/drinks/cn-dr-005.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 2,
+    "cookTime": 5,
+    "mood": "elegant",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Dried osmanthus flowers", "measure": "1–2 tsp" },
+      { "name": "Hot water", "measure": "2 cups" },
+      { "name": "Rock sugar or honey", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Place osmanthus flowers in a glass or teapot.",
+      "Pour hot water over and steep 3–5 minutes.",
+      "Add rock sugar or honey to taste.",
+      "Serve hot or lightly chilled."
+    ],
+    "tips": "Osmanthus has a delicate floral, apricot-like aroma — very fragrant and refined."
+  },
+  {
+    "id": "cn-dr-006",
+    "name": "Winter Melon Tea",
+    "image": "/assets/images/drinks/cn-dr-006.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 20,
+    "mood": "refreshing",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Winter melon (dong gua)", "measure": "300g, peeled and cubed" },
+      { "name": "Rock sugar", "measure": "to taste" },
+      { "name": "Water", "measure": "1 liter" },
+      { "name": "Optional: a few dried longan or goji", "measure": "small amount" }
+    ],
+    "instructions": [
+      "Boil winter melon cubes with water until soft and the liquid turns slightly cloudy.",
+      "Add rock sugar and optional dried fruits.",
+      "Simmer a few more minutes, then strain or serve with the soft melon.",
+      "Serve hot or chilled."
+    ],
+    "tips": "A classic Chinese cooling drink, especially popular in summer."
+  },
+  {
+    "id": "kr-dr-001",
+    "name": "Sikhye (Sweet Rice Punch)",
+    "image": "/assets/images/drinks/kr-dr-001.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 30,
+    "mood": "refreshing",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Cooked short-grain rice", "measure": "1 cup" },
+      { "name": "Malt barley powder (yeotgireum)", "measure": "1/2 cup" },
+      { "name": "Sugar", "measure": "1/2 cup" },
+      { "name": "Water", "measure": "4 cups" },
+      { "name": "Pine nuts", "measure": "for garnish" }
+    ],
+    "instructions": [
+      "Mix cooked rice with malt powder and warm water.",
+      "Let sit at warm room temperature for several hours until a few grains float.",
+      "Strain the liquid, add sugar, and heat gently.",
+      "Cool completely and refrigerate.",
+      "Serve cold with a few rice grains and pine nuts."
+    ],
+    "tips": "Traditionally served after meals to aid digestion. Store-bought sikhye is also widely available."
+  },
+  {
+    "id": "kr-dr-002",
+    "name": "Misugaru (Roasted Grain Shake)",
+    "image": "/assets/images/drinks/kr-dr-002.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 0,
+    "mood": "healthy",
+    "servings": 1,
+    "ingredients": [
+      { "name": "Misugaru powder (roasted grain mix)", "measure": "3–4 tbsp" },
+      { "name": "Milk or water", "measure": "1 1/2 cups" },
+      { "name": "Honey or sugar", "measure": "to taste" },
+      { "name": "Ice", "measure": "as needed" }
+    ],
+    "instructions": [
+      "Add misugaru powder to a shaker or blender.",
+      "Pour in milk or water and sweetener.",
+      "Shake or blend until smooth and frothy.",
+      "Add ice if you want it cold.",
+      "Serve immediately."
+    ],
+    "tips": "A popular healthy Korean breakfast or snack drink made from roasted grains and beans."
+  },
+  {
+    "id": "kr-dr-003",
+    "name": "Omija Tea (Five-Flavor Berry Tea)",
+    "image": "/assets/images/drinks/kr-dr-003.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 15,
+    "mood": "refreshing",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Dried omija berries (schisandra)", "measure": "2 tbsp" },
+      { "name": "Water", "measure": "3 cups" },
+      { "name": "Honey or sugar", "measure": "to taste" },
+      { "name": "Optional: pine nuts", "measure": "for garnish" }
+    ],
+    "instructions": [
+      "Simmer dried omija berries in water for 10–15 minutes.",
+      "Strain the bright red liquid.",
+      "Sweeten with honey while still warm.",
+      "Serve hot or chilled over ice.",
+      "Garnish with a few pine nuts if desired."
+    ],
+    "tips": "Omija means ‘five flavors’ — sweet, sour, salty, bitter, and pungent."
+  },
+  {
+    "id": "kr-dr-004",
+    "name": "Barley Tea (Bori-cha)",
+    "image": "/assets/images/drinks/kr-dr-004.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 2,
+    "cookTime": 15,
+    "mood": "light",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Roasted barley (bori)", "measure": "2–3 tbsp" },
+      { "name": "Water", "measure": "1.5 liters" }
+    ],
+    "instructions": [
+      "Toast the barley lightly in a dry pan if not pre-roasted.",
+      "Add to a pot of water and bring to a boil.",
+      "Simmer 10–15 minutes until the water turns light brown and fragrant.",
+      "Strain and serve hot or chilled."
+    ],
+    "tips": "A classic everyday Korean table drink — caffeine-free, nutty, and very refreshing when cold."
+  },
+  {
+    "id": "kr-dr-005",
+    "name": "Banana Milk (Korean-style)",
+    "image": "/assets/images/drinks/kr-dr-005.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 0,
+    "mood": "fun",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Ripe bananas", "measure": "2" },
+      { "name": "Cold milk", "measure": "2 cups" },
+      { "name": "Sugar or honey", "measure": "1–2 tbsp" },
+      { "name": "Optional: a drop of vanilla", "measure": "to taste" },
+      { "name": "Ice", "measure": "as needed" }
+    ],
+    "instructions": [
+      "Blend bananas with milk, sweetener, and vanilla until smooth.",
+      "Add ice and blend again if you want it colder.",
+      "Pour into glasses and serve immediately."
+    ],
+    "tips": "Inspired by the popular Korean banana milk drinks — simple, creamy, and kid-friendly."
+  },
+  {
+    "id": "kr-dr-006",
+    "name": "Corn Silk Tea (Oksusu Suyeomcha)",
+    "image": "/assets/images/drinks/kr-dr-006.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 20,
+    "mood": "healthy",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Dried corn silk", "measure": "a small handful" },
+      { "name": "Water", "measure": "1 liter" },
+      { "name": "Honey (optional)", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Rinse the corn silk and place in a pot with water.",
+      "Bring to a boil, then simmer 15–20 minutes until the water turns light golden.",
+      "Strain and sweeten lightly if desired.",
+      "Serve hot or cold."
+    ],
+    "tips": "A traditional Korean herbal tea often drunk for its mild, sweet, and cleansing qualities."
+  },
+  {
+    "id": "ph-dr-001",
+    "name": "Calamansi Juice",
+    "image": "/assets/images/drinks/ph-dr-001.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 0,
+    "mood": "refreshing",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Calamansi", "measure": "10–12 fruits" },
+      { "name": "Water", "measure": "2 cups" },
+      { "name": "Sugar or honey", "measure": "3 tbsp" },
+      { "name": "Ice", "measure": "1 cup" }
+    ],
+    "instructions": [
+      "Juice the calamansi and strain out the seeds.",
+      "Mix juice with water and sugar until dissolved.",
+      "Pour over ice.",
+      "Serve immediately. Adjust sweetness to taste."
+    ],
+    "tips": "Calamansi is smaller and more aromatic than regular limes — the classic Filipino citrus drink."
+  },
+  {
+    "id": "ph-dr-002",
+    "name": "Sago Gulaman",
+    "image": "/assets/images/drinks/ph-dr-002.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 20,
+    "mood": "refreshing",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Sago (tapioca pearls)", "measure": "1/2 cup" },
+      { "name": "Gulaman (agar-agar) bars or powder", "measure": "1–2 bars / as needed" },
+      { "name": "Brown sugar", "measure": "1 cup" },
+      { "name": "Water", "measure": "4 cups" },
+      { "name": "Ice", "measure": "plenty" }
+    ],
+    "instructions": [
+      "Cook sago until translucent, rinse and set aside.",
+      "Prepare gulaman according to package, cool, and cube.",
+      "Make syrup by boiling brown sugar with water until slightly thickened.",
+      "In a glass: add sago, gulaman cubes, ice, then pour syrup and cold water.",
+      "Mix and serve cold."
+    ],
+    "tips": "You can add coconut water or pineapple juice for extra tropical flavor."
+  },
+  {
+    "id": "ph-dr-003",
+    "name": "Buko Juice (Young Coconut Juice)",
+    "image": "/assets/images/drinks/ph-dr-003.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 0,
+    "mood": "refreshing",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Young coconut (buko)", "measure": "2" },
+      { "name": "Sugar or condensed milk", "measure": "to taste" },
+      { "name": "Ice", "measure": "as needed" },
+      { "name": "Optional: buko strips from the same coconut", "measure": "as desired" }
+    ],
+    "instructions": [
+      "Open the young coconuts and pour the water into a pitcher.",
+      "Scrape out the soft coconut meat.",
+      "Add ice and sweetener if desired.",
+      "Add the coconut strips back into the juice.",
+      "Serve immediately with a straw and spoon."
+    ],
+    "tips": "Best when the coconut is very young and the meat is soft and jelly-like."
+  },
+  {
+    "id": "ph-dr-004",
+    "name": "Ginger Tea (Salabat)",
+    "image": "/assets/images/drinks/ph-dr-004.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 15,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Fresh ginger", "measure": "1 large piece, sliced or crushed" },
+      { "name": "Water", "measure": "3 cups" },
+      { "name": "Brown sugar or honey", "measure": "to taste" },
+      { "name": "Optional: calamansi or lemon", "measure": "a squeeze" }
+    ],
+    "instructions": [
+      "Boil ginger in water for 10–15 minutes until fragrant and strong.",
+      "Strain into cups.",
+      "Sweeten with brown sugar or honey.",
+      "Add a squeeze of calamansi if desired.",
+      "Serve hot."
+    ],
+    "tips": "A classic Filipino remedy and everyday comfort drink, especially during rainy or cold weather."
+  },
+  {
+    "id": "ph-dr-005",
+    "name": "Melon Juice",
+    "image": "/assets/images/drinks/ph-dr-005.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 0,
+    "mood": "refreshing",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Ripe cantaloupe or honeydew", "measure": "1 medium" },
+      { "name": "Sugar or condensed milk", "measure": "to taste" },
+      { "name": "Water or milk", "measure": "1–2 cups" },
+      { "name": "Ice", "measure": "as needed" }
+    ],
+    "instructions": [
+      "Scoop out the melon flesh and blend until smooth.",
+      "Add water or milk and sweetener, blend again.",
+      "Strain if you prefer a smoother texture.",
+      "Pour over ice and serve cold."
+    ],
+    "tips": "A very common Filipino merienda drink — sweet, cold, and hydrating."
+  },
+  {
+    "id": "ph-dr-006",
+    "name": "Tsokolate (Tablea Hot Chocolate)",
+    "image": "/assets/images/drinks/ph-dr-006.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 10,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Tablea (pure cacao tablets)", "measure": "3–4 pieces" },
+      { "name": "Water or milk", "measure": "2 cups" },
+      { "name": "Sugar or condensed milk", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Dissolve tablea in hot water or milk over low heat, whisking constantly.",
+      "Use a molinillo or whisk to make it frothy.",
+      "Sweeten with sugar or condensed milk.",
+      "Serve hot and thick."
+    ],
+    "tips": "Traditional Filipino hot chocolate made from pure tablea — rich, slightly bitter, and deeply comforting."
+  },
+  {
+    "id": "th-dr-001",
+    "name": "Thai Iced Tea (Cha Yen)",
+    "image": "/assets/images/drinks/th-dr-001.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 10,
+    "mood": "quick",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Thai tea mix", "measure": "3 tbsp" },
+      { "name": "Sugar", "measure": "2–3 tbsp" },
+      { "name": "Evaporated milk", "measure": "1/4 cup" },
+      { "name": "Ice", "measure": "plenty" },
+      { "name": "Water", "measure": "1 1/2 cups" }
+    ],
+    "instructions": [
+      "Steep Thai tea mix in hot water for 5 minutes.",
+      "Strain, add sugar while hot, and stir until dissolved.",
+      "Let cool, then pour over a glass full of ice.",
+      "Top with evaporated milk.",
+      "Serve with a straw."
+    ],
+    "tips": "The iconic orange color comes from the food coloring in authentic Thai tea mix."
+  },
+  {
+    "id": "th-dr-002",
+    "name": "Thai Coconut Water with Jelly",
+    "image": "/assets/images/drinks/th-dr-002.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 5,
+    "mood": "refreshing",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Fresh young coconut water", "measure": "2 cups" },
+      { "name": "Young coconut meat", "measure": "1/2 cup, scooped" },
+      { "name": "Nata de coco or grass jelly", "measure": "1/2 cup" },
+      { "name": "Palm sugar syrup (optional)", "measure": "1–2 tbsp" },
+      { "name": "Ice", "measure": "as needed" }
+    ],
+    "instructions": [
+      "Open young coconut and pour the water into a pitcher.",
+      "Scoop out the soft coconut meat.",
+      "Add coconut meat, jelly, and ice to glasses.",
+      "Pour coconut water over and sweeten lightly if desired.",
+      "Serve immediately with a spoon and straw."
+    ],
+    "tips": "Fresh young coconut water is best, but good-quality bottled versions work in a pinch."
+  },
+  {
+    "id": "th-dr-003",
+    "name": "Thai Iced Coffee (Oliang)",
+    "image": "/assets/images/drinks/th-dr-003.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 10,
+    "mood": "quick",
+    "servings": 1,
+    "ingredients": [
+      { "name": "Thai coffee mix or strong dark coffee", "measure": "2–3 tbsp" },
+      { "name": "Hot water", "measure": "1 cup" },
+      { "name": "Condensed milk + evaporated milk", "measure": "to taste" },
+      { "name": "Ice", "measure": "plenty" }
+    ],
+    "instructions": [
+      "Brew strong Thai coffee or dark roast coffee.",
+      "Stir in condensed milk while hot.",
+      "Fill a glass with ice.",
+      "Pour the coffee over ice and top with evaporated milk.",
+      "Stir and enjoy."
+    ],
+    "tips": "Authentic Thai coffee often uses a cloth bag filter for a smoother brew."
+  },
+  {
+    "id": "th-dr-004",
+    "name": "Nam Dok Anchan (Butterfly Pea Lemonade)",
+    "image": "/assets/images/drinks/th-dr-004.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 5,
+    "mood": "fun",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Dried butterfly pea flowers", "measure": "1–2 tbsp" },
+      { "name": "Hot water", "measure": "1 1/2 cups" },
+      { "name": "Lime or lemon juice", "measure": "2–3 tbsp" },
+      { "name": "Sugar or honey", "measure": "to taste" },
+      { "name": "Ice", "measure": "as needed" }
+    ],
+    "instructions": [
+      "Steep butterfly pea flowers in hot water until the liquid turns deep blue.",
+      "Strain and cool.",
+      "Add sweetener and pour over ice.",
+      "Add lime juice — the color will change to purple/pink.",
+      "Serve and watch the color magic."
+    ],
+    "tips": "A beautiful Thai herbal drink. The color change when acid is added is always a crowd-pleaser."
+  },
+  {
+    "id": "th-dr-005",
+    "name": "Thai Lemongrass Drink",
+    "image": "/assets/images/drinks/th-dr-005.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 15,
+    "mood": "refreshing",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Fresh lemongrass stalks", "measure": "3–4, smashed" },
+      { "name": "Water", "measure": "4 cups" },
+      { "name": "Sugar or palm sugar", "measure": "to taste" },
+      { "name": "Optional: a few slices of ginger or pandan", "measure": "for extra aroma" },
+      { "name": "Ice", "measure": "as needed" }
+    ],
+    "instructions": [
+      "Smash the lemongrass and simmer in water for 10–15 minutes.",
+      "Strain, sweeten while still warm.",
+      "Cool and serve over ice.",
+      "Can also be served hot."
+    ],
+    "tips": "Light, citrusy, and naturally caffeine-free — a very common Thai homemade drink."
+  },
+  {
+    "id": "th-dr-006",
+    "name": "Roselle Juice (Nam Krajeab)",
+    "image": "/assets/images/drinks/th-dr-006.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 15,
+    "mood": "refreshing",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Dried roselle (hibiscus) flowers", "measure": "1/2 cup" },
+      { "name": "Water", "measure": "1 liter" },
+      { "name": "Sugar or palm sugar", "measure": "to taste" },
+      { "name": "Optional: a few slices of ginger", "measure": "small amount" }
+    ],
+    "instructions": [
+      "Boil roselle flowers with water (and optional ginger) for 10–15 minutes.",
+      "Strain the deep red liquid.",
+      "Sweeten while still warm.",
+      "Cool and serve over ice."
+    ],
+    "tips": "A popular Thai herbal drink with a tart, cranberry-like flavor and beautiful red color."
+  }
+]

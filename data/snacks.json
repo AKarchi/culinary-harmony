@@ -1,0 +1,759 @@
+[
+  {
+    "id": "jp-sn-001",
+    "name": "Takoyaki (Octopus Balls)",
+    "image": "/assets/images/snacks/jp-sn-001.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "impressive",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Takoyaki flour mix", "measure": "1 cup" },
+      { "name": "Dashi stock", "measure": "1 cup" },
+      { "name": "Octopus pieces", "measure": "100g" },
+      { "name": "Green onion + pickled ginger + tenkasu", "measure": "to taste" },
+      { "name": "Takoyaki sauce + mayo + bonito flakes", "measure": "for topping" }
+    ],
+    "instructions": [
+      "Mix flour and dashi into a smooth batter.",
+      "Heat takoyaki pan, oil well, pour batter halfway.",
+      "Add octopus, green onion, ginger, and tenkasu.",
+      "Turn balls carefully with picks until round and golden.",
+      "Top with sauce, mayo, bonito flakes, and aonori."
+    ],
+    "tips": "A proper takoyaki pan makes all the difference — a round pan won’t work well."
+  },
+  {
+    "id": "jp-sn-002",
+    "name": "Okonomiyaki (Savory Cabbage Pancake)",
+    "image": "/assets/images/snacks/jp-sn-002.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Cabbage", "measure": "2 cups, shredded" },
+      { "name": "All-purpose flour", "measure": "1 cup" },
+      { "name": "Eggs", "measure": "2" },
+      { "name": "Dashi or water", "measure": "2/3 cup" },
+      { "name": "Okonomiyaki sauce + mayo + bonito flakes", "measure": "for topping" }
+    ],
+    "instructions": [
+      "Mix flour, eggs, and dashi into a batter.",
+      "Add shredded cabbage and mix well.",
+      "Pour onto a hot oiled pan and shape into a thick pancake.",
+      "Cook until both sides are golden.",
+      "Top with okonomiyaki sauce, mayonnaise, and bonito flakes."
+    ],
+    "tips": "Add tenkasu (tempura bits) or thinly sliced pork for extra flavor and texture."
+  },
+  {
+    "id": "jp-sn-003",
+    "name": "Korokke (Japanese Croquettes)",
+    "image": "/assets/images/snacks/jp-sn-003.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 15,
+    "mood": "comfort",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Potatoes", "measure": "500g, boiled and mashed" },
+      { "name": "Ground meat or corn", "measure": "150g" },
+      { "name": "Onion", "measure": "1, finely chopped" },
+      { "name": "Panko + egg + flour", "measure": "for breading" },
+      { "name": "Oil", "measure": "for deep frying" }
+    ],
+    "instructions": [
+      "Sauté onion and ground meat, then mix into mashed potatoes.",
+      "Shape into oval patties and chill for 20 minutes.",
+      "Coat with flour → egg → panko.",
+      "Deep-fry until golden and crispy.",
+      "Serve with tonkatsu sauce or Worcestershire sauce."
+    ],
+    "tips": "Chilling the shaped korokke helps them hold their shape while frying."
+  },
+  {
+    "id": "jp-sn-004",
+    "name": "Taiyaki (Fish-shaped Cake)",
+    "image": "/assets/images/snacks/jp-sn-004.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "sweet",
+    "servings": 6,
+    "ingredients": [
+      { "name": "All-purpose flour", "measure": "1 1/2 cups" },
+      { "name": "Egg + milk + sugar", "measure": "for batter" },
+      { "name": "Red bean paste (anko) or custard", "measure": "for filling" },
+      { "name": "Baking powder", "measure": "1 tsp" },
+      { "name": "Taiyaki pan", "measure": "or similar mold" }
+    ],
+    "instructions": [
+      "Make a smooth pancake-like batter.",
+      "Heat and oil the taiyaki pan.",
+      "Pour a little batter, add filling, then cover with more batter.",
+      "Cook until both sides are golden.",
+      "Serve warm."
+    ],
+    "tips": "Red bean paste is classic, but chocolate or cheese fillings are popular modern variations."
+  },
+  {
+    "id": "jp-sn-005",
+    "name": "Edamame with Sea Salt",
+    "image": "/assets/images/snacks/jp-sn-005.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 5,
+    "mood": "light",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Frozen or fresh edamame in pods", "measure": "300g" },
+      { "name": "Sea salt", "measure": "to taste" },
+      { "name": "Optional: chili flakes or garlic", "measure": "for variation" }
+    ],
+    "instructions": [
+      "Boil or steam the edamame pods for 3–5 minutes until bright green.",
+      "Drain well.",
+      "Toss with sea salt while still hot.",
+      "Serve immediately as a simple snack."
+    ],
+    "tips": "A classic izakaya snack — very easy and healthy."
+  },
+  {
+    "id": "jp-sn-006",
+    "name": "Karaage (Japanese Fried Chicken Bites)",
+    "image": "/assets/images/snacks/jp-sn-006.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Chicken thigh", "measure": "400g, bite-sized" },
+      { "name": "Soy sauce + ginger + garlic + sake", "measure": "for marinade" },
+      { "name": "Potato starch or cornstarch", "measure": "for coating" },
+      { "name": "Oil", "measure": "for deep frying" },
+      { "name": "Lemon wedges + mayo", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Marinate chicken in soy, ginger, garlic, and sake for 15–30 minutes.",
+      "Coat lightly in potato starch.",
+      "Deep-fry until golden and crispy.",
+      "Drain and serve with lemon and Japanese mayo."
+    ],
+    "tips": "Double-frying makes them extra crispy. Perfect party snack."
+  },
+  {
+    "id": "cn-sn-001",
+    "name": "Spring Rolls",
+    "image": "/assets/images/snacks/cn-sn-001.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 10,
+    "mood": "impressive",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Spring roll wrappers", "measure": "10 sheets" },
+      { "name": "Shrimp or vegetables", "measure": "200g" },
+      { "name": "Lettuce + carrots", "measure": "shredded" },
+      { "name": "Peanut or sweet chili sauce", "measure": "for dipping" },
+      { "name": "Oil", "measure": "for frying (or fresh version)" }
+    ],
+    "instructions": [
+      "Prepare fillings and lay out wrappers.",
+      "Add fillings, fold and roll tightly.",
+      "Deep-fry until golden (or serve fresh).",
+      "Serve with dipping sauce."
+    ],
+    "tips": "For fresh spring rolls, use rice paper and don’t fry."
+  },
+  {
+    "id": "cn-sn-002",
+    "name": "Sesame Balls (Jian Dui)",
+    "image": "/assets/images/snacks/cn-sn-002.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 15,
+    "mood": "sweet",
+    "servings": 8,
+    "ingredients": [
+      { "name": "Glutinous rice flour", "measure": "2 cups" },
+      { "name": "Red bean paste", "measure": "1 cup" },
+      { "name": "White sesame seeds", "measure": "1 cup" },
+      { "name": "Sugar", "measure": "1/4 cup" },
+      { "name": "Water", "measure": "as needed" }
+    ],
+    "instructions": [
+      "Mix glutinous rice flour, sugar, and water into a soft dough.",
+      "Divide dough, flatten, and fill with red bean paste.",
+      "Roll into balls and coat thoroughly with sesame seeds.",
+      "Deep-fry on medium heat until golden and puffed.",
+      "Drain and serve warm."
+    ],
+    "tips": "Fry on medium heat so the inside cooks fully without burning the sesame seeds."
+  },
+  {
+    "id": "cn-sn-003",
+    "name": "Egg Tarts",
+    "image": "/assets/images/snacks/cn-sn-003.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 40,
+    "cookTime": 25,
+    "mood": "sweet",
+    "servings": 12,
+    "ingredients": [
+      { "name": "Puff pastry or shortcrust", "measure": "1 sheet" },
+      { "name": "Eggs", "measure": "3" },
+      { "name": "Evaporated milk", "measure": "1 cup" },
+      { "name": "Sugar", "measure": "1/3 cup" },
+      { "name": "Vanilla", "measure": "1 tsp" }
+    ],
+    "instructions": [
+      "Press pastry into mini tart molds.",
+      "Whisk eggs, sugar, evaporated milk, and vanilla.",
+      "Strain the custard and fill the shells.",
+      "Bake at 200°C until the custard is set and pastry is golden.",
+      "Cool slightly before serving."
+    ],
+    "tips": "These are perfect as a sweet merienda or afternoon snack."
+  },
+  {
+    "id": "cn-sn-004",
+    "name": "Turnip Cake Bites (pan-fried)",
+    "image": "/assets/images/snacks/cn-sn-004.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 40,
+    "mood": "savory",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Shredded daikon", "measure": "400g" },
+      { "name": "Rice flour", "measure": "1 cup" },
+      { "name": "Dried shrimp + Chinese sausage (optional)", "measure": "small amount" },
+      { "name": "Oil", "measure": "for pan-frying" },
+      { "name": "Chili sauce", "measure": "for dipping" }
+    ],
+    "instructions": [
+      "Cook daikon, mix with rice flour and seasonings, steam until set.",
+      "Cool, slice into small pieces.",
+      "Pan-fry until golden and crispy on the outside.",
+      "Serve with chili sauce as a snack."
+    ],
+    "tips": "Small bite-sized pieces make this perfect for snacking instead of a full meal."
+  },
+  {
+    "id": "cn-sn-005",
+    "name": "Prawn Toast",
+    "image": "/assets/images/snacks/cn-sn-005.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 10,
+    "mood": "impressive",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Raw shrimp", "measure": "250g, minced" },
+      { "name": "White bread slices", "measure": "6–8" },
+      { "name": "Sesame seeds", "measure": "for coating" },
+      { "name": "Egg white + cornstarch + ginger", "measure": "for binding" },
+      { "name": "Oil", "measure": "for frying" }
+    ],
+    "instructions": [
+      "Mix minced shrimp with egg white, cornstarch, and ginger.",
+      "Spread thickly on bread slices, press sesame seeds on top.",
+      "Deep-fry or pan-fry until golden and cooked through.",
+      "Cut into triangles and serve hot."
+    ],
+    "tips": "A classic Chinese restaurant appetizer that works great as a party snack."
+  },
+  {
+    "id": "cn-sn-006",
+    "name": "Sweet Potato Balls",
+    "image": "/assets/images/snacks/cn-sn-006.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "sweet",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Sweet potatoes", "measure": "400g, mashed" },
+      { "name": "Glutinous rice flour", "measure": "1 cup" },
+      { "name": "Sugar", "measure": "2 tbsp" },
+      { "name": "Sesame seeds (optional)", "measure": "for coating" },
+      { "name": "Oil", "measure": "for frying" }
+    ],
+    "instructions": [
+      "Mix mashed sweet potato with glutinous rice flour and sugar.",
+      "Shape into small balls.",
+      "Deep-fry until golden and slightly puffed.",
+      "Optional: roll in sesame seeds while hot.",
+      "Serve warm."
+    ],
+    "tips": "Chewy outside, soft and sweet inside — a popular street snack."
+  },
+  {
+    "id": "kr-sn-001",
+    "name": "Korean Corn Dogs (Gamja Hotdog)",
+    "image": "/assets/images/snacks/kr-sn-001.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 25,
+    "cookTime": 10,
+    "mood": "fun",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Sausages or mozzarella sticks", "measure": "4–6" },
+      { "name": "All-purpose flour + sugar + yeast", "measure": "for batter" },
+      { "name": "Panko breadcrumbs", "measure": "1 cup" },
+      { "name": "Sugar + ketchup + mustard", "measure": "for topping" },
+      { "name": "Oil", "measure": "for deep frying" }
+    ],
+    "instructions": [
+      "Make a slightly sweet yeast batter and let it rise.",
+      "Skewer sausages/mozzarella, dip in batter, then roll in panko.",
+      "Deep-fry until golden and puffed.",
+      "Roll in sugar while hot (classic Korean style).",
+      "Serve with ketchup and mustard."
+    ],
+    "tips": "For the popular ‘potato’ version, roll the battered dog in thin potato sticks before frying."
+  },
+  {
+    "id": "kr-sn-002",
+    "name": "Hotteok (Sweet Filled Pancakes)",
+    "image": "/assets/images/snacks/kr-sn-002.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 50,
+    "cookTime": 15,
+    "mood": "sweet",
+    "servings": 6,
+    "ingredients": [
+      { "name": "All-purpose flour", "measure": "2 cups" },
+      { "name": "Warm milk", "measure": "3/4 cup" },
+      { "name": "Yeast + sugar", "measure": "1 tsp + 2 tbsp" },
+      { "name": "Brown sugar + cinnamon + chopped nuts", "measure": "for filling" },
+      { "name": "Oil", "measure": "for pan-frying" }
+    ],
+    "instructions": [
+      "Make a soft dough with flour, yeast, sugar, and warm milk. Rest 40–50 minutes.",
+      "Divide dough, fill with brown sugar-cinnamon-nut mixture, and seal.",
+      "Flatten gently and pan-fry in oil until both sides are golden.",
+      "Press lightly while cooking so the sugar melts inside.",
+      "Serve hot (be careful of the molten filling)."
+    ],
+    "tips": "These are a classic Korean street snack — best eaten fresh and hot."
+  },
+  {
+    "id": "kr-sn-003",
+    "name": "Gimmari (Fried Seaweed Rolls)",
+    "image": "/assets/images/snacks/kr-sn-003.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 20,
+    "cookTime": 10,
+    "mood": "savory",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Dried glass noodles (dangmyeon)", "measure": "100g" },
+      { "name": "Nori sheets", "measure": "5–6" },
+      { "name": "Carrot + green onion", "measure": "finely sliced" },
+      { "name": "Soy sauce + sesame oil", "measure": "for seasoning" },
+      { "name": "Oil", "measure": "for frying" }
+    ],
+    "instructions": [
+      "Cook glass noodles, season with soy and sesame oil, mix with vegetables.",
+      "Roll tightly in nori sheets.",
+      "Cut into bite-sized pieces and deep-fry until crispy.",
+      "Serve with a simple soy-vinegar dip."
+    ],
+    "tips": "A popular Korean street snack, often served with tteokbokki."
+  },
+  {
+    "id": "kr-sn-004",
+    "name": "Twigim (Korean Fried Vegetables & Seafood)",
+    "image": "/assets/images/snacks/kr-sn-004.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Sweet potato + zucchini + onion + shrimp", "measure": "assorted" },
+      { "name": "Frying batter mix or flour + egg + water", "measure": "for coating" },
+      { "name": "Oil", "measure": "for deep frying" },
+      { "name": "Soy-vinegar dipping sauce", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Cut vegetables and seafood into pieces.",
+      "Coat in batter.",
+      "Deep-fry until golden and crispy.",
+      "Serve hot with dipping sauce."
+    ],
+    "tips": "Often sold together with tteokbokki at Korean street stalls."
+  },
+  {
+    "id": "kr-sn-005",
+    "name": "Sundae (Korean Blood Sausage)",
+    "image": "/assets/images/snacks/kr-sn-005.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 40,
+    "mood": "savory",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Pork blood + glass noodles + glutinous rice", "measure": "for filling" },
+      { "name": "Pork intestines or synthetic casing", "measure": "for stuffing" },
+      { "name": "Garlic + ginger + sesame oil + salt", "measure": "seasonings" },
+      { "name": "Salted shrimp or soy-vinegar dip", "measure": "for serving" },
+      { "name": "Optional: perilla leaves or green chili", "measure": "for wrapping" }
+    ],
+    "instructions": [
+      "Mix the filling ingredients thoroughly.",
+      "Stuff into cleaned casings and tie the ends.",
+      "Steam or boil for 30–40 minutes until firm.",
+      "Slice into rounds and serve warm.",
+      "Eat with salted shrimp sauce or a simple soy-vinegar dip."
+    ],
+    "tips": "A classic Korean street snack, often sold alongside tteokbokki. The store-bought version is very convenient."
+  },
+  {
+    "id": "kr-sn-006",
+    "name": "Kimchi Jeon (Kimchi Pancake)",
+    "image": "/assets/images/snacks/kr-sn-006.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Kimchi", "measure": "1 cup, chopped" },
+      { "name": "Flour + egg + water", "measure": "for batter" },
+      { "name": "Green onion", "measure": "optional" },
+      { "name": "Oil", "measure": "for pan-frying" },
+      { "name": "Soy-vinegar dip", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Mix chopped kimchi with flour, egg, and a little water into a thick batter.",
+      "Pan-fry in a generous amount of oil until crispy on both sides.",
+      "Cut into pieces and serve with dipping sauce."
+    ],
+    "tips": "Use well-fermented kimchi for the best flavor. Great rainy-day snack."
+  },
+  {
+    "id": "ph-sn-001",
+    "name": "Lumpia Shanghai",
+    "image": "/assets/images/snacks/ph-sn-001.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 15,
+    "mood": "impressive",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Ground pork", "measure": "500g" },
+      { "name": "Carrots + onions", "measure": "minced" },
+      { "name": "Lumpia wrappers", "measure": "20" },
+      { "name": "Egg", "measure": "1" },
+      { "name": "Sweet chili sauce", "measure": "for dipping" }
+    ],
+    "instructions": [
+      "Mix ground pork with carrots, onions, and seasonings.",
+      "Wrap mixture tightly in lumpia wrappers.",
+      "Seal edges with water or egg wash.",
+      "Deep fry until golden brown and crispy.",
+      "Serve with sweet chili sauce."
+    ],
+    "tips": "Roll them tightly to prevent oil from seeping inside."
+  },
+  {
+    "id": "ph-sn-002",
+    "name": "Kwek-Kwek (Orange Battered Quail Eggs)",
+    "image": "/assets/images/snacks/ph-sn-002.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 10,
+    "mood": "fun",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Quail eggs", "measure": "20, hard-boiled and peeled" },
+      { "name": "All-purpose flour", "measure": "1 cup" },
+      { "name": "Annatto powder or orange food coloring", "measure": "1 tsp" },
+      { "name": "Water", "measure": "as needed for batter" },
+      { "name": "Oil", "measure": "for deep frying" }
+    ],
+    "instructions": [
+      "Make a thick orange-colored batter with flour, annatto, and water.",
+      "Dip each peeled quail egg into the batter.",
+      "Deep-fry until the coating is crispy and bright orange.",
+      "Drain on paper towels.",
+      "Serve with sweet-spicy vinegar dipping sauce."
+    ],
+    "tips": "A very popular Filipino street merienda — usually sold on skewers."
+  },
+  {
+    "id": "ph-sn-003",
+    "name": "Banana Cue",
+    "image": "/assets/images/snacks/ph-sn-003.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "mood": "sweet",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Saba bananas", "measure": "8–10" },
+      { "name": "Brown sugar", "measure": "1 cup" },
+      { "name": "Oil", "measure": "for deep frying" },
+      { "name": "Bamboo skewers", "measure": "as needed" }
+    ],
+    "instructions": [
+      "Heat oil and add brown sugar until it starts to melt.",
+      "Add whole saba bananas and fry, coating them in the caramelizing sugar.",
+      "Turn until evenly coated and deep golden.",
+      "Skewer 2–3 bananas per stick.",
+      "Serve hot as a classic street merienda."
+    ],
+    "tips": "The sugar creates a shiny, crunchy caramel shell — very addictive."
+  },
+  {
+    "id": "ph-sn-004",
+    "name": "Fish Balls with Sauce",
+    "image": "/assets/images/snacks/ph-sn-004.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Fish balls (store-bought or homemade)", "measure": "20–25" },
+      { "name": "Sweet sauce + spicy vinegar", "measure": "for dipping" },
+      { "name": "Oil", "measure": "for frying" },
+      { "name": "Bamboo skewers", "measure": "optional" }
+    ],
+    "instructions": [
+      "Deep-fry or boil the fish balls until cooked and slightly browned.",
+      "Serve on skewers or in a small bowl.",
+      "Offer sweet sauce and spicy vinegar on the side.",
+      "Classic street-style merienda."
+    ],
+    "tips": "A true Filipino street food staple — cheap, filling, and perfect for afternoon snacks."
+  },
+  {
+    "id": "ph-sn-005",
+    "name": "Ukoy (Shrimp Fritters)",
+    "image": "/assets/images/snacks/ph-sn-005.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Small shrimp (with or without shell)", "measure": "200g" },
+      { "name": "Bean sprouts + squash + carrot", "measure": "shredded" },
+      { "name": "Flour + cornstarch + egg", "measure": "for batter" },
+      { "name": "Annatto oil (optional)", "measure": "for color" },
+      { "name": "Vinegar dipping sauce", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Mix vegetables and shrimp with the batter.",
+      "Drop spoonfuls into hot oil and flatten slightly.",
+      "Fry until crispy and golden.",
+      "Serve with garlic-vinegar dip."
+    ],
+    "tips": "Crispy on the outside, full of shrimp and vegetables inside — a classic merienda."
+  },
+  {
+    "id": "ph-sn-006",
+    "name": "Puto (Steamed Rice Cakes)",
+    "image": "/assets/images/snacks/ph-sn-006.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 20,
+    "mood": "sweet",
+    "servings": 8,
+    "ingredients": [
+      { "name": "Rice flour", "measure": "2 cups" },
+      { "name": "Sugar", "measure": "1/2 cup" },
+      { "name": "Baking powder", "measure": "1 tbsp" },
+      { "name": "Coconut milk or water", "measure": "1 1/2 cups" },
+      { "name": "Cheese or salted egg (optional)", "measure": "for topping" }
+    ],
+    "instructions": [
+      "Mix rice flour, sugar, baking powder, and liquid into a smooth batter.",
+      "Pour into small molds.",
+      "Top with cheese or salted egg if desired.",
+      "Steam for 15–20 minutes until set.",
+      "Serve warm or at room temperature."
+    ],
+    "tips": "Often eaten with dinuguan, but also perfect on its own as a soft, mildly sweet snack."
+  },
+  {
+    "id": "th-sn-001",
+    "name": "Thai Fish Cakes (Tod Mun Pla)",
+    "image": "/assets/images/snacks/th-sn-001.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 10,
+    "mood": "spicy",
+    "servings": 4,
+    "ingredients": [
+      { "name": "White fish fillets", "measure": "400g" },
+      { "name": "Red curry paste", "measure": "2 tbsp" },
+      { "name": "Long beans", "measure": "1/2 cup, sliced" },
+      { "name": "Kaffir lime leaves", "measure": "4, finely sliced" },
+      { "name": "Fish sauce + egg", "measure": "to bind" }
+    ],
+    "instructions": [
+      "Blend fish with curry paste, fish sauce, and egg until sticky.",
+      "Mix in long beans and kaffir lime leaves.",
+      "Shape into small flat cakes.",
+      "Deep-fry until golden and puffed.",
+      "Serve with sweet chili sauce and cucumber relish."
+    ],
+    "tips": "The mixture should be sticky — this helps the cakes hold together and become bouncy."
+  },
+  {
+    "id": "th-sn-002",
+    "name": "Satay Chicken Skewers",
+    "image": "/assets/images/snacks/th-sn-002.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 25,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Chicken thigh", "measure": "400g, sliced" },
+      { "name": "Coconut milk + curry powder + turmeric", "measure": "for marinade" },
+      { "name": "Peanut sauce", "measure": "for dipping" },
+      { "name": "Bamboo skewers", "measure": "8–10" },
+      { "name": "Cucumber relish", "measure": "optional" }
+    ],
+    "instructions": [
+      "Marinate chicken in coconut milk and spices for at least 20 minutes.",
+      "Thread onto skewers and grill until cooked and slightly charred.",
+      "Serve with peanut sauce and cucumber relish."
+    ],
+    "tips": "A classic Thai snack or appetizer — the peanut sauce is essential."
+  },
+  {
+    "id": "th-sn-003",
+    "name": "Por Pia Tod (Thai Fried Spring Rolls)",
+    "image": "/assets/images/snacks/th-sn-003.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Spring roll wrappers", "measure": "12–15" },
+      { "name": "Glass noodles + minced pork + vegetables", "measure": "for filling" },
+      { "name": "Garlic + soy sauce + pepper", "measure": "for seasoning" },
+      { "name": "Oil", "measure": "for frying" },
+      { "name": "Sweet chili sauce", "measure": "for dipping" }
+    ],
+    "instructions": [
+      "Cook and season the filling, then cool.",
+      "Wrap tightly in spring roll wrappers.",
+      "Deep-fry until golden and crispy.",
+      "Serve with sweet chili sauce."
+    ],
+    "tips": "Make sure the filling is not too wet so the rolls stay crispy."
+  },
+  {
+    "id": "th-sn-004",
+    "name": "Khao Tom Mat (Banana Sticky Rice in Leaves)",
+    "image": "/assets/images/snacks/th-sn-004.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 45,
+    "mood": "sweet",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Sticky rice", "measure": "2 cups, soaked" },
+      { "name": "Coconut milk + sugar + salt", "measure": "for seasoning" },
+      { "name": "Ripe bananas", "measure": "3–4" },
+      { "name": "Banana leaves", "measure": "for wrapping" },
+      { "name": "Black beans (optional)", "measure": "small amount" }
+    ],
+    "instructions": [
+      "Mix sticky rice with sweetened coconut milk.",
+      "Place rice and banana on banana leaf, wrap tightly.",
+      "Steam for 40–45 minutes.",
+      "Serve warm or at room temperature."
+    ],
+    "tips": "A traditional Thai snack often sold at markets — fragrant from the banana leaf."
+  },
+  {
+    "id": "th-sn-005",
+    "name": "Mieng Kham (Leaf-wrapped Bites)",
+    "image": "/assets/images/snacks/th-sn-005.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 25,
+    "cookTime": 0,
+    "mood": "refreshing",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Betel leaves or lettuce leaves", "measure": "12–15" },
+      { "name": "Toasted coconut + peanuts + dried shrimp", "measure": "for filling" },
+      { "name": "Shallot + ginger + lime + chili", "measure": "finely chopped" },
+      { "name": "Palm sugar syrup", "measure": "for drizzling" }
+    ],
+    "instructions": [
+      "Arrange small amounts of each filling on a leaf.",
+      "Drizzle with a little palm sugar syrup.",
+      "Wrap and eat in one bite.",
+      "The mix of sweet, salty, sour, spicy, and crunchy is the point."
+    ],
+    "tips": "A refined Thai snack that hits every flavor at once."
+  },
+  {
+    "id": "th-sn-006",
+    "name": "Thai Iced Tea Pudding Cups",
+    "image": "/assets/images/snacks/th-sn-006.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 10,
+    "mood": "sweet",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Thai tea mix", "measure": "3 tbsp" },
+      { "name": "Coconut milk + sugar", "measure": "for base" },
+      { "name": "Agar-agar or gelatin", "measure": "for setting" },
+      { "name": "Evaporated milk", "measure": "optional topping" }
+    ],
+    "instructions": [
+      "Brew strong Thai tea and strain.",
+      "Mix with coconut milk, sugar, and agar-agar.",
+      "Pour into small cups and let set.",
+      "Optional: top with a layer of sweetened milk.",
+      "Chill and serve as a refreshing snack."
+    ],
+    "tips": "A modern Thai café-style snack that is easy to make at home."
+  }
+]

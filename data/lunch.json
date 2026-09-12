@@ -1,0 +1,833 @@
+[
+  {
+    "id": "jp-ln-001",
+    "name": "Chicken Teriyaki Donburi",
+    "image": "/assets/images/lunch/jp-ln-001.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "mood": "quick",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Chicken thighs", "measure": "500g" },
+      { "name": "Soy sauce", "measure": "3 tbsp" },
+      { "name": "Mirin", "measure": "2 tbsp" },
+      { "name": "Sugar", "measure": "1 tbsp" },
+      { "name": "Ginger", "measure": "1 tsp, grated" }
+    ],
+    "instructions": [
+      "Mix soy sauce, mirin, sugar, and ginger for sauce.",
+      "Pan-fry chicken until browned on both sides.",
+      "Pour sauce over chicken, simmer until thick and glossy.",
+      "Slice chicken into strips.",
+      "Serve over steamed rice with sauce drizzled on top."
+    ],
+    "tips": "Use chicken thighs for juicier results — breast meat dries out faster."
+  },
+  {
+    "id": "jp-ln-002",
+    "name": "Katsu Curry",
+    "image": "/assets/images/lunch/jp-ln-002.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Pork or chicken cutlets", "measure": "2" },
+      { "name": "Japanese curry roux", "measure": "2 blocks" },
+      { "name": "Onion, carrot, potato", "measure": "1 each, cubed" },
+      { "name": "Panko + egg + flour", "measure": "for breading" },
+      { "name": "Cooked rice", "measure": "2 bowls" }
+    ],
+    "instructions": [
+      "Bread and deep-fry the cutlets until golden, then slice.",
+      "Sauté onion, carrot, and potato until softened.",
+      "Add water and simmer, then dissolve curry roux.",
+      "Cook until thick and glossy.",
+      "Serve curry over rice, topped with sliced katsu."
+    ],
+    "tips": "Add a spoon of honey or grated apple for a sweeter, restaurant-style curry."
+  },
+  {
+    "id": "jp-ln-003",
+    "name": "Oyako Don (Chicken & Egg Rice Bowl)",
+    "image": "/assets/images/lunch/jp-ln-003.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Chicken thighs", "measure": "300g, sliced" },
+      { "name": "Eggs", "measure": "3–4" },
+      { "name": "Onion", "measure": "1, sliced" },
+      { "name": "Dashi + soy sauce + mirin", "measure": "for sauce" },
+      { "name": "Cooked rice", "measure": "2 bowls" }
+    ],
+    "instructions": [
+      "Simmer chicken and onion in dashi-soy-mirin sauce until cooked.",
+      "Pour beaten eggs over the chicken.",
+      "Cover and cook until eggs are softly set.",
+      "Slide everything over a bowl of hot rice.",
+      "Garnish with mitsuba or green onions."
+    ],
+    "tips": "The name ‘oyako’ means parent-and-child (chicken and egg) — a classic comfort donburi."
+  },
+  {
+    "id": "jp-ln-004",
+    "name": "Yakisoba (Stir-fried Noodles)",
+    "image": "/assets/images/lunch/jp-ln-004.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 12,
+    "mood": "quick",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Yakisoba noodles", "measure": "300g" },
+      { "name": "Pork or chicken", "measure": "150g, sliced" },
+      { "name": "Cabbage + carrot + bean sprouts", "measure": "2 cups total" },
+      { "name": "Yakisoba sauce", "measure": "3–4 tbsp" },
+      { "name": "Aonori + beni shoga + mayo", "measure": "for topping" }
+    ],
+    "instructions": [
+      "Stir-fry the meat until almost cooked.",
+      "Add vegetables and cook until slightly wilted.",
+      "Add noodles and yakisoba sauce, tossing quickly.",
+      "Cook until everything is well coated and hot.",
+      "Serve topped with aonori, pickled ginger, and mayonnaise."
+    ],
+    "tips": "Street-style yakisoba is often cooked on a large flat teppan — high heat is key."
+  },
+  {
+    "id": "jp-ln-005",
+    "name": "Tonkatsu (Breaded Pork Cutlet)",
+    "image": "/assets/images/lunch/jp-ln-005.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 15,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Pork loin or tenderloin", "measure": "2 cutlets" },
+      { "name": "Flour + egg + panko", "measure": "for breading" },
+      { "name": "Tonkatsu sauce", "measure": "for serving" },
+      { "name": "Shredded cabbage", "measure": "1 cup" },
+      { "name": "Cooked rice", "measure": "2 bowls" }
+    ],
+    "instructions": [
+      "Pound pork lightly, season with salt and pepper.",
+      "Coat in flour, then egg, then panko.",
+      "Deep-fry or pan-fry until golden and cooked through.",
+      "Drain on a rack, slice into strips.",
+      "Serve with shredded cabbage, tonkatsu sauce, and rice."
+    ],
+    "tips": "Let the breaded cutlets rest a few minutes before frying for better adhesion of the crumbs."
+  },
+  {
+    "id": "jp-ln-006",
+    "name": "Soba Noodle Soup (Kake Soba)",
+    "image": "/assets/images/lunch/jp-ln-006.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 10,
+    "mood": "light",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Dried soba noodles", "measure": "200g" },
+      { "name": "Dashi stock", "measure": "4 cups" },
+      { "name": "Soy sauce + mirin", "measure": "for seasoning" },
+      { "name": "Green onion + nori + kamaboko", "measure": "for topping" },
+      { "name": "Optional: tempura or soft-boiled egg", "measure": "for extra" }
+    ],
+    "instructions": [
+      "Cook soba according to package, rinse under cold water.",
+      "Heat dashi with soy sauce and mirin to make the broth.",
+      "Place noodles in bowls and pour hot broth over.",
+      "Top with green onion, nori, and kamaboko.",
+      "Serve immediately."
+    ],
+    "tips": "Rinsing the soba removes excess starch and keeps the noodles springy."
+  },
+  {
+    "id": "cn-ln-001",
+    "name": "Kung Pao Chicken",
+    "image": "/assets/images/lunch/cn-ln-001.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 15,
+    "mood": "impressive",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Chicken breast", "measure": "500g, cubed" },
+      { "name": "Roasted peanuts", "measure": "1/2 cup" },
+      { "name": "Dried red chilies", "measure": "10" },
+      { "name": "Soy sauce", "measure": "3 tbsp" },
+      { "name": "Black vinegar", "measure": "2 tbsp" }
+    ],
+    "instructions": [
+      "Marinate chicken in soy sauce and cornstarch for 15 min.",
+      "Stir-fry chicken in hot oil until cooked through.",
+      "Add dried chilies and peanuts, toss quickly.",
+      "Pour in vinegar-soy sauce mixture.",
+      "Stir until sauce coats everything. Serve with rice."
+    ],
+    "tips": "Have all ingredients prepped before cooking — this dish moves fast!"
+  },
+  {
+    "id": "cn-ln-002",
+    "name": "Dan Dan Noodles",
+    "image": "/assets/images/lunch/cn-ln-002.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 15,
+    "mood": "spicy",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Fresh wheat noodles", "measure": "300g" },
+      { "name": "Ground pork", "measure": "150g" },
+      { "name": "Sichuan peppercorn oil", "measure": "2 tbsp" },
+      { "name": "Chili oil + soy sauce + black vinegar", "measure": "to taste" },
+      { "name": "Preserved vegetables (ya cai)", "measure": "2 tbsp" }
+    ],
+    "instructions": [
+      "Cook noodles until just done, drain and set aside.",
+      "Stir-fry ground pork with ya cai until crispy and fragrant.",
+      "Mix sauce: chili oil, soy sauce, black vinegar, Sichuan pepper oil.",
+      "Place noodles in bowls, top with pork mixture.",
+      "Pour sauce over and toss vigorously before eating."
+    ],
+    "tips": "The key is the fragrant, numbing Sichuan peppercorn oil — don’t skip it."
+  },
+  {
+    "id": "cn-ln-003",
+    "name": "Mapo Tofu",
+    "image": "/assets/images/lunch/cn-ln-003.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 15,
+    "mood": "spicy",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Soft tofu", "measure": "400g, cubed" },
+      { "name": "Ground pork", "measure": "150g" },
+      { "name": "Doubanjiang (chili bean paste)", "measure": "2 tbsp" },
+      { "name": "Sichuan peppercorns", "measure": "1 tsp" },
+      { "name": "Garlic + ginger + green onion", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Stir-fry ground pork until browned.",
+      "Add doubanjiang, garlic, and ginger, cook until fragrant.",
+      "Pour in a little stock or water and bring to a simmer.",
+      "Gently add tofu and simmer 5–7 minutes.",
+      "Finish with ground Sichuan pepper and green onions. Serve with rice."
+    ],
+    "tips": "The classic version is very numbing and spicy — adjust Sichuan pepper to your tolerance."
+  },
+  {
+    "id": "cn-ln-004",
+    "name": "Beef Chow Fun (Dry-Fried Rice Noodles)",
+    "image": "/assets/images/lunch/cn-ln-004.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 12,
+    "mood": "impressive",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Fresh wide rice noodles", "measure": "400g" },
+      { "name": "Beef slices", "measure": "200g" },
+      { "name": "Bean sprouts + green onion", "measure": "2 cups" },
+      { "name": "Dark soy sauce + light soy sauce", "measure": "to taste" },
+      { "name": "Garlic", "measure": "3 cloves" }
+    ],
+    "instructions": [
+      "Marinate beef with soy sauce and cornstarch.",
+      "Stir-fry beef quickly over very high heat, remove.",
+      "Stir-fry noodles with dark soy for color.",
+      "Add bean sprouts, green onion, and beef back in.",
+      "Toss everything rapidly and serve immediately."
+    ],
+    "tips": "This dish needs extremely high heat (wok hei) — a screaming hot wok is essential."
+  },
+  {
+    "id": "cn-ln-005",
+    "name": "Tomato Egg Noodles",
+    "image": "/assets/images/lunch/cn-ln-005.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Fresh or dried noodles", "measure": "300g" },
+      { "name": "Eggs", "measure": "3" },
+      { "name": "Ripe tomatoes", "measure": "3, chopped" },
+      { "name": "Green onion + garlic", "measure": "to taste" },
+      { "name": "Soy sauce + sugar + salt", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Cook noodles and set aside.",
+      "Scramble eggs, remove from pan.",
+      "Stir-fry tomatoes with garlic until saucy, season with sugar and salt.",
+      "Return eggs, toss with noodles.",
+      "Finish with green onion and serve."
+    ],
+    "tips": "A simple home-style lunch that comes together very quickly."
+  },
+  {
+    "id": "cn-ln-006",
+    "name": "Stir-fried Water Spinach",
+    "image": "/assets/images/lunch/cn-ln-006.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 8,
+    "mood": "quick",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Water spinach (kangkong)", "measure": "1 big bunch" },
+      { "name": "Garlic", "measure": "4 cloves, minced" },
+      { "name": "Fermented bean curd or belacan (optional)", "measure": "1 tsp" },
+      { "name": "Chili", "measure": "to taste" },
+      { "name": "Oil + soy sauce", "measure": "for seasoning" }
+    ],
+    "instructions": [
+      "Wash and cut water spinach into lengths.",
+      "Stir-fry garlic (and belacan/chili if using) until fragrant.",
+      "Add the greens and toss on high heat until just wilted.",
+      "Season lightly with soy sauce.",
+      "Serve immediately as a vegetable side or light lunch with rice."
+    ],
+    "tips": "Cook very quickly on high heat so the stems stay crunchy."
+  },
+  {
+    "id": "kr-ln-001",
+    "name": "Japchae (Stir-fried Glass Noodles)",
+    "image": "/assets/images/lunch/kr-ln-001.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 25,
+    "cookTime": 20,
+    "mood": "impressive",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Sweet potato glass noodles (dangmyeon)", "measure": "200g" },
+      { "name": "Beef or mushrooms", "measure": "150g" },
+      { "name": "Spinach, carrots, onion, bell pepper", "measure": "assorted" },
+      { "name": "Soy sauce + sesame oil + sugar", "measure": "for seasoning" },
+      { "name": "Sesame seeds", "measure": "for garnish" }
+    ],
+    "instructions": [
+      "Cook glass noodles until soft, rinse and cut into shorter lengths.",
+      "Stir-fry each vegetable and the protein separately.",
+      "Season noodles with soy sauce, sugar, and sesame oil.",
+      "Toss everything together until well combined.",
+      "Finish with more sesame oil and sesame seeds."
+    ],
+    "tips": "Don’t overcook the noodles — they should stay springy, not mushy."
+  },
+  {
+    "id": "kr-ln-002",
+    "name": "Sundubu Jjigae (Soft Tofu Stew)",
+    "image": "/assets/images/lunch/kr-ln-002.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 20,
+    "mood": "spicy",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Soft silken tofu (sundubu)", "measure": "1 tube" },
+      { "name": "Seafood or pork", "measure": "150g" },
+      { "name": "Gochugaru", "measure": "2 tbsp" },
+      { "name": "Garlic + onion + zucchini", "measure": "to taste" },
+      { "name": "Egg", "measure": "1" }
+    ],
+    "instructions": [
+      "Sauté garlic, onion, and gochugaru in a little oil.",
+      "Add stock and bring to a boil.",
+      "Add seafood/pork and vegetables, simmer a few minutes.",
+      "Gently add the soft tofu and crack an egg on top.",
+      "Serve bubbling hot with rice."
+    ],
+    "tips": "Traditionally served in a ttukbaegi (earthenware pot) that keeps it boiling at the table."
+  },
+  {
+    "id": "kr-ln-003",
+    "name": "Bulgogi (Marinated Beef)",
+    "image": "/assets/images/lunch/kr-ln-003.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Thinly sliced beef (ribeye or sirloin)", "measure": "400g" },
+      { "name": "Soy sauce + sugar + sesame oil", "measure": "for marinade" },
+      { "name": "Garlic + pear or apple", "measure": "for marinade" },
+      { "name": "Onion + green onion", "measure": "sliced" },
+      { "name": "Cooked rice", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Mix soy sauce, sugar, sesame oil, grated garlic, and grated pear for marinade.",
+      "Marinate beef for at least 20 minutes.",
+      "Stir-fry or grill the beef with onion until cooked and caramelized.",
+      "Finish with green onion and sesame seeds.",
+      "Serve with rice and banchan."
+    ],
+    "tips": "The grated pear tenderizes the meat and adds natural sweetness."
+  },
+  {
+    "id": "kr-ln-004",
+    "name": "Doenjang Jjigae (Soybean Paste Stew)",
+    "image": "/assets/images/lunch/kr-ln-004.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 25,
+    "mood": "comfort",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Doenjang (soybean paste)", "measure": "3 tbsp" },
+      { "name": "Zucchini + potato + onion + tofu", "measure": "assorted" },
+      { "name": "Pork or anchovy stock", "measure": "4 cups" },
+      { "name": "Garlic + green chili", "measure": "to taste" },
+      { "name": "Green onion", "measure": "for garnish" }
+    ],
+    "instructions": [
+      "Bring stock to a boil and dissolve doenjang.",
+      "Add potato, zucchini, onion, and pork if using.",
+      "Simmer until vegetables are tender.",
+      "Add tofu and green chili, cook a few more minutes.",
+      "Garnish with green onion and serve with rice."
+    ],
+    "tips": "A staple everyday Korean stew — deep, earthy, and very comforting."
+  },
+  {
+    "id": "kr-ln-005",
+    "name": "Samgyeopsal (Grilled Pork Belly)",
+    "image": "/assets/images/lunch/kr-ln-005.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 20,
+    "mood": "social",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Pork belly slices", "measure": "500g" },
+      { "name": "Lettuce + perilla leaves", "measure": "for wrapping" },
+      { "name": "Ssamjang", "measure": "for dipping" },
+      { "name": "Garlic + green chili + kimchi", "measure": "sides" },
+      { "name": "Cooked rice", "measure": "optional" }
+    ],
+    "instructions": [
+      "Grill pork belly slices on a pan or tabletop grill until crispy and cooked.",
+      "Cut into bite-sized pieces.",
+      "Wrap a piece of pork with ssamjang, garlic, and chili in a lettuce or perilla leaf.",
+      "Eat as ssam (wraps) with kimchi on the side."
+    ],
+    "tips": "The classic Korean BBQ experience — best shared and eaten immediately while hot."
+  },
+  {
+    "id": "kr-ln-006",
+    "name": "Jjajangmyeon (Black Bean Noodles)",
+    "image": "/assets/images/lunch/kr-ln-006.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 20,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Fresh wheat noodles", "measure": "400g" },
+      { "name": "Chunjang (black bean paste)", "measure": "4 tbsp" },
+      { "name": "Pork + onion + zucchini + potato", "measure": "assorted" },
+      { "name": "Oil + sugar + water or stock", "measure": "for sauce" },
+      { "name": "Cucumber", "measure": "for garnish" }
+    ],
+    "instructions": [
+      "Stir-fry chunjang in oil until fragrant and slightly toasted.",
+      "Add pork and vegetables, cook until soft.",
+      "Add water/stock and simmer into a thick sauce.",
+      "Cook noodles, drain, and place in bowls.",
+      "Pour the black bean sauce over and top with cucumber."
+    ],
+    "tips": "Toasting the black bean paste removes bitterness and deepens the flavor."
+  },
+  {
+    "id": "ph-ln-001",
+    "name": "Chicken Adobo",
+    "image": "/assets/images/lunch/ph-ln-001.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 40,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Chicken pieces", "measure": "1kg" },
+      { "name": "Soy sauce", "measure": "1/2 cup" },
+      { "name": "Cane vinegar", "measure": "1/2 cup" },
+      { "name": "Garlic", "measure": "6 cloves, crushed" },
+      { "name": "Bay leaves", "measure": "3" }
+    ],
+    "instructions": [
+      "Marinate chicken in soy sauce, vinegar, and garlic for 30 min.",
+      "Sauté garlic until golden in a pot.",
+      "Add chicken and brown on all sides.",
+      "Pour in marinade, add bay leaves and peppercorns.",
+      "Simmer 40 minutes until tender. Serve with rice."
+    ],
+    "tips": "Never stir the adobo while the vinegar is boiling — it makes it sour."
+  },
+  {
+    "id": "ph-ln-002",
+    "name": "Pancit Canton",
+    "image": "/assets/images/lunch/ph-ln-002.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 20,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Canton noodles (egg noodles)", "measure": "400g" },
+      { "name": "Chicken or pork", "measure": "300g, sliced" },
+      { "name": "Cabbage, carrots, snow peas", "measure": "assorted vegetables" },
+      { "name": "Soy sauce + oyster sauce", "measure": "to taste" },
+      { "name": "Calamansi or lemon", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Soak or briefly boil noodles until just pliable.",
+      "Stir-fry meat until cooked, then push aside.",
+      "Add vegetables and stir-fry quickly.",
+      "Add noodles and sauces, toss until everything is coated.",
+      "Serve with calamansi wedges on the side."
+    ],
+    "tips": "Pancit is traditionally served at birthdays for long life — don’t cut the noodles!"
+  },
+  {
+    "id": "ph-ln-003",
+    "name": "Sinigang na Baboy (Pork Sinigang)",
+    "image": "/assets/images/lunch/ph-ln-003.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 50,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Pork ribs or belly", "measure": "700g" },
+      { "name": "Tamarind soup base", "measure": "1 pack" },
+      { "name": "Tomatoes + onion", "measure": "2 each" },
+      { "name": "Kangkong / spinach + string beans + radish", "measure": "assorted" },
+      { "name": "Fish sauce", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Boil pork until tender (about 40 minutes).",
+      "Add onion, tomatoes, and radish, cook 10 minutes.",
+      "Add tamarind mix and vegetables.",
+      "Season with fish sauce.",
+      "Serve hot with rice."
+    ],
+    "tips": "The sourness should be bright but balanced — adjust tamarind and fish sauce to your taste."
+  },
+  {
+    "id": "ph-ln-004",
+    "name": "Ginisang Monggo (Mung Bean Stew)",
+    "image": "/assets/images/lunch/ph-ln-004.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 40,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Mung beans (monggo)", "measure": "1 cup" },
+      { "name": "Pork or shrimp", "measure": "150g" },
+      { "name": "Garlic + onion + tomato", "measure": "aromatics" },
+      { "name": "Malunggay or spinach leaves", "measure": "1 cup" },
+      { "name": "Fish sauce", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Boil mung beans until soft and starting to break down.",
+      "In another pan, sauté garlic, onion, tomato, and meat.",
+      "Combine with the mung beans and simmer.",
+      "Add leafy greens at the end.",
+      "Season with fish sauce and serve with rice."
+    ],
+    "tips": "A very common everyday Filipino lunch — comforting and budget-friendly."
+  },
+  {
+    "id": "ph-ln-005",
+    "name": "Paksiw na Pata",
+    "image": "/assets/images/lunch/ph-ln-005.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 90,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Pork hock (pata)", "measure": "1–1.2 kg" },
+      { "name": "Soy sauce", "measure": "1/2 cup" },
+      { "name": "Vinegar", "measure": "1/2 cup" },
+      { "name": "Garlic", "measure": "1 head, crushed" },
+      { "name": "Bay leaves + whole peppercorns", "measure": "to taste" },
+      { "name": "Brown sugar (optional)", "measure": "1–2 tbsp" },
+      { "name": "Banana blossoms (optional)", "measure": "1 cup" }
+    ],
+    "instructions": [
+      "Place the pork hock in a pot with soy sauce, vinegar, garlic, bay leaves, and peppercorns.",
+      "Add enough water to cover the meat.",
+      "Bring to a boil, then lower the heat and simmer for 1–1.5 hours until the pork is very tender.",
+      "Add banana blossoms if using, and a little brown sugar if you like it slightly sweet.",
+      "Simmer a few more minutes until the sauce reduces. Serve with rice."
+    ],
+    "tips": "A classic Filipino lunch dish — the long simmer makes the pork fall-off-the-bone tender. Perfect with lots of rice."
+  },
+  {
+    "id": "ph-ln-006",
+    "name": "Dinuguan (Pork Blood Stew)",
+    "image": "/assets/images/lunch/ph-ln-006.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 40,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Pork belly or shoulder + innards (optional)", "measure": "500g" },
+      { "name": "Pork blood", "measure": "1–2 cups" },
+      { "name": "Vinegar + garlic + onion", "measure": "aromatics" },
+      { "name": "Green chili", "measure": "to taste" },
+      { "name": "Fish sauce + bay leaf", "measure": "for seasoning" }
+    ],
+    "instructions": [
+      "Sauté garlic and onion, then brown the pork.",
+      "Add vinegar and bay leaf, simmer without stirring until the vinegar cooks off.",
+      "Add a little water or stock and cook until pork is tender.",
+      "Lower heat and slowly stir in the pork blood until thickened.",
+      "Season with fish sauce and add green chili. Serve with rice or puto."
+    ],
+    "tips": "Stir the blood in gradually over low heat so it doesn’t curdle. Best eaten with soft puto or rice."
+  },
+  {
+    "id": "ph-ln-007",
+    "name": "Sisig",
+    "image": "/assets/images/lunch/ph-ln-007.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "mood": "savory",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Pork face / belly / ears (or chicken)", "measure": "500g" },
+      { "name": "Onion + chili + calamansi", "measure": "to taste" },
+      { "name": "Soy sauce + mayonnaise or butter (optional)", "measure": "for finishing" },
+      { "name": "Egg (optional)", "measure": "1" },
+      { "name": "Liver spread or chopped liver", "measure": "optional" }
+    ],
+    "instructions": [
+      "Boil or grill the pork until cooked, then chop finely.",
+      "Sauté onion and chili, add the chopped pork.",
+      "Season with soy sauce, calamansi, and a bit of mayonnaise or butter if desired.",
+      "Serve sizzling on a hot plate, optionally topped with a raw egg."
+    ],
+    "tips": "Classic Kapampangan sisig is chopped and served sizzling — very popular as a lunch or pulutan dish."
+  },
+  {
+    "id": "ph-ln-008",
+    "name": "Bicol Express",
+    "image": "/assets/images/lunch/ph-ln-008.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 35,
+    "mood": "spicy",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Pork belly", "measure": "500g, sliced" },
+      { "name": "Coconut milk", "measure": "2 cups" },
+      { "name": "Bird’s eye chilies + green chili", "measure": "to taste" },
+      { "name": "Garlic + onion + ginger", "measure": "aromatics" },
+      { "name": "Shrimp paste (bagoong)", "measure": "1–2 tbsp" }
+    ],
+    "instructions": [
+      "Sauté garlic, onion, and ginger, then add pork and brown.",
+      "Add shrimp paste and chilies, cook until fragrant.",
+      "Pour in coconut milk and simmer until the pork is tender and the sauce thickens.",
+      "Adjust seasoning and chili level.",
+      "Serve hot with rice."
+    ],
+    "tips": "A fiery Bicolano dish — the coconut milk balances the heat from the chilies and bagoong."
+  },
+  {
+    "id": "th-ln-001",
+    "name": "Pad Thai",
+    "image": "/assets/images/lunch/th-ln-001.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "impressive",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Rice noodles", "measure": "200g" },
+      { "name": "Shrimp", "measure": "200g" },
+      { "name": "Firm tofu", "measure": "100g, cubed" },
+      { "name": "Tamarind paste", "measure": "2 tbsp" },
+      { "name": "Fish sauce", "measure": "2 tbsp" }
+    ],
+    "instructions": [
+      "Soak rice noodles in warm water for 30 minutes.",
+      "Stir-fry tofu and shrimp until cooked.",
+      "Add noodles and sauce (tamarind + fish sauce + sugar).",
+      "Toss with bean sprouts and garlic chives.",
+      "Serve topped with crushed peanuts and lime wedge."
+    ],
+    "tips": "Don't oversoak the noodles — they'll continue cooking in the wok."
+  },
+  {
+    "id": "th-ln-002",
+    "name": "Tom Yum Goong (Spicy Shrimp Soup)",
+    "image": "/assets/images/lunch/th-ln-002.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 20,
+    "mood": "spicy",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Large shrimp", "measure": "300g" },
+      { "name": "Lemongrass, galangal, kaffir lime leaves", "measure": "aromatics" },
+      { "name": "Thai chilies", "measure": "3–5" },
+      { "name": "Fish sauce + lime juice", "measure": "to taste" },
+      { "name": "Mushrooms + tomatoes", "measure": "1 cup each" }
+    ],
+    "instructions": [
+      "Bring water or stock to a boil with lemongrass, galangal, and lime leaves.",
+      "Add mushrooms and tomatoes, simmer 5 minutes.",
+      "Add shrimp and cook until just pink.",
+      "Season with fish sauce, lime juice, and crushed chilies.",
+      "Finish with fresh cilantro and serve hot."
+    ],
+    "tips": "Add a splash of evaporated milk or coconut milk if you prefer Tom Yum Nam Khon (creamy version)."
+  },
+  {
+    "id": "th-ln-003",
+    "name": "Khao Pad (Thai Fried Rice)",
+    "image": "/assets/images/lunch/th-ln-003.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 12,
+    "mood": "quick",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Cooked jasmine rice", "measure": "3 cups (day-old preferred)" },
+      { "name": "Shrimp, chicken, or crab", "measure": "150g" },
+      { "name": "Egg", "measure": "1–2" },
+      { "name": "Garlic + onion + tomato", "measure": "aromatics" },
+      { "name": "Fish sauce + soy sauce + white pepper", "measure": "seasoning" }
+    ],
+    "instructions": [
+      "Stir-fry garlic and protein until cooked.",
+      "Push aside, scramble the egg.",
+      "Add rice and break it up, seasoning with fish sauce and soy sauce.",
+      "Add tomato and green onion at the end.",
+      "Serve with cucumber slices, lime, and prik nam pla."
+    ],
+    "tips": "Day-old rice is much better — fresh rice becomes mushy."
+  },
+  {
+    "id": "th-ln-004",
+    "name": "Green Curry (Gaeng Keow Wan)",
+    "image": "/assets/images/lunch/th-ln-004.jpg",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "prepTime": 15,
+    "cookTime": 25,
+    "mood": "aromatic",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Green curry paste", "measure": "3 tbsp" },
+      { "name": "Coconut milk", "measure": "400ml" },
+      { "name": "Chicken or tofu", "measure": "300g" },
+      { "name": "Thai eggplant + bamboo shoots + basil", "measure": "assorted" },
+      { "name": "Fish sauce + palm sugar", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Fry the green curry paste in a little coconut cream until fragrant.",
+      "Add the remaining coconut milk and bring to a simmer.",
+      "Add chicken/tofu and vegetables, cook until done.",
+      "Season with fish sauce and palm sugar.",
+      "Finish with Thai basil and serve with rice."
+    ],
+    "tips": "Use good-quality green curry paste or make your own for the best flavor."
+  },
+  {
+    "id": "th-ln-005",
+    "name": "Som Tum (Green Papaya Salad)",
+    "image": "/assets/images/lunch/th-ln-005.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 20,
+    "cookTime": 0,
+    "mood": "refreshing",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Green papaya", "measure": "1 small, shredded" },
+      { "name": "Tomato + long bean + carrot", "measure": "assorted" },
+      { "name": "Garlic + Thai chili + dried shrimp", "measure": "to taste" },
+      { "name": "Fish sauce + lime + palm sugar", "measure": "for dressing" },
+      { "name": "Peanuts", "measure": "for garnish" }
+    ],
+    "instructions": [
+      "Pound garlic, chili, and dried shrimp in a mortar.",
+      "Add long beans and lightly bruise.",
+      "Add shredded papaya, tomato, and the dressing (fish sauce, lime, sugar).",
+      "Toss and pound lightly to mix.",
+      "Top with crushed peanuts and serve with sticky rice or as a side."
+    ],
+    "tips": "The balance of sour, salty, sweet, and spicy is everything — taste and adjust as you pound."
+  },
+  {
+    "id": "th-ln-006",
+    "name": "Moo Ping (Grilled Pork Skewers)",
+    "image": "/assets/images/lunch/th-ln-006.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 25,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Pork shoulder", "measure": "400g, sliced" },
+      { "name": "Coconut milk + soy sauce + sugar + garlic", "measure": "for marinade" },
+      { "name": "Coriander root + white pepper", "measure": "optional" },
+      { "name": "Bamboo skewers", "measure": "8–10" },
+      { "name": "Sticky rice or jasmine rice", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Marinate pork in coconut milk, soy sauce, sugar, and garlic for at least 20 minutes.",
+      "Thread onto skewers.",
+      "Grill over medium heat until caramelized and cooked through.",
+      "Serve with sticky rice and a simple dipping sauce."
+    ],
+    "tips": "A popular Thai street lunch or snack — the slight sweetness from the coconut marinade is key."
+  }
+]

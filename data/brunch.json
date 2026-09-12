@@ -1,0 +1,785 @@
+[
+  {
+    "id": "cn-br-001",
+    "name": "Dim Sum Platter",
+    "image": "/assets/images/brunch/cn-br-001.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "hard",
+    "prepTime": 60,
+    "cookTime": 20,
+    "mood": "impressive",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Shrimp", "measure": "300g, minced" },
+      { "name": "Ground pork", "measure": "200g" },
+      { "name": "Dumpling wrappers", "measure": "40" },
+      { "name": "Ginger", "measure": "2 inches, minced" },
+      { "name": "Soy sauce", "measure": "3 tbsp" },
+      { "name": "Sesame oil", "measure": "1 tsp" }
+    ],
+    "instructions": [
+      "Mix shrimp, pork, ginger, soy sauce, sesame oil.",
+      "Place 1 tsp filling in center of each wrapper.",
+      "Pleat and seal edges carefully.",
+      "Steam for 10 minutes until translucent.",
+      "Serve with soy sauce and chili oil."
+    ],
+    "tips": "Keep wrappers covered with damp cloth to prevent drying."
+  },
+  {
+    "id": "cn-br-002",
+    "name": "Xiaolongbao (Soup Dumplings)",
+    "image": "/assets/images/brunch/cn-br-002.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "hard",
+    "prepTime": 90,
+    "cookTime": 10,
+    "mood": "impressive",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Ground pork", "measure": "300g" },
+      { "name": "Pork aspic (gelatinous stock)", "measure": "150g" },
+      { "name": "Dumpling wrappers", "measure": "30–40" },
+      { "name": "Ginger + green onion + soy sauce", "measure": "for filling" },
+      { "name": "Black vinegar + ginger", "measure": "for dipping" }
+    ],
+    "instructions": [
+      "Mix ground pork with minced aspic and seasonings.",
+      "Wrap carefully, pleating the top tightly to seal the soup inside.",
+      "Steam for 8–10 minutes until translucent.",
+      "Serve immediately with black vinegar and ginger shreds.",
+      "Bite a small hole first to suck the soup, then eat the rest."
+    ],
+    "tips": "The aspic melts into soup during steaming — this is what makes xiaolongbao special."
+  },
+  {
+    "id": "cn-br-003",
+    "name": "Scallion Pancakes (Cong You Bing)",
+    "image": "/assets/images/brunch/cn-br-003.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 40,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 4,
+    "ingredients": [
+      { "name": "All-purpose flour", "measure": "2 cups" },
+      { "name": "Hot water", "measure": "3/4 cup" },
+      { "name": "Green onions", "measure": "1 cup, chopped" },
+      { "name": "Salt + sesame oil", "measure": "to taste" },
+      { "name": "Oil", "measure": "for pan-frying" }
+    ],
+    "instructions": [
+      "Mix flour and hot water into a soft dough, rest 30 minutes.",
+      "Roll out, brush with sesame oil, sprinkle green onions and salt.",
+      "Roll up, coil into a spiral, then flatten again.",
+      "Pan-fry until both sides are golden and crispy.",
+      "Cut into wedges and serve."
+    ],
+    "tips": "The multiple layers create the signature flaky texture."
+  },
+  {
+    "id": "cn-br-004",
+    "name": "Turnip Cake (Lo Bak Gou)",
+    "image": "/assets/images/brunch/cn-br-004.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 50,
+    "mood": "comfort",
+    "servings": 6,
+    "ingredients": [
+      { "name": "Shredded daikon radish", "measure": "500g" },
+      { "name": "Rice flour", "measure": "1 cup" },
+      { "name": "Dried shrimp + Chinese sausage", "measure": "optional" },
+      { "name": "Water or stock", "measure": "1 cup" },
+      { "name": "Oil", "measure": "for pan-frying" }
+    ],
+    "instructions": [
+      "Cook shredded daikon until soft, mix with rice flour and seasonings.",
+      "Pour into a greased pan and steam for 40–45 minutes until set.",
+      "Cool completely, then slice.",
+      "Pan-fry slices until golden and crispy on both sides.",
+      "Serve with chili sauce or soy sauce."
+    ],
+    "tips": "Best when steamed a day ahead so it firms up for easier slicing."
+  },
+  {
+    "id": "cn-br-005",
+    "name": "Tomato Egg Stir-Fry (Xihongshi Chao Jidan)",
+    "image": "/assets/images/brunch/cn-br-005.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 10,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Eggs", "measure": "4" },
+      { "name": "Ripe tomatoes", "measure": "3, chopped" },
+      { "name": "Green onion", "measure": "2 stalks, sliced" },
+      { "name": "Sugar + salt", "measure": "to taste" },
+      { "name": "Oil", "measure": "2 tbsp" }
+    ],
+    "instructions": [
+      "Beat eggs with a pinch of salt.",
+      "Scramble eggs quickly in hot oil until just set, then remove.",
+      "Stir-fry tomatoes until they release juices and soften.",
+      "Add a pinch of sugar, return eggs, and toss gently.",
+      "Finish with green onion and serve over rice."
+    ],
+    "tips": "A true Chinese home classic — sweet-savory tomatoes and soft eggs make the perfect quick brunch."
+  },
+  {
+    "id": "cn-br-006",
+    "name": "Scallion Oil Noodles (Cong You Mian)",
+    "image": "/assets/images/brunch/cn-br-006.jpg",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Fresh or dried wheat noodles", "measure": "200g" },
+      { "name": "Scallions", "measure": "1 big bunch" },
+      { "name": "Soy sauce + dark soy", "measure": "2 tbsp total" },
+      { "name": "Sugar", "measure": "1 tsp" },
+      { "name": "Oil", "measure": "3 tbsp" }
+    ],
+    "instructions": [
+      "Cook noodles according to package, drain and set aside.",
+      "Fry sliced scallions in oil over medium heat until deep golden and fragrant.",
+      "Mix soy sauces and sugar, pour over hot noodles.",
+      "Add the scallion oil (with the fried bits) and toss well.",
+      "Serve immediately — simple and deeply flavorful."
+    ],
+    "tips": "The key is frying the scallions slowly until they turn crispy and aromatic."
+  },
+  {
+    "id": "jp-br-001",
+    "name": "Japanese Curry Rice (Home Style)",
+    "image": "/assets/images/brunch/jp-br-001.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 25,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Japanese curry roux (store-bought)", "measure": "2 blocks" },
+      { "name": "Onion + carrot + potato", "measure": "1 each, chopped" },
+      { "name": "Chicken or beef (optional)", "measure": "200g" },
+      { "name": "Water", "measure": "500ml" },
+      { "name": "Cooked short-grain rice", "measure": "2 bowls" }
+    ],
+    "instructions": [
+      "Sauté onion, carrot, and potato (and meat if using) until lightly browned.",
+      "Add water and simmer until vegetables are soft.",
+      "Turn off heat, add curry roux blocks and stir until dissolved.",
+      "Simmer gently 5–10 minutes until thickened.",
+      "Serve hot over rice."
+    ],
+    "tips": "Store-bought Japanese curry roux makes this extremely easy and authentic-tasting. A true home comfort brunch."
+  },
+  {
+    "id": "jp-br-002",
+    "name": "Japanese Fruit Sandwich (Fruit Sando)",
+    "image": "/assets/images/brunch/jp-br-002.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 0,
+    "mood": "refreshing",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Soft white bread (shokupan)", "measure": "4 slices" },
+      { "name": "Whipped cream", "measure": "1 cup" },
+      { "name": "Strawberries + kiwi + banana", "measure": "assorted" },
+      { "name": "Sugar", "measure": "1 tbsp" }
+    ],
+    "instructions": [
+      "Whip cream with a little sugar until stiff.",
+      "Spread cream on bread slices.",
+      "Arrange cut fruit neatly on one slice.",
+      "Top with the other slice, press gently, and wrap tightly.",
+      "Chill 30 minutes, then cut and serve."
+    ],
+    "tips": "Use very soft milk bread for the classic Japanese fruit sando texture."
+  },
+  {
+    "id": "jp-br-003",
+    "name": "Tamago Sando (Japanese Egg Sandwich)",
+    "image": "/assets/images/brunch/jp-br-003.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 10,
+    "mood": "simple",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Eggs", "measure": "4" },
+      { "name": "Japanese mayonnaise", "measure": "3 tbsp" },
+      { "name": "Soft white bread (shokupan)", "measure": "4 slices" },
+      { "name": "Salt + pepper", "measure": "to taste" },
+      { "name": "Butter", "measure": "for spreading" }
+    ],
+    "instructions": [
+      "Boil eggs until just firm, then cool and peel.",
+      "Mash eggs with Japanese mayo, salt, and pepper until creamy.",
+      "Butter the bread slices lightly.",
+      "Spread a thick layer of egg salad between two slices.",
+      "Trim crusts if desired, cut in half, and serve."
+    ],
+    "tips": "Japanese mayo is slightly sweeter and richer — it makes the classic konbini-style filling."
+  },
+  {
+    "id": "jp-br-004",
+    "name": "Matcha Latte French Toast",
+    "image": "/assets/images/brunch/jp-br-004.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "mood": "indulgent",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Thick shokupan slices", "measure": "4" },
+      { "name": "Eggs", "measure": "2" },
+      { "name": "Milk", "measure": "1/2 cup" },
+      { "name": "Matcha powder", "measure": "1 tbsp" },
+      { "name": "Sugar + vanilla", "measure": "to taste" },
+      { "name": "Butter", "measure": "for pan" }
+    ],
+    "instructions": [
+      "Whisk eggs, milk, matcha, sugar, and vanilla until smooth.",
+      "Soak bread slices in the matcha custard for 30–60 seconds per side.",
+      "Cook in a buttered pan over medium-low heat until golden on both sides.",
+      "Dust with extra matcha or powdered sugar.",
+      "Serve with whipped cream or red bean paste."
+    ],
+    "tips": "Thick milk bread absorbs the custard without falling apart — perfect for a café-style brunch."
+  },
+  {
+    "id": "jp-br-005",
+    "name": "Ochazuke (Tea Over Rice)",
+    "image": "/assets/images/brunch/jp-br-005.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 5,
+    "mood": "light",
+    "servings": 1,
+    "ingredients": [
+      { "name": "Cooked Japanese rice", "measure": "1 bowl" },
+      { "name": "Green tea or dashi", "measure": "1 cup, hot" },
+      { "name": "Nori + sesame seeds", "measure": "for topping" },
+      { "name": "Optional: salmon flakes, umeboshi, or wasabi", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Place warm rice in a deep bowl.",
+      "Add toppings of your choice (salmon, umeboshi, etc.).",
+      "Pour hot green tea or dashi over the rice.",
+      "Sprinkle with nori and sesame seeds.",
+      "Eat immediately while the rice is still hot and the tea is fragrant."
+    ],
+    "tips": "A classic light Japanese brunch or late-night comfort food — extremely simple and soothing."
+  },
+  {
+    "id": "jp-br-006",
+    "name": "Japanese Potato Salad",
+    "image": "/assets/images/brunch/jp-br-006.jpg",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "prepTime": 20,
+    "cookTime": 15,
+    "mood": "refreshing",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Potatoes", "measure": "4 medium" },
+      { "name": "Japanese mayonnaise", "measure": "4 tbsp" },
+      { "name": "Cucumber + carrot", "measure": "1 each, thinly sliced" },
+      { "name": "Hard-boiled egg", "measure": "1, chopped" },
+      { "name": "Salt + pepper + rice vinegar", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Boil potatoes until tender, then mash roughly (leave some chunks).",
+      "Salt the cucumber slices and squeeze out excess water.",
+      "Mix potatoes with mayo, cucumber, carrot, and chopped egg.",
+      "Season with a splash of rice vinegar, salt, and pepper.",
+      "Chill briefly and serve as a side or light brunch plate."
+    ],
+    "tips": "Japanese potato salad is creamier and slightly sweeter than Western versions — perfect with rice or as a sandwich filling."
+  },
+  {
+    "id": "kr-br-001",
+    "name": "Bibimbap",
+    "image": "/assets/images/brunch/kr-br-001.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 30,
+    "cookTime": 20,
+    "mood": "healthy",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Short-grain rice", "measure": "2 cups" },
+      { "name": "Spinach", "measure": "1 cup" },
+      { "name": "Carrots", "measure": "2, julienned" },
+      { "name": "Bean sprouts", "measure": "1 cup" },
+      { "name": "Gochujang", "measure": "2 tbsp" },
+      { "name": "Eggs", "measure": "2" }
+    ],
+    "instructions": [
+      "Cook rice and keep warm.",
+      "Sauté each vegetable separately with a pinch of salt.",
+      "Fry eggs sunny-side up.",
+      "Arrange rice in bowls, top with vegetables in sections.",
+      "Add egg on top, serve with gochujang on the side."
+    ],
+    "tips": "Mix everything together before eating for the best flavor blend."
+  },
+  {
+    "id": "kr-br-002",
+    "name": "Korean Soft Scrambled Eggs with Rice",
+    "image": "/assets/images/brunch/kr-br-002.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 10,
+    "mood": "quick",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Eggs", "measure": "4" },
+      { "name": "Milk or water", "measure": "2 tbsp" },
+      { "name": "Butter or oil", "measure": "1 tbsp" },
+      { "name": "Salt + white pepper", "measure": "to taste" },
+      { "name": "Cooked short-grain rice", "measure": "2 bowls" },
+      { "name": "Green onion + sesame oil", "measure": "for finishing" }
+    ],
+    "instructions": [
+      "Beat eggs with milk, salt, and white pepper.",
+      "Melt butter in a non-stick pan over low heat.",
+      "Pour in eggs and stir gently and continuously until soft and creamy (do not brown).",
+      "Remove from heat while still slightly runny.",
+      "Serve over hot rice, drizzle with sesame oil and sprinkle green onion."
+    ],
+    "tips": "Low heat and constant stirring give the classic soft Korean-style scrambled eggs."
+  },
+  {
+    "id": "kr-br-003",
+    "name": "Gimbap (Korean Seaweed Rice Rolls)",
+    "image": "/assets/images/brunch/kr-br-003.jpg",
+    "cuisine": "Korean",
+    "difficulty": "medium",
+    "prepTime": 25,
+    "cookTime": 10,
+    "mood": "portable",
+    "servings": 3,
+    "ingredients": [
+      { "name": "Cooked short-grain rice", "measure": "3 cups" },
+      { "name": "Nori sheets", "measure": "5–6" },
+      { "name": "Carrot, spinach, egg, pickled radish", "measure": "assorted fillings" },
+      { "name": "Sesame oil + salt", "measure": "for seasoning rice" },
+      { "name": "Optional: spam, tuna, or beef", "measure": "for protein" }
+    ],
+    "instructions": [
+      "Season warm rice with sesame oil and a pinch of salt.",
+      "Lay a nori sheet on a bamboo mat, spread rice thinly leaving a border.",
+      "Arrange fillings in a line across the center.",
+      "Roll tightly using the mat, seal the edge with a little water.",
+      "Slice into bite-sized pieces and arrange on a plate."
+    ],
+    "tips": "Wet your knife between cuts for clean slices. Great make-ahead brunch item."
+  },
+  {
+    "id": "kr-br-004",
+    "name": "Korean Egg Soup (Gyeran-guk)",
+    "image": "/assets/images/brunch/kr-br-004.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 10,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Eggs", "measure": "3" },
+      { "name": "Anchovy or chicken stock", "measure": "3 cups" },
+      { "name": "Green onion", "measure": "2 stalks, sliced" },
+      { "name": "Salt + sesame oil + white pepper", "measure": "to taste" },
+      { "name": "Optional: seaweed or tofu", "measure": "small amount" }
+    ],
+    "instructions": [
+      "Bring stock to a gentle boil.",
+      "Beat eggs and slowly drizzle them into the simmering stock while stirring.",
+      "Add green onion and season with salt, sesame oil, and white pepper.",
+      "Simmer 1–2 minutes until the egg is just set.",
+      "Serve hot as a light, comforting brunch soup."
+    ],
+    "tips": "A classic Korean light soup — very simple and soothing."
+  },
+  {
+    "id": "kr-br-005",
+    "name": "Kimchi Fried Rice (Kimchi Bokkeumbap)",
+    "image": "/assets/images/brunch/kr-br-005.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Cooked rice", "measure": "3 cups, preferably day-old" },
+      { "name": "Kimchi", "measure": "1 cup, chopped" },
+      { "name": "Kimchi juice", "measure": "2–3 tbsp" },
+      { "name": "Spam or bacon (optional)", "measure": "100g" },
+      { "name": "Egg + green onion + sesame oil", "measure": "for finishing" }
+    ],
+    "instructions": [
+      "Stir-fry kimchi and optional spam in a little oil until fragrant.",
+      "Add rice and kimchi juice, breaking up any clumps.",
+      "Stir-fry over medium-high heat until the rice is hot and slightly crispy.",
+      "Push rice aside, fry an egg, then mix or serve on top.",
+      "Drizzle with sesame oil and sprinkle green onion."
+    ],
+    "tips": "Day-old rice works best. This is one of the easiest and most satisfying Korean home brunches."
+  },
+  {
+    "id": "kr-br-006",
+    "name": "Tteokbokki (Spicy Rice Cakes)",
+    "image": "/assets/images/brunch/kr-br-006.jpg",
+    "cuisine": "Korean",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 20,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Korean rice cakes (tteok)", "measure": "300g" },
+      { "name": "Gochujang", "measure": "2 tbsp" },
+      { "name": "Gochugaru + soy sauce + sugar", "measure": "to taste" },
+      { "name": "Fish cake + green onion", "measure": "optional" },
+      { "name": "Water or anchovy stock", "measure": "1 1/2 cups" }
+    ],
+    "instructions": [
+      "Soak hard rice cakes in warm water for 10 minutes if needed.",
+      "Make a sauce with gochujang, gochugaru, soy sauce, and sugar.",
+      "Simmer the sauce with stock, add rice cakes and fish cake.",
+      "Cook until the sauce thickens and coats the cakes.",
+      "Finish with sliced green onion and serve hot."
+    ],
+    "tips": "A popular Korean snack that works perfectly as a hearty brunch — adjust spice to your liking."
+  },
+  {
+    "id": "ph-br-001",
+    "name": "Ensaymada",
+    "image": "/assets/images/brunch/ph-br-001.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "medium",
+    "prepTime": 120,
+    "cookTime": 20,
+    "mood": "sweet",
+    "servings": 8,
+    "ingredients": [
+      { "name": "Bread flour", "measure": "3 cups" },
+      { "name": "Butter + sugar + eggs", "measure": "for dough" },
+      { "name": "Yeast", "measure": "2 tsp" },
+      { "name": "Grated cheese", "measure": "for topping" },
+      { "name": "Butter + sugar", "measure": "for brushing" }
+    ],
+    "instructions": [
+      "Make a soft enriched dough and let it rise.",
+      "Shape into coils or rounds.",
+      "Bake until golden.",
+      "Brush with butter, sprinkle with sugar and grated cheese.",
+      "Serve warm as a classic Filipino brunch pastry."
+    ],
+    "tips": "The cheese + butter + sugar combination is what makes ensaymada special."
+  },
+  {
+    "id": "ph-br-002",
+    "name": "Tortang Talong",
+    "image": "/assets/images/brunch/ph-br-002.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 20,
+    "mood": "savory",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Eggplants", "measure": "2 large" },
+      { "name": "Eggs", "measure": "3" },
+      { "name": "Garlic + onion", "measure": "optional" },
+      { "name": "Salt + pepper", "measure": "to taste" },
+      { "name": "Oil", "measure": "for frying" }
+    ],
+    "instructions": [
+      "Grill or boil eggplants until soft, then peel.",
+      "Flatten the eggplant and dip in beaten eggs.",
+      "Pan-fry until both sides are golden.",
+      "Serve with garlic rice or banana ketchup.",
+      "Classic Filipino eggplant omelette."
+    ],
+    "tips": "Some people stuff it with ground meat for a heartier version."
+  },
+  {
+    "id": "ph-br-003",
+    "name": "Ginataang Bilo-Bilo",
+    "image": "/assets/images/brunch/ph-br-003.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 20,
+    "cookTime": 25,
+    "mood": "comfort",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Glutinous rice balls", "measure": "1 cup" },
+      { "name": "Coconut milk", "measure": "2 cups" },
+      { "name": "Sweet potato + banana + jackfruit", "measure": "assorted" },
+      { "name": "Sago pearls", "measure": "1/2 cup" },
+      { "name": "Sugar", "measure": "to taste" }
+    ],
+    "instructions": [
+      "Cook sago until translucent.",
+      "Simmer coconut milk with sugar and fruits.",
+      "Add glutinous rice balls and cook until they float.",
+      "Add sago and simmer until thick.",
+      "Serve warm as a sweet Filipino brunch or merienda."
+    ],
+    "tips": "A comforting coconut-based dessert soup perfect for brunch."
+  },
+  {
+    "id": "ph-br-004",
+    "name": "Longsilog",
+    "image": "/assets/images/brunch/ph-br-004.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 20,
+    "mood": "hearty",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Longganisa sausages", "measure": "6–8 links" },
+      { "name": "Garlic fried rice", "measure": "2 bowls" },
+      { "name": "Eggs", "measure": "2" },
+      { "name": "Tomato + cucumber", "measure": "for side" },
+      { "name": "Vinegar dipping sauce", "measure": "optional" }
+    ],
+    "instructions": [
+      "Pan-fry longganisa until caramelized and cooked through.",
+      "Make garlic fried rice with leftover rice and lots of garlic.",
+      "Fry eggs sunny-side up.",
+      "Plate rice, sausages, and egg together.",
+      "Serve with sliced tomato and a simple vinegar dip."
+    ],
+    "tips": "A classic silog breakfast-for-brunch plate — savory, garlicky, and satisfying."
+  },
+  {
+    "id": "ph-br-005",
+    "name": "Spam Silog",
+    "image": "/assets/images/brunch/ph-br-005.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 15,
+    "mood": "quick",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Spam", "measure": "1 can, sliced" },
+      { "name": "Garlic fried rice", "measure": "2 bowls" },
+      { "name": "Eggs", "measure": "2" },
+      { "name": "Banana ketchup or vinegar", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Pan-fry Spam slices until crispy and caramelized on the edges.",
+      "Prepare garlic fried rice.",
+      "Fry eggs to your liking (sunny-side up is classic).",
+      "Plate rice, Spam, and egg together.",
+      "Serve with banana ketchup or a simple vinegar dip."
+    ],
+    "tips": "One of the easiest and most popular Filipino home brunch plates — salty, garlicky, and ready in minutes."
+  },
+  {
+    "id": "ph-br-006",
+    "name": "Turon (Banana Lumpia)",
+    "image": "/assets/images/brunch/ph-br-006.jpg",
+    "cuisine": "Filipino",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 15,
+    "mood": "sweet",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Saba bananas or plantains", "measure": "4–5" },
+      { "name": "Lumpia wrappers", "measure": "8–10" },
+      { "name": "Brown sugar", "measure": "1/2 cup" },
+      { "name": "Jackfruit (optional)", "measure": "a few strips" },
+      { "name": "Oil", "measure": "for frying" }
+    ],
+    "instructions": [
+      "Slice bananas lengthwise and roll in brown sugar.",
+      "Place on a lumpia wrapper with optional jackfruit.",
+      "Roll tightly and seal the edge with water.",
+      "Deep-fry or pan-fry until golden and caramelized.",
+      "Drain and serve warm as a sweet brunch treat."
+    ],
+    "tips": "The sugar caramelizes into a crispy shell — best eaten fresh and still hot."
+  },
+  {
+    "id": "th-br-001",
+    "name": "Thai Jok (Rice Porridge)",
+    "image": "/assets/images/brunch/th-br-001.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 25,
+    "mood": "comfort",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Jasmine rice", "measure": "1/2 cup" },
+      { "name": "Chicken or pork stock", "measure": "4 cups" },
+      { "name": "Minced pork", "measure": "150g" },
+      { "name": "Soft-boiled egg", "measure": "2" },
+      { "name": "Ginger + green onion + fried garlic", "measure": "for topping" }
+    ],
+    "instructions": [
+      "Simmer rice in stock until it breaks down into a creamy porridge.",
+      "Add seasoned minced pork and cook through.",
+      "Ladle into bowls and top with a soft-boiled egg.",
+      "Garnish with shredded ginger, green onion, and fried garlic.",
+      "Serve with white pepper and soy sauce on the side."
+    ],
+    "tips": "Jok is thicker and creamier than Chinese congee — perfect soothing brunch."
+  },
+  {
+    "id": "th-br-002",
+    "name": "Kai Kratha (Thai Pan Eggs)",
+    "image": "/assets/images/brunch/th-br-002.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 5,
+    "cookTime": 10,
+    "mood": "savory",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Eggs", "measure": "4" },
+      { "name": "Chinese sausage or bacon", "measure": "4 slices" },
+      { "name": "Onion + tomato", "measure": "optional" },
+      { "name": "Soy sauce + white pepper", "measure": "to taste" },
+      { "name": "Small metal or ceramic pans", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Heat small pans with a little oil.",
+      "Add sliced Chinese sausage and cook until fragrant.",
+      "Crack eggs into the pans and season lightly.",
+      "Cook until whites are set but yolks still runny.",
+      "Serve sizzling in the pan with rice or toast."
+    ],
+    "tips": "Often served in the same small pan it was cooked in — great for sharing at brunch."
+  },
+  {
+    "id": "th-br-003",
+    "name": "Mango Sticky Rice",
+    "image": "/assets/images/brunch/th-br-003.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 20,
+    "cookTime": 30,
+    "mood": "sweet",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Sticky rice (glutinous rice)", "measure": "1 1/2 cups" },
+      { "name": "Coconut milk", "measure": "1 1/2 cups" },
+      { "name": "Sugar + salt", "measure": "to taste" },
+      { "name": "Ripe mangoes", "measure": "2–3" },
+      { "name": "Toasted sesame or mung beans", "measure": "for garnish" }
+    ],
+    "instructions": [
+      "Soak and steam sticky rice until tender.",
+      "Heat coconut milk with sugar and a pinch of salt.",
+      "Pour most of the sweet coconut milk over the hot rice and let it absorb.",
+      "Slice ripe mango and arrange beside the rice.",
+      "Drizzle remaining coconut sauce and sprinkle with sesame seeds."
+    ],
+    "tips": "Use the ripest yellow mangoes you can find — the contrast of creamy rice and sweet fruit is perfect."
+  },
+  {
+    "id": "th-br-004",
+    "name": "Thai Garlic Fried Rice with Crispy Egg",
+    "image": "/assets/images/brunch/th-br-004.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "mood": "savory",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Cooked jasmine rice", "measure": "3 cups, day-old preferred" },
+      { "name": "Garlic", "measure": "6–8 cloves, minced" },
+      { "name": "Eggs", "measure": "2" },
+      { "name": "Fish sauce + soy sauce", "measure": "to taste" },
+      { "name": "Green onion + cucumber + lime", "measure": "for serving" },
+      { "name": "Oil", "measure": "for frying" }
+    ],
+    "instructions": [
+      "Fry minced garlic in oil over medium heat until golden and fragrant (don’t burn).",
+      "Add rice and stir-fry, breaking up clumps. Season with fish sauce and soy sauce.",
+      "In a separate pan, fry eggs until the edges are crispy and the yolk is still runny.",
+      "Plate the garlic rice and top with the crispy egg.",
+      "Serve with sliced cucumber, green onion, and a lime wedge."
+    ],
+    "tips": "Day-old rice and lots of garlic are the secrets. The crispy egg makes it feel special."
+  },
+  {
+    "id": "th-br-005",
+    "name": "Pad Kra Pao (Holy Basil Stir-Fry)",
+    "image": "/assets/images/brunch/th-br-005.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 10,
+    "cookTime": 10,
+    "mood": "savory",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Minced pork or chicken", "measure": "300g" },
+      { "name": "Holy basil (or Thai basil)", "measure": "1 big handful" },
+      { "name": "Garlic + Thai chilies", "measure": "to taste" },
+      { "name": "Fish sauce + oyster sauce + soy sauce", "measure": "for seasoning" },
+      { "name": "Egg + jasmine rice", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Pound garlic and chilies into a rough paste.",
+      "Stir-fry the paste in hot oil until fragrant.",
+      "Add minced meat and cook until done.",
+      "Season with fish sauce, oyster sauce, and a pinch of sugar.",
+      "Toss in holy basil until just wilted.",
+      "Serve over rice with a fried egg on top."
+    ],
+    "tips": "One of the most popular Thai home dishes — fast, fragrant, and perfect for brunch."
+  },
+  {
+    "id": "th-br-006",
+    "name": "Thai Cucumber Salad (Ajad) with Rice",
+    "image": "/assets/images/brunch/th-br-006.jpg",
+    "cuisine": "Thai",
+    "difficulty": "easy",
+    "prepTime": 15,
+    "cookTime": 0,
+    "mood": "refreshing",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Cucumber", "measure": "2, thinly sliced" },
+      { "name": "Shallot + chili", "measure": "to taste" },
+      { "name": "Rice vinegar + sugar + salt", "measure": "for dressing" },
+      { "name": "Fresh cilantro", "measure": "a few sprigs" },
+      { "name": "Jasmine rice", "measure": "for serving" }
+    ],
+    "instructions": [
+      "Slice cucumber and shallot thinly.",
+      "Mix vinegar, sugar, and salt until dissolved.",
+      "Toss cucumber, shallot, and chili with the dressing.",
+      "Let sit 5–10 minutes so the flavors meld.",
+      "Serve alongside or over warm jasmine rice as a light brunch."
+    ],
+    "tips": "A bright, cooling side that balances richer dishes — ready in minutes with almost no cooking."
+  }
+]
