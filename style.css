@@ -1978,16 +1978,56 @@ font-size: 1.1rem;
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
+  .recipe-title {
+        font-size: 1.5rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+    
+    .recipe-section {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .ingredient-item,
+    .instruction-item {
+        font-size: 0.9rem;
+        padding-left: 2.5rem;
+    }
+    
+    .step-number {
+        width: 1.8rem;
+        height: 1.8rem;
+        font-size: 0.85rem;
+        left: 0;
+        top: 0.8rem;
+    }
+    
+    .action-btn-small {
+        width: 38px;
+        height: 38px;
+    }
+    
+    .meta-chip {
+        font-size: 0.75rem;
+        padding: 0.3rem 0.7rem;
+    }
 }
 
 @media(max-width: 768px) and (orientation: landscape) {
     .recipe-book {
-        height: 95vh;
+        height: 98vh;
     }
+    
     .recipe-image-container {
-        height: 100%;
-        min-height: auto;
+        height: 40vh;
     }
+    
+    .recipe-content {
+        max-height: 55vh;
+    }
+
     .cooking-mode {
         padding: 1rem;
     }
