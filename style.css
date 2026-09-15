@@ -1648,10 +1648,22 @@ font-size: 1.1rem;
 
 @media(max-width: 768px) {
     .splash-title-jp {
-        font-size: 3.5rem;
+        font-size: 3rem;
+        letter-spacing: 0.1em;
     }
     .splash-title-en {
-        font-size: 1.5rem;
+        font-size: 1.2rem; 
+        letter-spacing: 0.15em;
+    }
+    .splash-subtitle { 
+        font-size: 0.9rem; 
+        padding: 0 1rem; 
+    }
+    .enter-site-btn { 
+        padding: 1rem 2rem; 
+        font-size: 1rem; 
+        width: 80%; 
+        text-align: center; 
     }
     #navbar {
         padding: 0.7rem 1.5rem;
@@ -1863,7 +1875,7 @@ font-size: 1.1rem;
         margin-top: 1rem;
         font-size: 1rem;
     }
-  .recipe-book::before {
+    .recipe-book::before {
         display: none; 
     }
     
@@ -1899,7 +1911,6 @@ font-size: 1.1rem;
         z-index: 20;
     }
     
-    /* Stack meta items on mobile */
     .recipe-meta-row {
         flex-direction: column;
         gap: 0.5rem;
@@ -1915,6 +1926,20 @@ font-size: 1.1rem;
         text-align: center;
         min-width: auto;
     }
+    lantern-scroll {
+        width: 80%;
+        max-width: 300px;
+        left: 50%;      
+        transform: translateX(-50%) scaleY(0); 
+    }
+    .lantern-scroll.unfurling {
+        transform: translateX(-50%) scaleY(1); 
+    }
+    .floating-lantern {
+        width: 40px;
+        height: 60px;
+    }
+    
 }
 
 @media(max-width: 480px) {
