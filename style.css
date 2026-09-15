@@ -520,9 +520,9 @@ body {
 }
 
 @media(max-width: 768px) {
-  #splash { padding: 1rem; box-sizing: border-box; }
+  #splash { padding: 1rem; box-sizing: border-box; overflow: visible;}
   .splash-content { width: 90%; max-width: 400px; padding: 0 1rem; }
-  .splash-seal { width: 100px; height: 100px; margin-bottom: 1.5rem; }
+  .splash-seal { width: 100px; height: 100px; margin-bottom: 1.5rem; padding-bottom: 180px;}
   .splash-seal::before { font-size: 3.5rem; }
   .splash-title-jp { font-size: 2.8rem; letter-spacing: 0.1em; margin-bottom: 0.8rem; }
   .splash-divider { width: 200px; margin: 1.5rem auto; }
@@ -533,7 +533,7 @@ body {
   .lantern-scroll { width: 80%; max-width: 280px; left: 50%; transform: translateX(-50%) scaleY(0); }
   .lantern-scroll.unfurling { transform: translateX(-50%) scaleY(1); }
   .floating-lantern { width: 40px; height: 60px; }
-  .enter-site-btn { padding: 1rem 2rem; font-size: 1rem; width: 85%; justify-content: center; text-align: center; }
+  .enter-site-btn { padding: 1rem 2rem; font-size: 1rem; width: 85%; justify-content: center; text-align: center; bottom: 40px;}
 
   #navbar { padding: 0.7rem 1rem; min-height: 70px; flex-wrap: wrap; justify-content: space-between; }
   .nav-brand { flex: 1; min-width: 0; }
@@ -598,7 +598,7 @@ body {
   .meal-btn { padding: 0.7rem 1.2rem; font-size: 0.85rem; }
   .meal-btn .btn-icon { font-size: 1.1rem; }
   
-  .disclaimer-btn { margin: 1rem 0 2rem; font-size: 0.85rem; }
+  .disclaimer-btn { margin: 1rem 0 2rem; font-size: 0.85rem; position: relative; z-index: 20;}
   .disclaimer-content { padding: 2.5rem 1.5rem 2rem; width: 92%; }
   .scroll-seal { width: 50px; height: 50px; bottom: 20px; right: 15px; }
   .scroll-seal span { font-size: 1.8rem; }
