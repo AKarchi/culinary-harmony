@@ -1664,21 +1664,32 @@ font-size: 1.1rem;
     .nav-brand-en {
         font-size: 0.6rem;
     }
+
+    .nav-brand::after { 
+        display: none; 
+    }  
     .nav-links {
-        gap: 0.5rem;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: nowrap;
+        overflow-x: auto; 
+        justify-content: flex-start; 
+        padding: 0 1rem;
+        -ms-overflow-style: none;  
+        scrollbar-width: none; 
+    }
+    .nav-links::-webkit-scrollbar { 
+        display: none; 
     }
     .nav-btn {
-        padding: 0.4rem 0.8rem;
-        font-size: 0.75rem;
-        min-width: 80px;
+        min-width: auto; 
+        white-space: nowrap; 
+        flex-shrink: 0; 
+        padding: 0.5rem 1rem;
     }
     .nav-btn-jp {
         font-size: 0.8rem;
     }
-    .nav-btn-en {
-        font-size: 0.5rem;
+    .nav-btn-en { 
+        display: none; 
     }
     #main-container {
         padding-top: 110px;
