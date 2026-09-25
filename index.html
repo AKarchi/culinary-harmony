@@ -1,491 +1,922 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Culinary Harmony (食の調和) - Discover homemade Asian cuisine recipes. Explore Japanese, Chinese, Filipino, Korean, and Thai dishes. Share your culinary creations with our community.">
-  <meta name="google-site-verification" content="tNmQbSgOitEFC1j0RXB7pdo5pArE8iV_bMMKbRJ0w8E" />
-  <title>食の調和 | Culinary Harmony</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600;700&family=Noto+Serif+SC:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@300;400;500;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23C41E3A'/%3E%3Ctext x='50' y='68' font-size='55' fill='white' text-anchor='middle' font-family='serif' font-weight='bold'%3E%E9%A3%9F%3C/text%3E%3C/svg%3E">
-</head>
-<body>
-   <div class="bg-chopsticks">
-    <div class="chopstick"></div>
-    <div class="chopstick"></div>
-  </div>
-  
-  <div class="bg-lantern"></div>
-  
-  <div class="bg-seal">
-    <span>食</span>
-  </div>
-  <div id="spice-container"></div>
-
-  <!-- Splash Screen -->
-  <div id="splash">
-    <div class="splash-content">
-      <div class="splash-seal"></div>
-      <h1 class="splash-title-jp">食の調和</h1>
-      <div class="splash-divider"></div>
-      <h2 class="splash-title-en">Culinary Harmony</h2>
-      <p class="splash-subtitle">和食と中華料理の融合 | Homemade Asian Cuisine</p>
-      <p class="splash-tagline">"Simple recipes, authentic flavors, made with love"</p>
-      <button class="disclaimer-btn" onclick="toggleDisclaimer()">Disclaimer & Privacy</button>
-    </div>
-    
-    <div id="splashDecorations"></div>
-  </div>
-
-  <div class="loader" id="loader"></div>
-  <div class="toast-container" id="toastContainer"></div>
-  <canvas id="confetti-canvas"></canvas>
-
-  <!-- Navbar -->
-  <nav id="navbar">
-    <div class="nav-brand" id="navBrand">
-      <span class="nav-brand-jp" id="brandJp">食の調和</span>
-      <span class="nav-brand-en">Culinary Harmony</span>
-    </div>
-    <div class="nav-links">
-      <button class="nav-btn active" data-page="home" onclick="showMainPage()">
-        <span class="nav-btn-jp">ホーム</span>
-        <span class="nav-btn-en">Home</span>
-      </button>
-      <button class="nav-btn" data-page="browse" onclick="showBrowsePage()">
-        <span class="nav-btn-jp">レシピ</span>
-        <span class="nav-btn-en">Browse</span>
-      </button>
-      <button class="nav-btn" data-page="favorites" onclick="showFavorites()">
-        <span class="nav-btn-jp">お気に入り</span>
-        <span class="nav-btn-en">Favorites</span>
-      </button>
-      <button class="nav-btn" data-page="upload" onclick="showUploadPage()">
-        <span class="nav-btn-jp">投稿</span>
-        <span class="nav-btn-en">Upload</span>
-      </button>
-      <button class="nav-btn" data-page="community" onclick="showCommunityPage()">
-        <span class="nav-btn-jp">コミュニティ</span>
-        <span class="nav-btn-en">Community</span>
-      </button>
-    </div>
-  </nav>
-
-  <!-- Main Container -->
-  <div id="main-container">
-    <div class="page-title">
-      <h1>What's on the menu today?</h1>
-      <p>Select a meal time or let us surprise you with a homemade recipe</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Culinary Harmony (食の調和) - Discover homemade Asian cuisine recipes. Explore Japanese, Chinese, Filipino, Korean, and Thai dishes. Share your culinary creations with our community."
+    />
+    <meta
+      name="google-site-verification"
+      content="tNmQbSgOitEFC1j0RXB7pdo5pArE8iV_bMMKbRJ0w8E"
+    />
+    <title>食の調和 | Culinary Harmony</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600;700&family=Noto+Serif+SC:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@300;400;500;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Dancing+Script:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23C41E3A'/%3E%3Ctext x='50' y='68' font-size='55' fill='white' text-anchor='middle' font-family='serif' font-weight='bold'%3E%E9%A3%9F%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <div class="bg-chopsticks">
+      <div class="chopstick"></div>
+      <div class="chopstick"></div>
     </div>
 
-    <div class="featured-section" id="featuredSection"></div>
+    <div class="bg-lantern"></div>
 
-    <div class="mood-section">
-      <h3 class="mood-title">How are you feeling today?</h3>
-      <div class="mood-filters" id="moodFilters">
-        <button class="mood-btn" data-mood="quick" onclick="filterByMood('quick',this)"><span class="emoji">⚡</span>Quick & Easy</button>
-        <button class="mood-btn" data-mood="comfort" onclick="filterByMood('comfort',this)"><span class="emoji">🍲</span>Comfort Food</button>
-        <button class="mood-btn" data-mood="healthy" onclick="filterByMood('healthy',this)"><span class="emoji">🥗</span>Healthy</button>
-        <button class="mood-btn" data-mood="impressive" onclick="filterByMood('impressive',this)"><span class="emoji">✨</span>Impress Guests</button>
-        <button class="mood-btn" data-mood="budget" onclick="filterByMood('budget',this)"><span class="emoji">💰</span>Budget Friendly</button>
+    <div class="bg-seal">
+      <span>食</span>
+    </div>
+    <div id="spice-container"></div>
+
+    <!-- Splash Screen -->
+    <div id="splash">
+      <div class="splash-content">
+        <div class="splash-seal"></div>
+        <h1 class="splash-title-jp">食の調和</h1>
+        <div class="splash-divider"></div>
+        <h2 class="splash-title-en">Culinary Harmony</h2>
+        <p class="splash-subtitle">
+          和食と中華料理の融合 | Homemade Asian Cuisine
+        </p>
+        <p class="splash-tagline">
+          "Simple recipes, authentic flavors, made with love"
+        </p>
+        <button class="disclaimer-btn" onclick="toggleDisclaimer()">
+          Disclaimer & Privacy
+        </button>
+      </div>
+
+      <div id="splashDecorations"></div>
+    </div>
+
+    <div class="loader" id="loader"></div>
+    <div class="toast-container" id="toastContainer"></div>
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="nav-brand" id="navBrand">
+        <span class="nav-brand-jp" id="brandJp">食の調和</span>
+        <span class="nav-brand-en">Culinary Harmony</span>
+      </div>
+
+      <!-- hamburger button (mobile only) -->
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        onclick="toggleNav()"
+        aria-label="Toggle menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <button
+          class="nav-btn active"
+          data-page="home"
+          onclick="showMainPage()"
+        >
+          <span class="nav-btn-jp">ホーム</span>
+          <span class="nav-btn-en">Home</span>
+        </button>
+        <button class="nav-btn" data-page="browse" onclick="showBrowsePage()">
+          <span class="nav-btn-jp">レシピ</span>
+          <span class="nav-btn-en">Browse</span>
+        </button>
+        <button class="nav-btn" data-page="favorites" onclick="showFavorites()">
+          <span class="nav-btn-jp">お気に入り</span>
+          <span class="nav-btn-en">Favorites</span>
+        </button>
+        <button class="nav-btn" data-page="upload" onclick="showUploadPage()">
+          <span class="nav-btn-jp">投稿</span>
+          <span class="nav-btn-en">Upload</span>
+        </button>
+        <button
+          class="nav-btn"
+          data-page="community"
+          onclick="showCommunityPage()"
+        >
+          <span class="nav-btn-jp">コミュニティ</span>
+          <span class="nav-btn-en">Community</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div id="main-container">
+      <div class="page-title">
+        <h1>What's on the menu today?</h1>
+        <p>Select a meal time or let us surprise you with a homemade recipe</p>
+      </div>
+
+      <div class="featured-section" id="featuredSection"></div>
+
+      <div class="mood-section">
+        <h3 class="mood-title">How are you feeling today?</h3>
+        <div class="mood-filters" id="moodFilters">
+          <button
+            class="mood-btn"
+            data-mood="quick"
+            onclick="filterByMood('quick', this)"
+          >
+            <span class="emoji">⚡</span>Quick & Easy
+          </button>
+          <button
+            class="mood-btn"
+            data-mood="comfort"
+            onclick="filterByMood('comfort', this)"
+          >
+            <span class="emoji">🍲</span>Comfort Food
+          </button>
+          <button
+            class="mood-btn"
+            data-mood="healthy"
+            onclick="filterByMood('healthy', this)"
+          >
+            <span class="emoji">🥗</span>Healthy
+          </button>
+          <button
+            class="mood-btn"
+            data-mood="impressive"
+            onclick="filterByMood('impressive', this)"
+          >
+            <span class="emoji">✨</span>Impress Guests
+          </button>
+          <button
+            class="mood-btn"
+            data-mood="budget"
+            onclick="filterByMood('budget', this)"
+          >
+            <span class="emoji">💰</span>Budget Friendly
+          </button>
+        </div>
+      </div>
+      <div class="plate-tagline">
+        <p>
+          Select a meal type to explore recipes, or let fate decide with a spin!
+        </p>
+      </div>
+      <div class="plate-container">
+        <div class="plate-wrapper" id="plateWrapper"></div>
+      </div>
+
+      <div class="quick-spin-container" id="quickSpinContainer">
+        <p class="quick-spin-text">
+          🎲 Can't Decide What to Cook?<span
+            >Let fate choose your next homemade meal</span
+          >
+        </p>
+        <button id="spin-btn" onclick="spinWheel()">
+          <span>🎲</span><span>Surprise Me!</span>
+        </button>
+        <p class="help-text">
+          Click a plate above to select a meal type, or spin for a random recipe
+        </p>
+      </div>
+
+      <div class="recently-section" id="recentlySection" style="display: none">
+        <h3 class="recently-title">Recently Viewed</h3>
+        <div class="recently-grid" id="recentlyGrid"></div>
       </div>
     </div>
-    <div class="plate-tagline">
-        <p>Select a meal type to explore recipes, or let fate decide with a spin!</p>
-    </div>
-    <div class="plate-container">
-      <div class="plate-wrapper" id="plateWrapper"></div>
+
+    <!-- Browse Page -->
+    <div id="browse-page">
+      <div class="browse-header">
+        <h2 id="browseTitle">レシピを探す</h2>
+        <p class="browse-subtitle" id="browseSubtitle">
+          Discover homemade culinary treasures from Asia
+        </p>
+        <div class="search-bar" id="searchBarContainer">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search for homemade dishes..."
+            onkeyup="searchDishes()"
+          />
+        </div>
+      </div>
+      <div class="cuisine-filter" id="cuisineFilter"></div>
+      <div class="meal-type-filter" id="mealTypeFilter" style="display: none">
+        <div class="filter-wrapper">
+          <button
+            class="filter-btn meal-btn active"
+            data-meal="all"
+            onclick="filterByMealType('all', this)"
+          >
+            ️ All Meals
+          </button>
+          <button
+            class="filter-btn meal-btn"
+            data-meal="Breakfast"
+            onclick="filterByMealType('Breakfast', this)"
+          >
+            🍳 Breakfast
+          </button>
+          <button
+            class="filter-btn meal-btn"
+            data-meal="Brunch"
+            onclick="filterByMealType('Brunch', this)"
+          >
+            🥞 Brunch
+          </button>
+          <button
+            class="filter-btn meal-btn"
+            data-meal="Lunch"
+            onclick="filterByMealType('Lunch', this)"
+          >
+            🍱 Lunch
+          </button>
+          <button
+            class="filter-btn meal-btn"
+            data-meal="Snack"
+            onclick="filterByMealType('Snack', this)"
+          >
+            🥟 Snack
+          </button>
+          <button
+            class="filter-btn meal-btn"
+            data-meal="Dinner"
+            onclick="filterByMealType('Dinner', this)"
+          >
+            🍜 Dinner
+          </button>
+          <button
+            class="filter-btn meal-btn"
+            data-meal="Dessert"
+            onclick="filterByMealType('Dessert', this)"
+          >
+            🍦 Dessert
+          </button>
+          <button
+            class="filter-btn meal-btn"
+            data-meal="Drinks"
+            onclick="filterByMealType('Drinks', this)"
+          >
+            🧋 Drinks
+          </button>
+        </div>
+      </div>
+      <br />
+      <div class="dishes-grid" id="dishesGrid"></div>
     </div>
 
-    <div class="quick-spin-container" id="quickSpinContainer">
-      <p class="quick-spin-text">🎲 Can't Decide What to Cook?<span>Let fate choose your next homemade meal</span></p>
-      <button id="spin-btn" onclick="spinWheel()"><span>🎲</span><span>Surprise Me!</span></button>
-      <p class="help-text">Click a plate above to select a meal type, or spin for a random recipe</p>
-    </div>
+    <!-- Upload Recipe Page -->
+    <div id="upload-page">
+      <div class="upload-header">
+        <h2 id="uploadTitle">レシピを投稿 | Post Recipe</h2>
+        <p class="upload-subtitle" id="uploadSubtitle">
+          Share your culinary creation with the world
+        </p>
+      </div>
 
-    <div class="recently-section" id="recentlySection" style="display:none">
-      <h3 class="recently-title">Recently Viewed</h3>
-      <div class="recently-grid" id="recentlyGrid"></div>
-    </div>
-  </div>
+      <!-- Envelope Container -->
+      <div class="envelope-container" id="envelopeContainer">
+        <div class="envelope" id="envelope" onclick="toggleEnvelope()">
+          <div class="envelope-flap flap-top"></div>
+          <div class="envelope-flap flap-left"></div>
+          <div class="envelope-flap flap-right"></div>
+          <div class="envelope-flap flap-bottom"></div>
+          <div class="envelope-seal">
+            <span>食</span>
+          </div>
+        </div>
+        <!-- The Form -->
+        <div class="envelope-content" id="envelopeContent">
+          <form
+            class="recipe-form"
+            id="recipeForm"
+            onsubmit="submitRecipe(event)"
+          >
+            <div class="form-header">
+              <div class="form-seal">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                  <circle
+                    cx="50"
+                    cy="50"
+                    r="48"
+                    fill="#C41E3A"
+                    opacity="0.15"
+                  />
+                  <text
+                    x="50"
+                    y="64"
+                    text-anchor="middle"
+                    fill="#C41E3A"
+                    font-size="36"
+                    font-family="'Noto Serif SC',serif"
+                    font-weight="bold"
+                  >
+                    食
+                  </text>
+                </svg>
+              </div>
+              <h3 class="form-title">Recipe Details</h3>
+            </div>
+            <div class="form-group">
+              <label>Recipe Name *</label>
+              <input
+                type="text"
+                id="recipeName"
+                required
+                placeholder="e.g., Homemade Ramen"
+              />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Cuisine *</label>
+                <select
+                  id="recipeCuisine"
+                  required
+                  style="color: var(--charcoal)"
+                >
+                  <option value="" disabled selected hidden>
+                    Select Cuisine
+                  </option>
+                  <option value="Japanese">🇯🇵 Japanese</option>
+                  <option value="Chinese">🇨🇳 Chinese</option>
+                  <option value="Filipino">🇵🇭 Filipino</option>
+                  <option value="Korean">🇰🇷 Korean</option>
+                  <option value="Thai">🇹🇭 Thai</option>
+                  <option value="Other">Other (Specify)</option>
+                </select>
+                <input
+                  type="text"
+                  id="customCuisine"
+                  placeholder="Enter your cuisine"
+                  style="display: none; margin-top: 0.5rem"
+                />
+              </div>
 
-  <!-- Browse Page -->
-  <div id="browse-page">
-    <div class="browse-header">
-      <h2 id="browseTitle">レシピを探す</h2>
-      <p class="browse-subtitle" id="browseSubtitle">Discover homemade culinary treasures from Asia</p>
-      <div class="search-bar" id="searchBarContainer">
-        <input type="text" id="searchInput" placeholder="Search for homemade dishes..." onkeyup="searchDishes()">
+              <div class="form-group">
+                <label>Category *</label>
+                <select
+                  id="recipeCategory"
+                  required
+                  style="color: var(--charcoal)"
+                >
+                  <option value="" disabled selected hidden>
+                    Select Category
+                  </option>
+                  <option value="Breakfast">🍳 Breakfast</option>
+                  <option value="Brunch">🥞 Brunch</option>
+                  <option value="Lunch">🍱 Lunch</option>
+                  <option value="Dinner">🍜 Dinner</option>
+                  <option value="Snack">🥟 Snack</option>
+                  <option value="Dessert">🍦 Dessert</option>
+                  <option value="Drinks">🧋 Drinks</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Image URL *</label>
+              <input
+                type="url"
+                id="uploadRecipeImage"
+                required
+                placeholder="https://cdn.phototourl.com/free/your-image.jpg"
+              />
+              <small class="form-hint">
+                Paste a direct link to your recipe image.
+                <br />
+                <a
+                  href="https://phototourl.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style="
+                    color: var(--imperial-red);
+                    text-decoration: underline;
+                    font-weight: 600;
+                    margin-top: 4px;
+                    display: inline-block;
+                  "
+                >
+                  📸 Upload your photo here to get a link. Copy and paste the
+                  link.
+                </a>
+              </small>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Prep Time (min)</label>
+                <input type="number" id="prepTime" min="0" placeholder="15" />
+              </div>
+              <div class="form-group">
+                <label>Cook Time (min)</label>
+                <input type="number" id="cookTime" min="0" placeholder="30" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Servings</label>
+              <input type="number" id="servings" min="1" placeholder="4" />
+            </div>
+
+            <div class="form-group">
+              <label>Difficulty</label>
+              <select id="difficulty">
+                <option value="easy">Easy 😊</option>
+                <option value="medium">Medium 😐</option>
+                <option value="hard">Hard 😅</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Ingredients *</label>
+              <textarea
+                id="ingredients"
+                required
+                rows="6"
+                placeholder="1 cup rice&#10;2 cups water&#10;1 tsp salt"
+              ></textarea>
+              <small class="form-hint">One ingredient per line</small>
+            </div>
+
+            <div class="form-group">
+              <label>Instructions *</label>
+              <textarea
+                id="instructions"
+                required
+                rows="8"
+                placeholder="1. Wash the rice thoroughly&#10;2. Add water and salt&#10;3. Cook for 20 minutes"
+              ></textarea>
+              <small class="form-hint">One step per line</small>
+            </div>
+
+            <div class="form-group">
+              <label>Chef's Tip (Optional)</label>
+              <textarea
+                id="chefTip"
+                rows="2"
+                placeholder="e.g., Cook on low heat for best results..."
+              ></textarea>
+              <small class="form-hint"
+                >A quick piece of advice for this recipe</small
+              >
+            </div>
+
+            <div class="form-group">
+              <label>Chef Name (Optional)</label>
+              <input
+                type="text"
+                id="chefName"
+                placeholder="Your name or nickname"
+              />
+            </div>
+
+            <div class="form-actions">
+              <button
+                type="button"
+                class="btn-cancel"
+                onclick="toggleEnvelope()"
+              >
+                Cancel
+              </button>
+              <button type="submit" class="btn-submit">
+                <span>📮</span>
+                <span>Submit Recipe</span>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
-    <div class="cuisine-filter" id="cuisineFilter"></div>
-    <div class="meal-type-filter" id="mealTypeFilter" style="display:none;">
-      <div class="filter-wrapper">
-        <button class="filter-btn meal-btn active" data-meal="all" onclick="filterByMealType('all', this)">️ All Meals</button>
-        <button class="filter-btn meal-btn" data-meal="Breakfast" onclick="filterByMealType('Breakfast', this)">🍳 Breakfast</button>
-        <button class="filter-btn meal-btn" data-meal="Brunch" onclick="filterByMealType('Brunch', this)">🥞 Brunch</button>
-        <button class="filter-btn meal-btn" data-meal="Lunch" onclick="filterByMealType('Lunch', this)">🍱 Lunch</button>
-        <button class="filter-btn meal-btn" data-meal="Snack" onclick="filterByMealType('Snack', this)">🥟 Snack</button>
-        <button class="filter-btn meal-btn" data-meal="Dinner" onclick="filterByMealType('Dinner', this)">🍜 Dinner</button>
-        <button class="filter-btn meal-btn" data-meal="Dessert" onclick="filterByMealType('Dessert', this)">🍦 Dessert</button>
-        <button class="filter-btn meal-btn" data-meal="Drinks" onclick="filterByMealType('Drinks', this)">🧋 Drinks</button>
-      </div>
-    </div> <br>
-    <div class="dishes-grid" id="dishesGrid"></div>
-  </div>
 
-<!-- Upload Recipe Page -->
-<div id="upload-page">
-  <div class="upload-header">
-    <h2 id="uploadTitle">レシピを投稿 | Post Recipe</h2>
-    <p class="upload-subtitle" id="uploadSubtitle">Share your culinary creation with the world</p>
-  </div>
-  
-  <!-- Envelope Container -->
-  <div class="envelope-container" id="envelopeContainer">
-    <div class="envelope" id="envelope" onclick="toggleEnvelope()">
-      <div class="envelope-flap flap-top"></div>
-      <div class="envelope-flap flap-left"></div>
-      <div class="envelope-flap flap-right"></div>
-      <div class="envelope-flap flap-bottom"></div>
-      <div class="envelope-seal">
-        <span>食</span>
-      </div>
-    </div>
-    <!-- The Form -->
-    <div class="envelope-content" id="envelopeContent">
-      <form class="recipe-form" id="recipeForm" onsubmit="submitRecipe(event)">
-        <div class="form-header">
-          <div class="form-seal">
+    <!-- Recipe Modal -->
+    <div class="recipe-modal" id="recipeModal">
+      <button class="close-modal" onclick="closeRecipe()">✕</button>
+      <div class="recipe-book" id="recipeBook">
+        <div class="recipe-image-container">
+          <div class="recipe-badge">
+            <div class="recipe-badge-text">
+              <span class="badge-en-top">Special Recipe</span>
+              <span class="badge-jp">特製レシピ</span>
+            </div>
+          </div>
+          <div class="recipe-actions-overlay">
+            <button class="action-btn-small" onclick="openTimer()">
+              <span class="btn-icon">⏱️</span>
+              <span class="tooltip">Set Cooking Timer</span>
+            </button>
+            <button class="action-btn-small" onclick="toggleCookingMode()">
+              <span class="btn-icon">‍🍳</span>
+              <span class="tooltip">Enter Cooking Mode</span>
+            </button>
+            <button class="action-btn-small" onclick="printRecipe()">
+              <span class="btn-icon">🖨️</span>
+              <span class="tooltip">Print Recipe</span>
+            </button>
+            <button class="action-btn-small" onclick="shareRecipe()">
+              <span class="btn-icon">📤</span>
+              <span class="tooltip">Share Recipe</span>
+            </button>
+          </div>
+          <div class="recipe-image" id="recipeImage">
+            <div class="steam" id="steamContainer"></div>
+          </div>
+        </div>
+        <div class="recipe-content" id="recipeContent">
+          <div class="recipe-header">
+            <div>
+              <h2 class="recipe-title" id="recipeTitle">Dish Name</h2>
+              <div class="recipe-meta-row" id="recipeMetaRow"></div>
+            </div>
+            <button class="star-btn" id="starBtn" onclick="toggleStar()">
+              ☆
+            </button>
+          </div>
+
+          <div class="portion-control">
+            <button class="portion-btn" onclick="adjustPortion(-1)">−</button>
+            <div class="portion-display">
+              🍽️ <span id="portionCount">2</span> servings
+            </div>
+            <button class="portion-btn" onclick="adjustPortion(1)">+</button>
+          </div>
+
+          <div class="recipe-section">
+            <h3>
+              材料 Ingredients
+              <span
+                style="
+                  font-size: 0.8rem;
+                  color: var(--charcoal);
+                  font-weight: normal;
+                  margin-left: auto;
+                  font-style: italic;
+                "
+                >(tap to check off)</span
+              >
+            </h3>
+            <ul class="ingredient-list" id="ingredientList"></ul>
+          </div>
+
+          <div class="recipe-section">
+            <h3>
+              作り方 Instructions
+              <span
+                style="
+                  font-size: 0.8rem;
+                  color: var(--charcoal);
+                  font-weight: normal;
+                  margin-left: auto;
+                  font-style: italic;
+                "
+                >(tap to mark done)</span
+              >
+            </h3>
+            <div class="progress-bar">
+              <div
+                class="progress-fill"
+                id="progressFill"
+                style="width: 0%"
+              ></div>
+            </div>
+            <ol class="instruction-list" id="instructionList"></ol>
+          </div>
+
+          <div class="recipe-section">
+            <h3>‍🍳 Chef's Tips</h3>
+            <div class="chef-tip" id="chefTip">
+              Take your time and enjoy the process. Good food comes from love
+              and patience.
+            </div>
+          </div>
+
+          <div class="recipe-section">
+            <h3>📝 My Notes</h3>
+            <textarea
+              class="notes-area"
+              id="recipeNotes"
+              placeholder="Add your personal notes, substitutions, or memories about this recipe..."
+            ></textarea>
+          </div>
+
+          <div class="related-section" id="relatedSection">
+            <h3 class="related-title">You Might Also Like</h3>
+            <div class="related-grid" id="relatedGrid"></div>
+          </div>
+
+          <div class="hanko-stamp">
             <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="50" cy="50" r="48" fill="#C41E3A" opacity="0.15"/>
-              <text x="50" y="64" text-anchor="middle" fill="#C41E3A" font-size="36" font-family="'Noto Serif SC',serif" font-weight="bold">食</text>
+              <circle cx="50" cy="50" r="48" fill="#C41E3A" opacity="0.85" />
+              <circle
+                cx="50"
+                cy="50"
+                r="44"
+                fill="none"
+                stroke="#fff"
+                stroke-width="1.5"
+                opacity="0.6"
+              />
+              <text
+                x="50"
+                y="64"
+                text-anchor="middle"
+                fill="#fff"
+                font-size="36"
+                font-family="'Noto Serif SC',serif"
+                font-weight="bold"
+              >
+                食
+              </text>
             </svg>
           </div>
-          <h3 class="form-title">Recipe Details</h3>
-        </div>
-        <div class="form-group">
-          <label>Recipe Name *</label>
-          <input type="text" id="recipeName" required placeholder="e.g., Homemade Ramen">
-        </div>
-        <div class="form-row">
-            <div class="form-group">
-              <label>Cuisine *</label>
-              <select id="recipeCuisine" required style="color: var(--charcoal);">
-                <option value="" disabled selected hidden>Select Cuisine</option>
-                <option value="Japanese">🇯🇵 Japanese</option>
-                <option value="Chinese">🇨🇳 Chinese</option>
-                <option value="Filipino">🇵🇭 Filipino</option>
-                <option value="Korean">🇰🇷 Korean</option>
-                <option value="Thai">🇹🇭 Thai</option>
-                <option value="Other">Other (Specify)</option>
-              </select>
-              <input type="text" id="customCuisine" placeholder="Enter your cuisine" style="display:none; margin-top:0.5rem;">
-            </div>
-            
-            <div class="form-group">
-              <label>Category *</label>
-              <select id="recipeCategory" required style="color: var(--charcoal);">
-                <option value="" disabled selected hidden>Select Category</option>
-                <option value="Breakfast">🍳 Breakfast</option>
-                <option value="Brunch">🥞 Brunch</option>
-                <option value="Lunch"> 🍱 Lunch</option>
-                <option value="Dinner">🍜 Dinner</option>
-                <option value="Snack">🥟 Snack</option>
-                <option value="Dessert">🍦 Dessert</option>
-                <option value="Drinks">🧋 Drinks</option>
-              </select>
-            </div>
-          </div>
-
-        <div class="form-group">
-          <label>Image URL *</label>
-          <input type="url" id="uploadRecipeImage" required placeholder="https://cdn.phototourl.com/free/your-image.jpg">
-          <small class="form-hint">
-            Paste a direct link to your recipe image. 
-            <br>
-            <a href="https://phototourl.com/" target="_blank" rel="noopener noreferrer" style="color: var(--imperial-red); text-decoration: underline; font-weight: 600; margin-top: 4px; display: inline-block;">
-              📸 Upload your photo here to get a link. Copy and paste the link.
-            </a>
-          </small>
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label>Prep Time (min)</label>
-            <input type="number" id="prepTime" min="0" placeholder="15">
-          </div>
-          <div class="form-group">
-            <label>Cook Time (min)</label>
-            <input type="number" id="cookTime" min="0" placeholder="30">
-          </div>
-        </div>
-        
-        <div class="form-group">
-          <label>Servings</label>
-          <input type="number" id="servings" min="1" placeholder="4">
-        </div>
-        
-        <div class="form-group">
-          <label>Difficulty</label>
-          <select id="difficulty">
-            <option value="easy">Easy 😊</option>
-            <option value="medium">Medium 😐</option>
-            <option value="hard">Hard 😅</option>
-          </select>
-        </div>
-        
-        <div class="form-group">
-          <label>Ingredients *</label>
-          <textarea id="ingredients" required rows="6" placeholder="1 cup rice&#10;2 cups water&#10;1 tsp salt"></textarea>
-          <small class="form-hint">One ingredient per line</small>
-        </div>
-        
-        <div class="form-group">
-          <label>Instructions *</label>
-          <textarea id="instructions" required rows="8" placeholder="1. Wash the rice thoroughly&#10;2. Add water and salt&#10;3. Cook for 20 minutes"></textarea>
-          <small class="form-hint">One step per line</small>
-        </div>
-
-        <div class="form-group">
-          <label>Chef's Tip (Optional)</label>
-          <textarea id="chefTip" rows="2" placeholder="e.g., Cook on low heat for best results..."></textarea>
-          <small class="form-hint">A quick piece of advice for this recipe</small>
-        </div>
-        
-        <div class="form-group">
-          <label>Chef Name (Optional)</label>
-          <input type="text" id="chefName" placeholder="Your name or nickname">
-        </div>
-        
-        <div class="form-actions">
-          <button type="button" class="btn-cancel" onclick="toggleEnvelope()">Cancel</button>
-          <button type="submit" class="btn-submit">
-            <span>📮</span>
-            <span>Submit Recipe</span>
-          </button>
-        </div>
-      </form>
-    </div>
-    
-  </div>
-</div>
-
-  <!-- Recipe Modal -->
-  <div class="recipe-modal" id="recipeModal">
-    <button class="close-modal" onclick="closeRecipe()">✕</button>
-    <div class="recipe-book" id="recipeBook">
-      <div class="recipe-image-container">
-        <div class="recipe-badge">
-          <div class="recipe-badge-text">
-            <span class="badge-en-top">Special Recipe</span>
-            <span class="badge-jp">特製レシピ</span>
-          </div>
-        </div>
-        <div class="recipe-actions-overlay">
-          <button class="action-btn-small" onclick="openTimer()">
-            <span class="btn-icon">⏱️</span>
-            <span class="tooltip">Set Cooking Timer</span>
-          </button>
-          <button class="action-btn-small" onclick="toggleCookingMode()">
-            <span class="btn-icon">‍🍳</span>
-            <span class="tooltip">Enter Cooking Mode</span>
-          </button>
-          <button class="action-btn-small" onclick="printRecipe()">
-            <span class="btn-icon">🖨️</span>
-            <span class="tooltip">Print Recipe</span>
-          </button>
-          <button class="action-btn-small" onclick="shareRecipe()">
-            <span class="btn-icon">📤</span>
-            <span class="tooltip">Share Recipe</span>
-          </button>
-        </div>
-        <div class="recipe-image" id="recipeImage">
-          <div class="steam" id="steamContainer"></div>
-        </div>
-      </div>
-      <div class="recipe-content" id="recipeContent">
-        <div class="recipe-header">
-          <div>
-            <h2 class="recipe-title" id="recipeTitle">Dish Name</h2>
-            <div class="recipe-meta-row" id="recipeMetaRow"></div>
-          </div>
-          <button class="star-btn" id="starBtn" onclick="toggleStar()">☆</button>
-        </div>
-        
-        <div class="portion-control">
-          <button class="portion-btn" onclick="adjustPortion(-1)">−</button>
-          <div class="portion-display">🍽️ <span id="portionCount">2</span> servings</div>
-          <button class="portion-btn" onclick="adjustPortion(1)">+</button>
-        </div>
-
-        <div class="recipe-section">
-          <h3>材料 Ingredients <span style="font-size:0.8rem;color:var(--charcoal);font-weight:normal;margin-left:auto;font-style:italic">(tap to check off)</span></h3>
-          <ul class="ingredient-list" id="ingredientList"></ul>
-        </div>
-        
-        <div class="recipe-section">
-          <h3>作り方 Instructions <span style="font-size:0.8rem;color:var(--charcoal);font-weight:normal;margin-left:auto;font-style:italic">(tap to mark done)</span></h3>
-          <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
-          <ol class="instruction-list" id="instructionList"></ol>
-        </div>
-
-        <div class="recipe-section">
-          <h3>‍🍳 Chef's Tips</h3>
-          <div class="chef-tip" id="chefTip">Take your time and enjoy the process. Good food comes from love and patience.</div>
-        </div>
-
-        <div class="recipe-section">
-          <h3>📝 My Notes</h3>
-          <textarea class="notes-area" id="recipeNotes" placeholder="Add your personal notes, substitutions, or memories about this recipe..."></textarea>
-        </div>
-
-        <div class="related-section" id="relatedSection">
-          <h3 class="related-title">You Might Also Like</h3>
-          <div class="related-grid" id="relatedGrid"></div>
-        </div>
-
-        <div class="hanko-stamp">
-          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="50" cy="50" r="48" fill="#C41E3A" opacity="0.85"/>
-            <circle cx="50" cy="50" r="44" fill="none" stroke="#fff" stroke-width="1.5" opacity="0.6"/>
-            <text x="50" y="64" text-anchor="middle" fill="#fff" font-size="36" font-family="'Noto Serif SC',serif" font-weight="bold">食</text>
-          </svg>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Cooking Mode -->
-  <div class="cooking-mode" id="cookingMode">
-    <div class="cooking-hanko-watermark">
-      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="100" cy="100" r="95" fill="#C41E3A" opacity="1"/>
-        <circle cx="100" cy="100" r="88" fill="none" stroke="#fff" stroke-width="2" opacity="0.8"/>
-        <circle cx="100" cy="100" r="82" fill="none" stroke="#fff" stroke-width="1" opacity="0.5"/>
-        <text x="100" y="120" text-anchor="middle" fill="#fff" font-size="80" font-family="'Noto Serif SC',serif" font-weight="bold">食</text>
-        <text x="100" y="150" text-anchor="middle" fill="#fff" font-size="20" font-family="'Noto Serif JP',serif">Culinary Harmony</text>
-      </svg>
-    </div>
-
-    <div class="cooking-progress-top">
-      <div class="cooking-progress-top-fill" id="cookingProgressTopFill" style="width:0%"></div>
-    </div>
-    
-    <div class="cooking-step-counter">
-      <span>📖 Step</span>
-      <span class="counter-num" id="counterCurrent">1</span>
-      <span>of</span>
-      <span class="counter-num" id="counterTotal">5</span>
-    </div>
-
-    <div class="cooking-recipe-thumb" id="cookingRecipeThumb" onclick="viewFullImage()" title="Click to view full image"></div>
-    
-    <button class="cooking-timer-btn" onclick="openTimerFromCooking()">
-    <span>⏱️</span>
-    <span id="timerDisplaySmall" class="timer-display-small" style="display: none;"></span>
-</button>   
-    <div class="cooking-step-display" id="cookingStepDisplay">
-      <div class="cooking-step-label">Current Step</div>
-      <div class="cooking-step-number">
-        Step <span class="step-current" id="stepCurrentNum">1</span> of <span class="step-total" id="stepTotalNum">5</span>
+    <!-- Cooking Mode -->
+    <div class="cooking-mode" id="cookingMode">
+      <div class="cooking-hanko-watermark">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="100" cy="100" r="95" fill="#C41E3A" opacity="1" />
+          <circle
+            cx="100"
+            cy="100"
+            r="88"
+            fill="none"
+            stroke="#fff"
+            stroke-width="2"
+            opacity="0.8"
+          />
+          <circle
+            cx="100"
+            cy="100"
+            r="82"
+            fill="none"
+            stroke="#fff"
+            stroke-width="1"
+            opacity="0.5"
+          />
+          <text
+            x="100"
+            y="120"
+            text-anchor="middle"
+            fill="#fff"
+            font-size="80"
+            font-family="'Noto Serif SC',serif"
+            font-weight="bold"
+          >
+            食
+          </text>
+          <text
+            x="100"
+            y="150"
+            text-anchor="middle"
+            fill="#fff"
+            font-size="20"
+            font-family="'Noto Serif JP',serif"
+          >
+            Culinary Harmony
+          </text>
+        </svg>
       </div>
-      <div class="cooking-step-text" id="cookingStepText">Loading...</div>
-      
-      <button class="cooking-mark-done" id="markDoneBtn" onclick="toggleMarkDone()">
-        <span class="check-box"></span>
-        <span id="markDoneText">Mark as Done</span>
+
+      <div class="cooking-progress-top">
+        <div
+          class="cooking-progress-top-fill"
+          id="cookingProgressTopFill"
+          style="width: 0%"
+        ></div>
+      </div>
+
+      <div class="cooking-step-counter">
+        <span>📖 Step</span>
+        <span class="counter-num" id="counterCurrent">1</span>
+        <span>of</span>
+        <span class="counter-num" id="counterTotal">5</span>
+      </div>
+
+      <div
+        class="cooking-recipe-thumb"
+        id="cookingRecipeThumb"
+        onclick="viewFullImage()"
+        title="Click to view full image"
+      ></div>
+
+      <button class="cooking-timer-btn" onclick="openTimerFromCooking()">
+        <span>⏱️</span>
+        <span
+          id="timerDisplaySmall"
+          class="timer-display-small"
+          style="display: none"
+        ></span>
       </button>
-      
-      <div class="cooking-controls">
-        <button class="cooking-btn" id="prevCookingBtn" onclick="prevCookingStep()">← Previous</button>
-        <button class="cooking-btn primary" id="nextCookingBtn" onclick="nextCookingStep()">Next Step →</button>
-        <button class="cooking-btn" onclick="exitCookingMode()"> Exit</button>
-      </div>
-      <div class="cooking-progress-dots" id="cookingDots"></div>
-    </div>
-
-    <div class="cooking-keyboard-hint">
-      <span><kbd>←</kbd> Previous</span>
-      <span><kbd>→</kbd> or <kbd>Space</kbd> Next</span>
-      <span><kbd>D</kbd> Mark Done</span>
-      <span><kbd>Esc</kbd> Exit</span>
-    </div>
-  </div>
-
-  <div class="full-image-modal" id="fullImageModal" onclick="closeFullImage()">
-    <img id="fullImage" src="" alt="Full recipe image">
-  </div>
-
-  <!-- Timer Modal -->
-  <div class="timer-modal" id="timerModal">
-    <div class="timer-content">
-      <h3 style="font-family:'Playfair Display',serif;font-size:1.8rem;color:var(--imperial-red);margin-bottom:0.5rem">⏱️ Cooking Timer</h3>
-      <p style="color:var(--charcoal);font-family:'Cormorant Garamond',serif;font-style:italic">Perfect timing for perfect dishes</p>
-      <div class="timer-display" id="timerDisplay">00:00</div>
-      <div class="timer-presets">
-        <button class="timer-preset" onclick="setTimer(1)">1 min</button>
-        <button class="timer-preset" onclick="setTimer(3)">3 min</button>
-        <button class="timer-preset" onclick="setTimer(5)">5 min</button>
-        <button class="timer-preset" onclick="setTimer(10)">10 min</button>
-        <button class="timer-preset" onclick="setTimer(15)">15 min</button>
-        <button class="timer-preset" onclick="setTimer(30)">30 min</button>
-      </div>
-      <div class="timer-controls">
-        <button class="timer-btn start" id="timerStartBtn" onclick="startTimer()">Start</button>
-        <button class="timer-btn pause" onclick="pauseTimer()">Pause</button>
-        <button class="timer-btn reset" onclick="resetTimer()">Reset</button>
-        <button class="timer-btn" onclick="closeTimer()" style="background:var(--charcoal);color:white">Close</button>
-      </div>
-    </div>
-  </div>
-
-  <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-  <div id="community-page" style="display:none; padding-top: 130px; max-width: 1400px; margin: 0 auto; padding-left: 2rem; padding-right: 2rem;">
-    <div class="browse-header">
-      <h2>コミュニティレシピ | Community Recipes</h2>
-      <p class="browse-subtitle">Discover dishes shared by fellow food lovers</p>
-    </div>
-    <div id="community-grid" class="dishes-grid">
-    </div>
-  </div>
-<a href="buymeacoffee.com/mochiiworks" target="_blank" rel="noopener noreferrer" class="floating-coffee-btn" title="Support the Developer">
-    <span class="coffee-icon">☕</span>
-    <span class="coffee-text">Support Dev</span>
-</a>
-
-<div id="disclaimerModal" class="disclaimer-modal" onclick="if(event.target===this)toggleDisclaimer()">
-    <div class="disclaimer-content">
-        <div class="scroll-seal">
-            <span>食</span>
+      <div class="cooking-step-display" id="cookingStepDisplay">
+        <div class="cooking-step-label">Current Step</div>
+        <div class="cooking-step-number">
+          Step <span class="step-current" id="stepCurrentNum">1</span> of
+          <span class="step-total" id="stepTotalNum">5</span>
         </div>
-        
+        <div class="cooking-step-text" id="cookingStepText">Loading...</div>
+
+        <button
+          class="cooking-mark-done"
+          id="markDoneBtn"
+          onclick="toggleMarkDone()"
+        >
+          <span class="check-box"></span>
+          <span id="markDoneText">Mark as Done</span>
+        </button>
+
+        <div class="cooking-controls">
+          <button
+            class="cooking-btn"
+            id="prevCookingBtn"
+            onclick="prevCookingStep()"
+          >
+            ← Previous
+          </button>
+          <button
+            class="cooking-btn primary"
+            id="nextCookingBtn"
+            onclick="nextCookingStep()"
+          >
+            Next Step →
+          </button>
+          <button class="cooking-btn" onclick="exitCookingMode()">Exit</button>
+        </div>
+        <div class="cooking-progress-dots" id="cookingDots"></div>
+      </div>
+
+      <div class="cooking-keyboard-hint">
+        <span><kbd>←</kbd> Previous</span>
+        <span><kbd>→</kbd> or <kbd>Space</kbd> Next</span>
+        <span><kbd>D</kbd> Mark Done</span>
+        <span><kbd>Esc</kbd> Exit</span>
+      </div>
+    </div>
+
+    <div
+      class="full-image-modal"
+      id="fullImageModal"
+      onclick="closeFullImage()"
+    >
+      <img id="fullImage" src="" alt="Full recipe image" />
+    </div>
+
+    <!-- Timer Modal -->
+    <div class="timer-modal" id="timerModal">
+      <div class="timer-content">
+        <h3
+          style="
+            font-family: &quot;Playfair Display&quot;, serif;
+            font-size: 1.8rem;
+            color: var(--imperial-red);
+            margin-bottom: 0.5rem;
+          "
+        >
+          ⏱️ Cooking Timer
+        </h3>
+        <p
+          style="
+            color: var(--charcoal);
+            font-family: &quot;Cormorant Garamond&quot;, serif;
+            font-style: italic;
+          "
+        >
+          Perfect timing for perfect dishes
+        </p>
+        <div class="timer-display" id="timerDisplay">00:00</div>
+        <div class="timer-presets">
+          <button class="timer-preset" onclick="setTimer(1)">1 min</button>
+          <button class="timer-preset" onclick="setTimer(3)">3 min</button>
+          <button class="timer-preset" onclick="setTimer(5)">5 min</button>
+          <button class="timer-preset" onclick="setTimer(10)">10 min</button>
+          <button class="timer-preset" onclick="setTimer(15)">15 min</button>
+          <button class="timer-preset" onclick="setTimer(30)">30 min</button>
+        </div>
+        <div class="timer-controls">
+          <button
+            class="timer-btn start"
+            id="timerStartBtn"
+            onclick="startTimer()"
+          >
+            Start
+          </button>
+          <button class="timer-btn pause" onclick="pauseTimer()">Pause</button>
+          <button class="timer-btn reset" onclick="resetTimer()">Reset</button>
+          <button
+            class="timer-btn"
+            onclick="closeTimer()"
+            style="background: var(--charcoal); color: white"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <button
+      class="back-to-top"
+      id="backToTop"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    >
+      ↑
+    </button>
+    <div
+      id="community-page"
+      style="
+        display: none;
+        padding-top: 130px;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+      "
+    >
+      <div class="browse-header">
+        <h2>コミュニティレシピ | Community Recipes</h2>
+        <p class="browse-subtitle">
+          Discover dishes shared by fellow food lovers
+        </p>
+      </div>
+      <div id="community-grid" class="dishes-grid"></div>
+    </div>
+    <a
+      href="buymeacoffee.com/mochiiworks"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="floating-coffee-btn"
+      title="Support the Developer"
+    >
+      <span class="coffee-icon">☕</span>
+      <span class="coffee-text">Support Dev</span>
+    </a>
+
+    <div
+      id="disclaimerModal"
+      class="disclaimer-modal"
+      onclick="if (event.target === this) toggleDisclaimer();"
+    >
+      <div class="disclaimer-content">
+        <div class="scroll-seal">
+          <span>食</span>
+        </div>
+
         <h3>Disclaimer & Privacy</h3>
-        <p><strong>Food Safety:</strong> Recipes shared here come from the community. We don't verify accuracy, safety, or allergen-free status. Please cook responsibly and use your best judgment.</p>
-        <p><strong>Privacy:</strong> No personal data is collected. Your preferences are saved in your LocalStorage of the browser. The recipes from the users' community are kept in the Supabase database.</p>
-        <p><strong>Copyright:</strong> All images and recipes belong to their respective creators. 
-            If you see your content used without permission, please 
-            <a href="mailto:mochiiworksdotmochi@gmail.com?subject=Culinary Harmony Copyright Inquiry" style="color: var(--imperial-red); text-decoration: underline; font-weight: 600;">email us</a> 
-            for removal.
+        <p>
+          <strong>Food Safety:</strong> Recipes shared here come from the
+          community. We don't verify accuracy, safety, or allergen-free status.
+          Please cook responsibly and use your best judgment.
+        </p>
+        <p>
+          <strong>Privacy:</strong> No personal data is collected. Your
+          preferences are saved in your LocalStorage of the browser. The recipes
+          from the users' community are kept in the Supabase database.
+        </p>
+        <p>
+          <strong>Copyright:</strong> All images and recipes belong to their
+          respective creators. If you see your content used without permission,
+          please
+          <a
+            href="mailto:mochiiworksdotmochi@gmail.com?subject=Culinary Harmony Copyright Inquiry"
+            style="
+              color: var(--imperial-red);
+              text-decoration: underline;
+              font-weight: 600;
+            "
+            >email us</a
+          >
+          for removal.
         </p>
         <p class="illustrative-note">
-            <em>Note: Images are for illustrative purposes and may not reflect the exact appearance of the dish.</em>
+          <em
+            >Note: Images are for illustrative purposes and may not reflect the
+            exact appearance of the dish.</em
+          >
         </p>
         <div class="disclaimer-footer">
-            <p>By using this site, you agree to these terms.</p>
-            <p class="last-updated">Last updated: September 2026</p>
+          <p>By using this site, you agree to these terms.</p>
+          <p class="last-updated">Last updated: September 2026</p>
         </div>
-        <button class="close-disclaimer" onclick="toggleDisclaimer()">Close</button>
+        <button class="close-disclaimer" onclick="toggleDisclaimer()">
+          Close
+        </button>
+      </div>
     </div>
-</div>
 
-<audio id="timerDingSound" preload="auto">
-    <source src="https://www.myinstants.com/media/sounds/oven-ding.mp3" type="audio/mpeg">
-</audio>
-<script src="script.js"></script>
-</body>
+    <audio id="timerDingSound" preload="auto">
+      <source
+        src="https://www.myinstants.com/media/sounds/oven-ding.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+    <script src="script.js"></script>
+  </body>
 </html>
