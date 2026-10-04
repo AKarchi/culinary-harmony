@@ -85,6 +85,12 @@ const lanternQuotes = [
   },
 ];
 
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible" && timerRunning) {
+    syncTimerWithClock();
+  }
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   initSplash();
   initPlates();
@@ -803,6 +809,27 @@ function setTimer(minutes) {
   showToast(`Timer set to ${minutes} min`, "success");
 }
 
+function syncTimerWithClock() {
+  if (!timerRunning || !timerTargetTime) {
+    updateTimerDisplay();
+    updateSmallTimerDisplay();
+    return;
+  }
+
+  const remaining = Math.max(
+    0,
+    Math.ceil((timerTargetTime - Date.now()) / 1000),
+  );
+
+  timerSeconds = remaining;
+  updateTimerDisplay();
+  updateSmallTimerDisplay();
+
+  if (remaining <= 0) {
+    timerComplete();
+  }
+}
+
 function startTimer() {
   if (timerRunning) return;
   if (timerSeconds <= 0) {
@@ -813,30 +840,28 @@ function startTimer() {
   timerTargetTime = Date.now() + timerSeconds * 1000;
   timerRunning = true;
   updateTimerButtonState();
+  syncTimerWithClock();
 
-  timerInterval = setInterval(() => {
-    const remaining = Math.ceil((timerTargetTime - Date.now()) / 1000);
-
-    if (remaining <= 0) {
-      timerSeconds = 0;
-      updateTimerDisplay();
-      updateSmallTimerDisplay();
-      timerComplete();
-    } else {
-      timerSeconds = remaining;
-      updateTimerDisplay();
-      updateSmallTimerDisplay();
-    }
-  }, 1000);
+  if (timerInterval) clearInterval(timerInterval);
+  timerInterval = setInterval(syncTimerWithClock, 250);
 }
 
 function pauseTimer() {
+  if (timerRunning && timerTargetTime) {
+    timerSeconds = Math.max(
+      0,
+      Math.ceil((timerTargetTime - Date.now()) / 1000),
+    );
+  }
+
   timerRunning = false;
   if (timerInterval) {
     clearInterval(timerInterval);
     timerInterval = null;
   }
   timerTargetTime = null;
+  updateTimerDisplay();
+  updateSmallTimerDisplay();
   updateTimerButtonState();
 }
 function resetTimer() {
@@ -1168,24 +1193,86 @@ function showToast(message, type = "") {
 }
 
 function printRecipe() {
-  window.print();
-  showToast("Print dialog opened", "success");
+  if (!selectedDish) {
+    showToast("Open a recipe first.", "error");
+    return;
+  }
+
+  document.body.classList.add("printing-recipe");
+
+  requestAnimationFrame(() => {
+    try {
+      window.print();
+    } catch (error) {
+      console.error("Print failed:", error);
+      document.body.classList.remove("printing-recipe");
+      showToast("Printing is not available in this browser.", "error");
+    }
+  });
 }
+
+window.addEventListener("beforeprint", () => {
+  document.body.classList.add("printing-recipe");
+});
+
+window.addEventListener("afterprint", () => {
+  document.body.classList.remove("printing-recipe");
+});
 async function shareRecipe() {
-  if (navigator.share && selectedDish) {
+  if (!selectedDish) {
+    showToast("Open a recipe first.", "error");
+    return;
+  }
+
+  const shareUrl = window.location.href;
+  const shareText = `Check out this recipe: ${selectedDish.strMeal}`;
+
+  if (typeof navigator.share === "function") {
     try {
       await navigator.share({
         title: selectedDish.strMeal,
-        text: `Check out this recipe: ${selectedDish.strMeal}`,
-        url: window.location.href,
+        text: shareText,
+        url: shareUrl,
       });
-    } catch (e) {}
-  } else {
-    navigator.clipboard.writeText(
-      `${selectedDish.strMeal} - ${window.location.href}`,
-    );
-    showToast("Link copied to clipboard!", "success");
+      showToast("Recipe shared!", "success");
+      return;
+    } catch (error) {
+      if (error?.name === "AbortError") return;
+    }
   }
+
+  const textToCopy = `${shareText} — ${shareUrl}`;
+
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(textToCopy);
+      showToast("Link copied to clipboard!", "success");
+      return;
+    }
+  } catch (error) {
+    console.warn("Clipboard API unavailable:", error);
+  }
+
+  try {
+    const textarea = document.createElement("textarea");
+    textarea.value = textToCopy;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    document.body.appendChild(textarea);
+    textarea.select();
+    const copied = document.execCommand("copy");
+    textarea.remove();
+
+    if (copied) {
+      showToast("Link copied to clipboard!", "success");
+      return;
+    }
+  } catch (error) {
+    console.warn("Legacy clipboard fallback failed:", error);
+  }
+
+  showToast("Could not copy automatically. Please copy the page URL.", "error");
 }
 
 function showFavorites() {
