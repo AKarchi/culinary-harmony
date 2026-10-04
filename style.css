@@ -5203,3 +5203,56 @@ body {
 }
 
 body.printing-recipe { overflow: visible; }
+
+/* ===== splash screen mobile viewport safety ===== */
+/* Keep the cinematic splash intact, but allow the content to scroll on
+   short phone screens so the Disclaimer & Privacy control never becomes
+   inaccessible or sits behind the viewport. */
+#splash {
+    height: 100dvh;
+    min-height: 100dvh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: border-box;
+    padding:
+        max(1rem, env(safe-area-inset-top))
+        max(1rem, env(safe-area-inset-right))
+        max(1rem, env(safe-area-inset-bottom))
+        max(1rem, env(safe-area-inset-left));
+}
+
+.splash-content {
+    width: min(100%, 900px);
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    margin: auto;
+    padding: 1rem 0 2rem;
+}
+
+@media (max-width: 768px) {
+    #splash {
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .splash-content {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .disclaimer-btn {
+        min-height: 44px;
+        padding: 0.65rem 1rem;
+        margin: 1rem auto 0.5rem;
+        position: relative;
+        z-index: 20;
+    }
+}
+
+@media (max-width: 480px) {
+    .splash-content {
+        padding-top: 1.25rem;
+        padding-bottom: 2.5rem;
+    }
+}
